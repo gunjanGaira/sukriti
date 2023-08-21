@@ -3,10 +3,8 @@
     background-color: #fff;
     justify-content: baseline;
     text-align: end;
-    height: 55px;
+    height: 70px;
     width: 100%;
-    justify-content: last baseline;
-  
     
     
   }
@@ -19,13 +17,14 @@
     
   
   }
+
   
   .container-of-nav-text{
    
-    display: flex;
+    /* display: flex; */
    justify-content: last baseline;
-    padding: 4px;
-    margin: 5px;
+    padding: 7px;
+    margin: 10px;
     text-decoration: none;
     color: black;
     letter-spacing: normal;
@@ -33,13 +32,18 @@
     font-weight: 500;
     font-style: normal;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
+    justify-content: flex-end;
+    padding-bottom: 6px;
+    margin-bottom: 6px;
 
   
     
   
     
+  }
+
+  .container-of-nav-text::before{
+    background-color: #00bfa5;
   }
   .container-of-nav-text:hover{
       color: #00bfa5;
