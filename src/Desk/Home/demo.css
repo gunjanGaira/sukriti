@@ -1,0 +1,958 @@
+.banner-img-container{
+    width: 100%;
+    /* height: 500px; */
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+    
+  
+  }
+  .Baneer-text{
+      width:100%; 
+      position: absolute;
+      justify-content: center;
+      text-align:center;
+      /* margin-top:400px; */
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: white;
+      opacity: 8;
+  }
+  
+    
+  
+  
+  
+  /* responsive in outer banner text  */
+  @media (max-width: 1440px) {
+    .Baneer-text {
+      font-size: 3.5rem;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .Baneer-text {
+      font-size: 3.5rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .Baneer-text {
+      font-size: 2.5rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .Baneer-text {
+      font-size: 2.5rem;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .Baneer-text {
+      font-size: 2.5rem;
+      width: 100%;
+    }
+  }
+  
+  
+  /* responsive in banner   */
+  @media (min-width: 1024px)and(max-width: 1440px) {
+    .banner-img-container {
+      width: 1440px;
+      
+    }
+  }
+  @media (max-width: 1024px) {
+    .banner-img-container {
+      width: 1024px;
+      
+    }
+  }
+  #banner-text{
+    color: #00bfa5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+  }
+  
+  .text-center{
+      width: 100%;
+      text-align:c ;
+  }
+    .p-text-below-banner-txt{
+    
+      text-align: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 18px;
+      font-weight: 550;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.2;
+      letter-spacing: normal;
+      color: rgba(0,0,0,.87);
+      width: 100%;
+      
+      
+    } 
+  
+    /* responsive in outer banner text   */
+  @media (max-width: 1440px) {
+    .col-md-12-text-center{
+      font-size: 3.5rem;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .col-md-12-text-center {
+      font-size: 3.5rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .col-md-12-text-center {
+      font-size: 2.5rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .p-text-below-banner-txt {
+      font-size: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .p-text-below-banner-txt {
+      font-size: 1.7rem;
+      margin-left: 300px;
+    }
+  }
+  
+  
+  
+  
+      
+  .outer-text-of-banner{
+     
+    display: flex;
+    justify-content: right;
+    text-align: center;
+    width: 960px;
+    white-space: 5px;
+    font-size: 18px;
+  
+  }
+  
+  
+  
+   .img-of-seat{
+      display: flex;
+      width: 600px;
+      justify-content: center; 
+      text-align: center;
+      height: 45px;
+      padding: 3px; 
+      font-weight: 550;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.1;
+      letter-spacing: normal;
+      color: rgba(0,0,0,.87);
+      font-size: 20px;
+      
+    }
+  
+  .water-drop-image{
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      height: 45px;
+      font-size: 17px;
+      font-weight: 550;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.1;
+      letter-spacing: normal;
+      color: rgba(0,0,0,.87);
+      /* justify-content: space-between; */
+      width: 200px;
+      font-size: 20px;
+  
+      
+      
+  }
+  
+  
+  .heading-content{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'ProximaNovaSoft-Bold';
+    font-size: 22px;
+    font-weight: 700;
+    height:6px;
+    width:430px;
+    border-radius: 2px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    margin-top: 160px;
+    
+    
+  }
+  .elats_left{
+    white-space: 8px;
+  }
+  .ECO{
+    display: flex;
+    justify-content:space-around;
+    width: 550px;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 3;
+    letter-spacing: 2px;
+    
+  }
+  
+  .peracontainer1{
+    display: flex;
+    font-size: 15px;
+    justify-content: space-around;
+    width: 660px;
+    font-size: 17px;
+  }
+  .peracontainer2{
+    display: flex;
+    font-size: 15px;
+    justify-content: space-around;
+    width: 695px;
+    font-size: 17px;
+  }
+  .peracontainer3{
+    display: flex;
+    font-size: 15px;
+    justify-content: space-around;
+    width: 630px;
+    font-size: 17px;
+  }
+  .smart-public-toilet-line-container{
+    width: 23%;
+    margin-left:85px;
+    margin-right: 30px;
+    height: 5px;
+    color: #00bfa5;  
+    background-color: #00bfa5;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px ;
+    border-top-left-radius:5px ;
+  
+    
+  }
+  
+  .PERA_text_form{
+   
+    justify-content: right;
+    text-align: center;
+    width: 390px;
+    justify-content: space-around;
+    white-space: 5px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+  }
+  .p-text1{
+    justify-content: right;
+    text-align: center;
+    width: 480px;
+    justify-content: space-around;
+    white-space: 5px;
+  
+    
+  }
+  
+  
+  
+  .p-text5{
+    display: flex;
+    width: 380px;
+    justify-content: space-around;
+    height: 70px;
+    
+    
+  }
+  
+  p input[name="learn"] {
+    margin-left: 5px;
+    background-color: #fff;
+    /* font-family: Avenir_heavy; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    border-width: thin;
+    border-style: solid;
+    width: 228px;
+    text-align: center;
+    border-radius: 6px;
+    border-color: black;
+    cursor: pointer;
+    height: 56px;
+    font-weight: 550;
+  }
+  .col-main-content{
+    display: flex;
+     position: relative;
+    padding-right: 12px;
+  
+  
+  }
+  
+  .col-bubbles{
+   
+    display: flex;
+    position: relative;margin-right: 1px;
+    padding-right: 2px;
+    width: 800px;
+    
+  }
+  .col-wrapper{
+    display: flex;
+    position: relative;
+    width: 100px;
+    margin-right: 1px;
+    padding-right: 2px;
+   
+   
+  
+  }
+  
+  #parent1{
+    width: 400px;
+    height: 370px;
+    border-bottom-right-radius: 1400px;
+    border-top-right-radius: 1350px;
+    border-bottom-left-radius:1400px ;
+    border-top-left-radius:1350px ;
+    
+  }
+  
+  .inner-title-of-recyle5{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .inner-title-of-recyle5:hover{
+      color:#00bfa5 ;
+    }
+  
+  .recycle-water-heading-content{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 540;
+    height:6px;
+    width:890px;
+    justify-content: flex-end;
+    text-align: center;
+    border-radius: 2px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    margin-top: 130px;
+  
+  
+  }
+  
+  .rewater-heading-content{
+    display: flex;
+    justify-content:space-between;
+    width: 990px;
+    justify-content: flex-end;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 3;
+  
+  }
+  
+    .elats_right{
+      width: 6px;
+    }
+  
+    .recycle-pera-one{
+    display: flex;
+    font-size: 15px;
+    justify-content: space-between;
+    width: 1135px;
+    justify-content: flex-end;
+    text-align: center;
+    font-size: 17px;
+  
+    }
+    .recycle-pera-two{
+      display: flex;
+      font-size: 15px;
+      justify-content: space-between;
+      width: 1147px;
+      justify-content: flex-end;
+      text-align: center;
+      font-size: 17px;
+    
+      }
+  
+      .recycle-pera-three{
+        display: flex;
+        font-size: 15px;
+        justify-content: space-between;
+        width: 1025px;
+        justify-content: flex-end;
+        text-align: center;
+        font-size: 17px;
+      
+        }
+        .line-of-recyle{
+          display: flex;
+          justify-content:flex-end ;
+          text-align: end;
+          
+        }
+  
+        .inner-title-of-recyle1{
+           display: flex;
+           justify-content: space-between;
+           width: 1070px;
+           justify-content:flex-end ;
+           text-align: center;
+           white-space: 5px;
+           font-size: 18px;
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+        }
+  
+        .inner-title-of-recyle2{
+          display: flex;
+          justify-content: space-between;
+           width: 1020px;
+           justify-content:flex-end ;
+           text-align: center;
+           white-space: 5px;
+           font-size: 18px;
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+        }
+  
+        .inner-title-of-recyle3{
+          display: flex;
+          justify-content: space-between;
+           width: 1007px;
+           justify-content:flex-end ;
+           text-align: center;
+           white-space: 5px;
+           font-size: 18px;
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+        }
+  
+        .inner-title-of-recyle4{
+          display: flex;
+          justify-content: space-between;
+           width: 928px;
+           justify-content:flex-end ;
+           text-align: center;
+           white-space: 5px;
+           font-size: 18px;
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+        }
+  
+        .inner-title-of-recyle5{
+          display: flex;
+          justify-content: space-between;
+           width: 920px;
+           justify-content:flex-end ;
+           text-align: center;
+           white-space: 5px;
+           font-size: 18px;
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+        }
+  
+        .line-of-recyle{
+          width: 12%;
+          margin-left:650px;
+          margin-right: 30px;
+          height: 6px;
+          color: #00bfa5;  
+          background-color: #00bfa5;
+          border-bottom-right-radius: 5px;
+          border-top-right-radius:5px;
+          border-bottom-left-radius:5px ;
+          border-top-left-radius:5px ;
+  
+  
+        }
+  
+  
+      .inner-recycle-background-front-container{
+        display: flex;
+        position: absolute;
+       
+  
+      }
+      .background-of-recyle-water-container{
+        margin-top:  100px;
+      }
+  
+      .river-img-container{
+        display: flex;
+        justify-content: flex-start;
+        text-align: start;
+        position: absolute;
+        
+  
+      }
+  
+      .ineer-river-img-container{
+        width: 300px;
+        height: 300px;
+        border-bottom-right-radius: 1260px;
+        border-top-right-radius: 1260px;
+        border-bottom-left-radius:1260px ;
+        border-top-left-radius:1260px ;
+        margin-left: 180px;
+        margin-top: 15px;
+        
+  
+      }
+  
+      .ineer-background-of-recyle-water-container{
+        margin-left:80px ;
+        margin-top: -100px;
+        width: 500px;
+      }
+  
+      .boxes-img-container{
+        display: flex;
+        justify-content: flex-start;
+        text-align: start;
+        position: absolute;
+  
+        
+  
+      }
+      .ineer-boxes-img-container{
+        width: 200px;
+        height: 200px;
+        border-bottom-right-radius: 370px;
+        border-top-right-radius: 370px;
+        border-bottom-left-radius:370px ;
+        border-top-left-radius:370px ;
+        margin-left: 390px;
+        margin-top: 350px;
+       
+  
+      }
+  
+      .river-icon-container{
+        display: flex;
+        justify-content: flex-start;
+        text-align: start;
+        position: absolute;
+  
+  
+      }
+  
+      .ineer-river-icon-container{
+        width: 200px;
+        height: 200px;
+        border-bottom-right-radius: 370px;
+        border-top-right-radius: 370px;
+        border-bottom-left-radius:370px ;
+        border-top-left-radius:370px ;
+        margin-left: 120px;
+        margin-top: 480px;
+  
+  
+      }
+      .inner-recycle-background-front-container{
+        display: flex;
+        margin-top: 70px;
+        position: absolute;
+        margin-top: -50px;
+      }
+      .toilet-icon-of-recyle-water-container{
+        display: flex;
+        justify-content: flex-start;
+        text-align: start;
+        position: absolute;
+  
+      }
+  
+      .ineer-toileticon-ecomitra-container{
+        width: 350px;
+        height: 350px;
+        border-bottom-right-radius: 1100px;
+        border-top-right-radius: 1100px;
+        border-bottom-left-radius:1100px ;
+        border-top-left-radius:1100px ;
+        margin-left: 80px;
+        margin-top: 75px;
+  
+      }
+      .frontview-icon-of-recyle-water-container{
+        display: flex;
+        margin-top: 70px;
+        position: absolute;
+  
+      }
+  
+      .ineer-frontview-ecomitra-container{
+  
+        width: 200px;
+        height: 200px;
+        border-bottom-right-radius: 1100px;
+        border-top-right-radius: 1100px;
+        border-bottom-left-radius:1100px ;
+        border-top-left-radius:1100px ;
+        margin-left: -100px;
+        margin-top: 460px;
+        
+      }
+  
+      .image-icon-of-recyle-water-container{
+        display: flex;
+        margin-top: 130px;
+        position: absolute;
+  
+      }
+  
+      .ineer-image-ecomitra-container{
+        width: 220px;
+        height: 220px;
+        border-bottom-right-radius: 1100px;
+        border-top-right-radius: 1100px;
+        border-bottom-left-radius:1100px ;
+        border-top-left-radius:1100px ;
+        margin-left: 240px;
+        margin-top: 460px;
+  
+      }
+  
+    p input[name="learn"]:hover {
+      background-color: #00bfa5;
+      text-align: center;
+      cursor: pointer;
+    }
+    .outer-achievement-container{
+      display: grid;
+      width: 1340px;
+      height: 450px;
+      margin-top: 250px;
+      justify-content: center;
+      text-align: center;
+      background-color: #00bfa5 ;
+      
+    }
+  
+  
+    .owl-carousel-owl-theme{
+      display: grid;
+      grid-auto-flow: column;
+      height: 200px;
+  
+    }
+  
+    .prev-outlet-container{
+      margin-top: -10px;
+      display: flex;
+      justify-content: flex-start;
+      text-align: start;
+      background-color: #00bfa5;
+      height: 200px;
+    }
+    .inner-next-icon{
+      display: flex;
+      justify-content: flex-end;
+  
+      text-align: end;
+    }
+    .inner-prev-icon{
+    display: flex;
+    justify-content: end;
+      text-align: end;
+    }
+  
+    .item-carousel-card{
+      /* display: grid; */
+      width: 250px;
+      height: 170px;
+      background-color: #fff;
+      margin-left: 40px;
+      height: 190px;
+      border-radius: 8px;
+      width: 272px;
+     
+    }
+  
+    .heading-content-text-uppercase{
+      font-size: 25px;
+      /* font-family: monospace; */
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: #fff;
+      letter-spacing: 1px;
+    }
+  
+    .heading-content-text-lowercase{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 17.5px;
+      font-weight: 400;
+      font-style: normal;
+      /* font-stretch: normal; */
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: center;
+      color: #ffffffe6;
+      padding-bottom: 15px;
+    }
+    .image-of-mc-icon{
+      display: flex;
+      width: 130px;
+      height: 80px;
+      justify-content: center;
+      text-align: center;
+      margin-top: 30px;
+      margin-left: 60px;
+     
+      
+    }
+  
+    .heading-text{
+      margin-top: 8px;
+      font-size: 20px;
+      font-family:  Avenir_heavy;
+      font-weight: 600;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: rgba(0,0,0,.87);
+      position: relative;
+      z-index: 10000;
+    }
+  
+    .pera-text-of-mc-icon{
+      font-size: 15px;
+      margin-top: -13px;
+      font-family: Sans-serif;
+      white-space: 4px;
+      font-weight: 660px;
+    }
+  
+    .outer-achivement-container{
+      margin-left: 50px;
+  
+    }
+     .achievement-img{
+      margin-top: 10px;
+      width: 258px;
+      height: 170px;
+     
+     
+     } 
+  
+    .inner-idian-oil-image-container{
+     margin-top: 15px;
+      width: 90px;
+      height: 90px;
+    }
+  
+    .carousel-wrap{
+      scroll-snap-type:x mandatory;
+      scroll-padding: 0 24px;
+    }
+    .carousel-wrap.heading-text{
+      scroll-snap-align: start;
+  }
+  
+  .partner-container{
+    margin-top: 8%;
+    text-align: center;
+  }
+  
+  .partner-heading-content{
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    white-space: 2px;
+  }
+  .outer-iit-logo-container{
+   margin-top: 60px;
+   margin-right: 460px;
+  }
+  .iit-logo-container{
+    width: 53%;
+  }
+  .vertical-line-container{
+    position: absolute;
+    margin-top: -57px;
+    width: 52%;
+    border-right:4px solid #00bfa5;
+    height: 57px;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius:3px;
+    border-bottom-left-radius:4px ;
+    border-top-left-radius:3px ;
+  
+  
+  }
+  
+  .inner-box-conent-of-the-iit-roorkee{
+    margin-top: -25px;
+    position: absolute;
+    width: 49%;
+    text-align: end;
+    
+  }
+  
+  .inner-box1-conent-of-the-iit-roorkee{
+    margin-top: -25px;
+    position: absolute;
+    width: 52%;
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    white-space: 2px;
+  
+  }
+  .inner-box2-conent-of-the-iit-roorkee{
+    margin-top: -18px;
+    position: absolute;
+    width: 61%;
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    white-space: 2px;
+  
+  }
+  .inner-box3-conent-of-the-iit-roorkee{
+    margin-top: -12px;
+    position: absolute;
+    width: 18%;
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    white-space: 2px;
+  
+  }
+  .main-university-of-surrey-container{
+    margin-top: 100px;
+    margin-right: 430px;
+  
+  }
+  .university-of-surrey-logo-container{
+    width: 24%;
+  }
+  
+  .surrey{
+    margin-top: -30px;
+    position: absolute;
+    width: 43%;
+    text-align: end;
+  
+  }
+  
+  .surrey1{
+    margin-top: -25px;
+    position: absolute;
+    width: 70%;
+    margin-right: 50px;
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    white-space: 2px;
+  
+  }
+  .surrey2{
+    margin-top: 1px;
+    position: absolute;
+    width: 70%;
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    white-space: 2px;
+  
+  }
+  
+  .surrey3{
+    margin-top: 25px;
+    position: absolute;
+    width: 18%;
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    white-space: 2px;
+  
+  }
+  
+  .vertical-surrrey-line-container{
+    position: absolute;
+    margin-top: -57px;
+    width: 44%;
+    border-right:4px solid #00bfa5;
+    height: 57px;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius:3px;
+    border-bottom-left-radius:4px ;
+    border-top-left-radius:3px ;
+  
+  }
+  .indian-oil-inner-img-icon{
+    width: 8.5%;
+  
+  }
+  
+  .indian-oil-outer-img-icon{
+    margin-top: 100px;
+    width: 65%;
+  }
+  
+  .outer-main-pera-content-of-indian-oil{
+    margin-top: -60px;
+    position: absolute;
+    width: 40%;
+    text-align: end;
+  
+  }
+  .outer-main-pera1-content-of-indian-oil{
+    margin-top: -25px;
+    position: absolute;
+    width: 65%;
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    white-space: 2px;
+  
+  }
+  .outer-main-pera2-content-of-indian-oil{
+    margin-top: 1px;
+    position: absolute;
+    width: 71%;
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    white-space: 2px;
+  
+  }
+  .outer-main-pera3-content-of-indian-oil{
+    margin-top: 25px;
+    position: absolute;
+    width: 20%;
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    white-space: 2px;
+  
+  }
+  .vertical-indian-oil-line-container{
+    position: absolute;
+    margin-top: -70px;
+    width: 37%;
+    border-right:4px solid #00bfa5;
+    height: 57px;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius:3px;
+    border-bottom-left-radius:4px ;
+    border-top-left-radius:3px ;
+  }
+  
+  
+  
