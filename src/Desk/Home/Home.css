@@ -1,3 +1,4 @@
+/* section one */
 #banner-text {
   color: #00bfa5;
   font-family: "Avenir_heavy";
@@ -20,14 +21,6 @@
   font-size: 56px; /* Default font size */
 }
 
-.outer-text-of-banner {
-  display: flex;
-  justify-content: right;
-  text-align: center;
-  width: 960px;
-  white-space: 5px;
-  font-size: 18px;
-}
 .below-banner {
   margin: 20px 0;
   display: flex;
@@ -35,8 +28,8 @@
   align-items: center;
   text-align: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 24px;
-  font-weight: 400;
+  font-size: 20px;
+  font-weight: 500;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.2;
@@ -61,64 +54,56 @@
   width: 50px;
 }
 
+/* section two */
+.col-main-content {
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-between; 
+  align-items: center; 
+}
+
 
 .heading-content {
-
   font-family:"Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 24px;
   font-weight: 600;
-  margin-left: 80px;
 }
-.elats_left {
-  font-family:"Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  margin-left: 80px;
-  
-}
+
 .ECO {
   display: flex;
-  margin-left: 80px;
   font-size: 70px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: 3;
   letter-spacing: 2px;
 }
 
-.smart-public-toilet-line-container {
-  width: 23%;
-  margin-left: 85px;
-  margin-right: 30px;
-  height: 5px;
-  color: #00bfa5;
-  background-color: #00bfa5;
-  border-bottom-right-radius: 5px;
-  border-top-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-  border-top-left-radius: 5px;
-}
-
-.PERA_text_form {
-  justify-content: right;
-  text-align: center;
-  width: 390px;
-  justify-content: space-around;
+.PERA_text_form,.PERA_text {
   white-space: 5px;
-  font-size: 18px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  
 }
-.p-text1 {
-  width: 490px;
-  white-space: 5px;
-}
+/* 3rd and 4th section */
 
-.p-text5 {
+
+.p-text1,.p-text2{
+  width: 100%;
   display: flex;
-  width: 380px;
-  justify-content: space-around;
-  height: 70px;
+
 }
 
-p input[name="learn"] {
-  margin-left: 5px;
+.icons-of-home{
+  width: 35px;
+  height: 35px;
+
+}
+
+
+p input[name="learn"],p input[name="rewater"]  {
   background-color: #fff;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 16px;
@@ -133,19 +118,15 @@ p input[name="learn"] {
   font-weight: 550;
 }
 
-p input[name="learn"]:hover {
+
+p input[name="learn"]:hover,p input[name="rewater"]:hover {
   background-color: #00bfa5;
   text-align: center;
   cursor: pointer;
 }
 
 
-.col-main-content {
-  display: flex;
-  flex-direction: row; /* Display the items in a row */
-  justify-content: space-between; /* Space between content and image */
-  align-items: center; /* Vertically center items */
-}
+
 .rewater-content{
   font-size: 80px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -154,7 +135,7 @@ p input[name="learn"]:hover {
 
 }
 
-.recycle-line-container {
+.recycle-line-container,.smart-public-toilet-line-container  {
   width: 25%;
   margin-right:100% ;
   justify-content: right;
@@ -167,59 +148,30 @@ p input[name="learn"]:hover {
   border-top-left-radius: 5px;
 }
 
-.elats_right{
+.elats_right,.elats_left{
   font-family:"Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.p-text{
+  margin-left: 17px;
+  /* text-align: center; */
+  margin-top: 10px;
+
+}
+
+.col-ecolats-left,.col-ecolats-right {
+  flex: 1;
+  margin-left: 50px;
+}
+
+.col-ecolats{
+  flex: 1;
   margin-left: 50px;
 
 }
 
-.elats_left{
-  font-family:"Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  margin-left: 70px;
-
-}
-
-.PERA_text {
-  margin-left: 45px;
-  white-space: 5px;
-  font-size: 18px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-
-p input[name="rewater"] {
-  margin-left: 60px;
-  background-color: #fff;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 16px;
-  border-width: thin;
-  border-style: solid;
-  width: 228px;
-  text-align: center;
-  border-radius: 6px;
-  border-color: black;
-  cursor: pointer;
-  height: 56px;
-  font-weight: 550;
-}
-
-p input[name="rewater"]:hover {
-  background-color: #00bfa5;
-  text-align: center;
-  cursor: pointer;
-}
-
-.col-ecolats-left {
-  flex: 1; /* Grow to take available space */
-  /* Rest of your styles for the left content */
-  /* text-align: right; */
-}
-
-.col-ecolats-right {
-  flex: 1; /* Grow to take available space */
-  text-align: left; /* Align content to the right */
-}
-
-.responsive-image {
+.responsive-image,.demo_img {
   max-width: 100%; /* Set maximum width to prevent overflow */
   height: auto; /* Maintain aspect ratio */
 }
@@ -232,38 +184,476 @@ p input[name="rewater"]:hover {
   
 }
 
-/* Media query for smaller screens */
+/* section five */
+.outer-achievement-container{
+  width: 100%;
+  height: 450px;
+  margin-top: 200px;
+  justify-content: center;
+  text-align: center;
+  background-color: #00bfa5 ;
+  
+}
 
+
+.owl-carousel-owl-theme{
+  display: grid;
+  grid-auto-flow: column;
+  height: 200px;
+
+}
+
+.item-carousel-card{
+  background-color: #fff;
+  margin-left: 40px;
+  height: 190px;
+  border-radius: 8px;
+  width: 272px;
+ 
+}
+
+
+.heading-content-text-uppercase{
+  font-size: 25px;
+  /* font-family: monospace; */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.heading-content-text-lowercase{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 17.5px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffffe6;
+  padding-bottom: 15px;
+}
+.image-of-mc-icon{
+  display: flex;
+  width: 130px;
+  height: 80px;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 60px;
+ 
+  
+}
+
+.heading-text{
+  margin-top: 8px;
+  font-size: 20px;
+  font-family:  Avenir_heavy;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgba(0,0,0,.87);
+  position: relative;
+  z-index: 10000;
+}
+
+.pera-text-of-mc-icon{
+  font-size: 15px;
+  margin-top: -13px;
+  font-family: Sans-serif;
+  white-space: 4px;
+  font-weight: 660px;
+}
+
+.outer-achivement-container{
+  margin-left: 50px;
+
+}
+ .achievement-img{
+  margin-top: 10px;
+  width: 258px;
+  height: 170px;
+ 
+ 
+ } 
+
+.inner-idian-oil-image-container{
+ margin-top: 15px;
+  width: 90px;
+  height: 90px;
+}
+
+.carousel-wrap{
+  scroll-snap-type:x mandatory;
+  scroll-padding: 0 24px;
+}
+.carousel-wrap.heading-text{
+  scroll-snap-align: start;
+}
+
+.partner-container{
+  width: 100%;
+margin-top: 8%;
+text-align: center;
+}
+
+.partner-heading-content{
+width: 100%;
+font-size: 22px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: 500;
+white-space: 2px;
+}
+
+/* section six */
+.outer-iit-conta{
+  width: 100%;
+  margin-top: 50px;
+}
+.outer-iit-logo-container{
+
+display: flex;
+width: 100%;
+justify-content: center;
+text-align: center;
+/* justify-content: space-evenly; */
+}
+.iit-logo-container{
+width: 30%;
+height: 25%;
+
+}
+ .vertical-line-container{
+position: relative;
+margin-top: 15px;
+margin-left: 20px;
+border-right:4px solid #00bfa5;
+height: 50px;
+border-bottom-right-radius: 4px;
+border-top-right-radius:3px;
+border-bottom-left-radius:4px ;
+border-top-left-radius:3px ;
+
+
+} 
+ .vertical-surrrey-line-container{
+  
+    position: relative;
+    margin-left: 20px;
+    margin-top: 25px;
+    border-right:4px solid #00bfa5;
+    height: 55px;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius:3px;
+    border-bottom-left-radius:4px ;
+    border-top-left-radius:3px ;
+} 
+.pt,.pt2{
+  font-family:"Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  font-weight: 640;
+  margin-left: 50px;
+}
+
+.surrey-logo-container{
+  width: 16%;
+  height:12% ;
+  margin-top: 20px;
+}
+
+.indian-oil-icon{
+  width: 6%;
+  height: 4%;
+  margin-top: 20px;
+}
+
+/* section seven */
+.section-seven-container{
+  margin-top: 70px;
+  width: 100%;
+  height: auto;
+  background-size: "cover";
+  background-repeat: "no-repeat";
+  background-position: "center";
+  height: "500px";
+  /* display: flex; */
+}
+
+.footer-container{
+  margin-top: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.first-contaUs-column{
+  justify-content: space-evenly;
+}
+.contact{
+  width: 100%;
+  color: #fff;
+ font-size: 17px;
+  opacity: 0.7;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.form-container{
+  color: #fff;
+ font-size: 17px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.form-group{
+  width: 100%;
+}
+ .input-point{
+     width: 130px;
+     height: 35px;
+     border-bottom-left-radius: 16px;
+     border-bottom-right-radius: 16px;
+     border-top-left-radius:16px ;
+     border-top-right-radius:16px ;
+     text-align: center;
+  
+  
+}
+.input-point2{
+  
+    width: 130px;
+     height: 35px;
+     border-bottom-left-radius: 16px;
+     border-bottom-right-radius: 16px;
+     border-top-left-radius:16px ;
+     border-top-right-radius:16px ;
+     text-align: center;
+     margin-top: -55px;
+     position: absolute; 
+    margin-left:150px;
+  
+}
+.input-point3{
+  width: 280px;
+  height: 35px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  border-top-left-radius:16px ;
+  border-top-right-radius:16px ;
+  text-align: center;
+}
+.textarea{
+  width: 280px;
+  height: 120px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  border-top-left-radius:16px ;
+  border-top-right-radius:16px ;
+  text-align: center;
+
+}
+.btn-submit_butn{
+  width: 180px;
+  height: 50px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius:10px ;
+  border-top-right-radius:10px ;
+  text-decoration: center;
+  margin-left: 50px;
+   background-color: #00bfa5;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+
+}
+
+.third-contaUs-column{
+  margin-top: 80px;
+  color: #fff;
+  font-size: 17px;
+  opacity: 0.7;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+/* Media query for smaller screens */
+@media (max-width: 2560px){
+  .EightContainer{
+    display: none;
+  }
+
+}
+@media (max-width: 1440px){
+  .EightContainer{
+    display: none;
+  }
+
+}
 @media (max-width: 1024px) {
   .Banner-text {
     font-size: 30px; /* Adjust font size for smaller screens */
   }
+  .common-img {
+    width: 35px;
+  }
+  .ol-ecolats-left,
+  .col-ecolats-right,.belw-ban-inr-con {
+    /* flex: none; Reset flex value to prevent stretching */
+    font-size: 15;
 
+  }
+  .p-text{
+    margin-left: 10px;
+    font-size: 17px;
+  }
+  .icons-of-home{
+    width: 30px;
+    height: 35px;
+  }
+  .ECO,.rewater-content{
+    font-size:45px;
+  }
+
+  .recycle-water-heading-content{
+    font-size: 30px;
+  }
+  .pt,.pt2{
+    font-size: 16px;
+  }
+
+   .footer-container{
+    width: 100%;
+  } 
+  .contact,.third-contaUs-column{
+    font-size: 13px;
+  }
+  .sukriti-Logo-Container{
+    width: 90%;
+  }
+  .input-point{
+    width: 90px;
+    height: 30px;
+  }
+  .input-point2{
+    width: 90px;
+    height: 30px;
+    margin-left: 120px;
+    margin-top: -50px;
+  }
+  .input-point3{
+    width: 200px;
+   height: 30px;
+  }
+  .textarea{
+    width: 200px;
+    height: 60px;
+  }
+  .btn-submit_butn{
+    width: 150px;
+    height: 50px;
+  } 
+  .EightContainer{
+    display: none;
+  }
 }
+
 @media (max-width: 768px) {
+  /* first section */
   .Banner-text {
     font-size: 30px; /* Adjust font size for smaller screens */
   }
   .common-text {
-    font-size: 20px; /* Adjust font size for smaller screens */
+    font-size: 16px; /* Adjust font size for smaller screens */
     font-weight: 500;
     line-height: 1.1;
   }
   .common-img {
-    width: 50px;
+    width: 30px;
   }
   .col-main-content {
     flex-direction: column; /* Stack items vertically */
   }
-
+/* third and fourth section */
   .col-ecolats-left,
-  .col-ecolats-right {
-    flex: none; /* Reset flex value to prevent stretching */
+  .col-ecolats-right,.belw-ban-inr-con {
+    /* flex: none; Reset flex value to prevent stretching */
+
+    font-size: 16px;
   }
+   .commanText{
+    text-align: center;
+    font-size: 13px;
+   }
   .responsive-image {
     max-width: 100%; /* Set maximum width to prevent overflow */
     height: auto; /* Maintain aspect ratio */
   }
+  .p-text{
+    margin-left: 10px;
+    font-size: 16px;
+  }
+  .icons-of-home{
+    width: 30px;
+    height: 30px;
+  }
+  .ECO,.rewater-content {
+    font-size:35px;
+  }
+  .recycle-water-heading-content{
+    font-size: 25px;
+  }
+   /* section six */
+  .iit-logo-container{
+    width: 50%;
+    height: 30%;
+   
+    }
+  
+    .pt{
+      width: 100%;
+      position: absolute;
+      margin-top: 8%;
+      font-size: 11px;
+    }
+    .pt2{
+      width: 100%;
+      position: absolute;
+      margin-top: 10%;
+      font-size: 11px;
+    }
+    .vertical-line-container,.vertical-surrrey-line-container{
+      display: none;
+
+    }
+    .surrey-logo-container{
+      width: 16%;
+      height:13% ;
+    }
+    .indian-oil-icon{
+      width: 7%;
+      height: 5%;
+      margin-top: 20px;
+
+    }
+    /* section seven */
+    .section-seven-container{
+      width: 100%;
+      height: auto;
+    }
+    .contact,.third-contaUs-column{
+      font-size: 12px;
+    }
+    .sukriti-Logo-Container{
+      width: 80%;
+    }
+    .EightContainer{
+      display: none;
+    }
+   
+}
+@media (max-width: 700px){
+  /* section seven */
+  .section-seven-container{
+    display: none;
+  }
+
 }
 
 @media (max-width: 480px) {
@@ -271,24 +661,86 @@ p input[name="rewater"]:hover {
     font-size: 20px; /* Adjust font size for even smaller screens */
   }
   .common-text {
-    font-size: 16px; /* Adjust font size for smaller screens */
+    font-size: 14px; /* Adjust font size for smaller screens */
     font-weight: 400;
     line-height: 1;
   }
+  
+   .belw-ban-inr-con,.belw-ban-inr-con,.commanText{
+    text-align: center;
+    font-size: 12px;
+
+   }
   .common-img {
-    width: 30px;
+    width: 25px;
   }
-  .elats_right{
-    font-size: 20px;
+  .elats_right,.elats_left,.PERA_text,.PERA_text_form,.belw-ban-inr-con{
+    font-size: 16px;
   }
-  .elats_left{
-    font-size: 20px;
+  
+  .ECO,.rewater-content {
+    font-size:25px;
   }
-  .PERA_text{
-    font-size: 20px;
+  .heading-content,.recycle-water-heading-content{
+    font-size:18px ;
   }
-  .PERA_text_form{
-    font-size: 20px;
+  .rewater-content{
+    font-size: 30px;
 
   }
+  .p-text{
+    margin-left: 8px;
+    font-size: 14px;
+  }
+  .icons-of-home{
+    width: 20px;
+    height: 25px;
+  }
+  .iit-logo-container{
+    width: 70%;
+    }
+    .pt{
+      width: 100%;
+      position: absolute;
+      margin-top: 12%;
+      font-size: 12px;
+    }
+    .pt2{
+      width: 100%;
+      position: absolute;
+      margin-top: 12%;
+      font-size: 12px;
+      text-align: center;
+
+    }
+    .surrey-logo-container{
+      width: 16%;
+      height:13% ;
+    }
+    .indian-oil-icon{
+      width: 9%;
+      height: 9%;
+      margin-top: 15px;
+
+    }
+}
+
+@media (max-width: 320px) {
+.p-text{
+  margin-left: 6px;
+  font-size: 12px;
+}
+.icons-of-home{
+  width: 20px;
+  height: 25px;
+}
+.pt{
+  width: 100%;
+  margin-top: 12%;
+  font-size: 12x;
+}
+.pt2{
+  margin-top: 15%;
+  font-size: 11px;
+}
 }

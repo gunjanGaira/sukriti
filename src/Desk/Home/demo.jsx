@@ -378,8 +378,9 @@ const Home = () => {
                 src={surreyIcon}
                 className="university-of-surrey-logo-container"
               />
+              <div className="vertical-surrrey-line-container" />
             </div>
-            <div className="vertical-surrrey-line-container" />
+            
 
             <div>
               <p className="surrey">
