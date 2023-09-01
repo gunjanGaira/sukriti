@@ -27,7 +27,7 @@ import iitLogo from "../Home/iit-roorkee-logo.png";
 import surreyIcon from "../Home/university-of-surrey.png";
 import IconOfIndianOil from "../Home/Icon-of-indianoil.png";
 import BackgroundContactUs from "../Home/contact-us-background.JPG";
-import secBackOfConUs from '../Home/123.PNG'
+import secBackOfConUs from "../Home/123.PNG";
 import IconOfLinkedin from "../Home/linkedin-icon.png";
 import IconOfFacebook from "../Home/facebook-icon.png";
 import IconOfYouTube from "../Home/youtube-icon.png";
@@ -339,45 +339,18 @@ const Home = () => {
       </div>
 
       {/*section seven */}
-       <div
-        className="section-seven-container"
-        style={{
-          width: "100%",
-          backgroundImage: `url(${BackgroundContactUs})`,
-        }}
-        > 
-        <footer className="footer-container">
-          <div className="first-contaUs-column" style={{ marginTop: "70px" }}>
-            <div className="footerMainCopntainer">
-              <div class="footer_icon">
-                <img src={IconOfLinkedin} />
-              </div>
 
-              <div
-                class="footer_icon"
-                style={{
-                  position: "absolute",
-                  marginTop: "-55px",
-                  marginLeft: "80px",
-                }}
-              >
-                <img alt="" src={IconOfFacebook} />
-              </div>
-              <div
-                className="footer_icon "
-                class="footer_icon"
-                style={{
-                  position: "absolute",
-                  marginTop: "-50px",
-                  marginLeft: "160px",
-                }}
-              >
-                <img src={IconOfYouTube} className="container-of-youTubeIcon" />
-              </div>
+      <footer className="footer-container">
+        <img src={BackgroundContactUs} className="section-seven-container" />
+
+        <div className="Footer-content-container">
+          <div className="first-contaUs-column">
+            <div className="footerMainCopntainer">
+              <img src={IconOfLinkedin} className="linkedinIcon" />
+              <img src={IconOfFacebook} className="facebookIcon" />
+              <img src={IconOfYouTube} className="youtubeIcon" />
             </div>
 
-
-            
             <div className="old-ofice-address-container">
               <p className="contact">
                 011-40196604
@@ -393,15 +366,20 @@ const Home = () => {
               </p>
             </div>
             <div className="sukriti-Logo-Container ">
-              <img src={LogoOfSukriti} alt="logo" className="sukriti-Logo-Container "/>
+              <img
+                src={LogoOfSukriti}
+                alt="logo"
+                className="sukriti-Logo-Container "
+              />
             </div>
           </div>
           <div className="second-contaUs-column">
             <div
-              style={{
-                marginTop: "100px",
-                position:"relative"
-              }}
+              style={
+                {
+                  // marginTop: "100px"
+                }
+              }
             >
               <form action="Home.js" method="post" className="form">
                 <div className="form-group">
@@ -463,8 +441,9 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="third-contaUs-column">
-            <p>
+          <div className="third-contaUs-column" >
+            <p className="Second-contact" style={{ fontSize: "15px",opacity:"0.7",lineHeight:"1.7",
+          marginTop:"-10px"}}>
               Corporate Office :<br />
               1567, Sector 15, Part II
               <br />
@@ -483,166 +462,96 @@ const Home = () => {
               <br />
             </p>
           </div>
-        </footer>
-      </div>
-
+        </div>
+      </footer>
+      {/* </div> */}
 
       {/* section eight */}
-      <div
-       className="EightContainer"
-         style={{ 
-            width: "100%", 
-          backgroundImage: `url(${secBackOfConUs})`,
-          backgroundSize: "cover",
-          backgroundRepeat: "no-repeat",
-          backgroundPosition: "center",
-          paddingTop: "50%",
-          position: "relative",
-      }}
-        >
-        <footer className="footer-container">
-          <div className="first-contaUs-column" style={{ marginTop: "70px" }}>
-            <div className="footerMainCopntainer">
-              <div class="footer_icon">
-                <img src={IconOfLinkedin} />
-              </div>
 
-              <div
-                class="footer_icon"
-                style={{
-                  position: "absolute",
-                  marginTop: "-55px",
-                  marginLeft: "80px",
-                }}
-              >
-                <img alt="" src={IconOfFacebook} />
-              </div>
-              <div
-                className="footer_icon "
-                class="footer_icon"
-                style={{
-                  position: "absolute",
-                  marginTop: "-50px",
-                  marginLeft: "160px",
-                }}
-              >
-                <img src={IconOfYouTube} className="container-of-youTubeIcon" />
-              </div>
-            </div>
+      <footer className="EightContainer">
+        <div>
+          <img src={secBackOfConUs} className="backOfEightContainer" />
+        </div>
 
-
-            
-            <div className="old-ofice-address-container">
-              <p className="contact">
-                011-40196604
-                <br />
-                contact@sukriti.ngo
-                <br />
-                <br />
-                Registered Office :<br />
-                190, DDA Office Complex,
-                <br />
-                Jhandewalan Phase 1 ,Delhi 110055, India
-                <br />
-              </p>
-            </div>
-            <div className="sukriti-Logo-Container ">
-              <img src={LogoOfSukriti} alt="logo" className="sukriti-Logo-Container "/>
-            </div>
+        <div className="logoicon">
+          <div className="icons">
+            <img
+              src={IconOfLinkedin}
+              className="linkedinIcon"
+              style={{ width: "70px" }}
+            />
+            <img
+              src={IconOfFacebook}
+              className="facebookIcon"
+              style={{ marginLeft: "65px", width: "65px" }}
+            />
+            <img
+              src={IconOfYouTube}
+              className="youtubeIcon"
+              style={{ marginLeft: "65px", width: "65px" }}
+            />
           </div>
-          <div className="second-contaUs-column">
-            <div
-              style={{
-                marginTop: "100px",
-                position:"relative"
-              }}
-            >
-              <form action="Home.js" method="post" className="form">
-                <div className="form-group">
-                  <div className="form-inline">
-                    <div className="input-point">
-                      <input
-                        className="input-point"
-                        type="text"
-                        id="fname"
-                        name="fname"
-                        placeholder="First Name"
-                        required
-                        data-error="Please enter your name"
-                      />
-                    </div>
-                    <br />
-
-                    <div>
-                      <input
-                        className="input-point2"
-                        type="text"
-                        id="lname"
-                        name="lname"
-                        placeholder="Last Name"
-                        required
-                        data-error="Please enter your Last name"
-                      />
-                    </div>
-                  </div>
-                </div>
-
-                <div>
+          <form action="Home.js" method="post" className="form">
+            <div className="form">
+              <div className="form-inline">
+                <div className="inputs">
                   <input
-                    className="input-point3"
-                    type="email"
-                    id="email"
-                    name="email"
-                    placeholder="Email address"
+                    className="inputOne"
+                    type="text"
+                    id="fname"
+                    name="fname"
+                    placeholder="First Name"
                     required
-                    data-error="Please enter your email"
+                    data-error="Please enter your name"
                   />
                 </div>
                 <br />
 
-                <div className="form-group">
-                  <textarea
-                    className="textarea"
-                    rows="5"
-                    placeholder="Message..."
-                    name="msg"
+                <div>
+                  <input
+                    className="inputTwo"
+                    type="text"
+                    id="lname"
+                    name="lname"
+                    placeholder="Last Name"
                     required
-                  ></textarea>
+                    data-error="Please enter your Last name"
+                  />
                 </div>
-                <br />
-                <button type="submit" id="submit" className="btn-submit_butn">
-                  CONTACT US
-                </button>
-              </form>
+              </div>
             </div>
-          </div>
 
-          <div className="third-contaUs-column">
-            <p>
-              Corporate Office :<br />
-              1567, Sector 15, Part II
-              <br />
-              Gurugram, Haryana - 122022
-              <br /> <br />
-              Production Centre :<br />
-              Sukriti Social Foundation
-              <br />
-              Opposite Vinay High School
-              <br />
-              Chandu Sultanpur Road
-              <br />
-              Near Sultanpur National Park
-              <br />
-              Gurugram, Haryana - 122022
-              <br />
-            </p>
-          </div>
-        </footer>
-      </div> 
+            <div>
+              <input
+                className="inputThree"
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Email address"
+                required
+                data-error="Please enter your email"
+              />
+            </div>
+            <br />
 
-
+            <div className="form">
+              <textarea
+                className="text-area"
+                rows="5"
+                placeholder="Message..."
+                name="msg"
+                required
+              ></textarea>
+            </div>
+            <br />
+            <button type="submit" id="submit" className="submit-button">
+              CONTACT US
+            </button>
+          </form>
+        </div>
+      </footer>
     </div>
- );
+  );
 };
 
 export default Home;

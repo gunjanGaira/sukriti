@@ -370,31 +370,36 @@ border-top-left-radius:3px ;
 
 /* section seven */
 .section-seven-container{
-  margin-top: 70px;
-  width: 100%;
-  height: auto;
-  background-size: "cover";
-  background-repeat: "no-repeat";
-  background-position: "center";
-  height: "500px";
-  /* display: flex; */
+  width:100%;
+  height: 530px;
+
+}
+.footerMainCopntainer{
+  display: grid;
+  grid-template-columns: 20% 20% 20%;
 }
 
-.footer-container{
-  margin-top: 60px;
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
+.Footer-content-container{
+  margin-top: -400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 5%;
+}
+.sukriti-Logo-Container{
+  width: 80%;
+  margin-top: 20px;
 }
 .first-contaUs-column{
   justify-content: space-evenly;
 }
-.contact{
+.contact,.Second-contact{
   width: 100%;
   color: #fff;
- font-size: 17px;
+  font-size: 15x;
   opacity: 0.7;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  white-space: 2px;
+  line-height: 1.5;
 }
 .form-container{
   color: #fff;
@@ -418,7 +423,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .input-point2{
   
-    width: 130px;
+     width: 130px;
      height: 35px;
      border-bottom-left-radius: 16px;
      border-bottom-right-radius: 16px;
@@ -427,7 +432,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
      text-align: center;
      margin-top: -55px;
      position: absolute; 
-    margin-left:150px;
+     margin-left: 150px;
   
 }
 .input-point3{
@@ -465,23 +470,89 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
-.third-contaUs-column{
-  margin-top: 80px;
-  color: #fff;
-  font-size: 17px;
-  opacity: 0.7;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+/* section eight  */
+.backOfEightContainer{
+  width:100%;
+  height: 540px;
+}
+.logoicon{
+  margin-top: -400px;
+  text-align: center;
+  justify-content: center;
+  
+}
+.inputOne{
+     width: 130px;
+     height: 35px;
+     border-bottom-left-radius: 16px;
+     border-bottom-right-radius: 16px;
+     border-top-left-radius:16px ;
+     border-top-right-radius:16px ;
+     text-align: center;
+}
+
+.inputTwo{
+  
+  width: 130px;
+  height: 35px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  border-top-left-radius:16px ;
+  border-top-right-radius:16px ;
+  text-align: center;
+  margin-top: -55px;
+  position: absolute; 
+ /* margin-left:150px; */
 
 }
+.inputThree{
+width: 280px;
+height: 35px;
+border-bottom-left-radius: 16px;
+border-bottom-right-radius: 16px;
+border-top-left-radius:16px ;
+border-top-right-radius:16px ;
+text-align: center;
+}
+.text-area{
+width: 280px;
+height: 120px;
+border-bottom-left-radius: 16px;
+border-bottom-right-radius: 16px;
+border-top-left-radius:16px ;
+border-top-right-radius:16px ;
+text-align: center;
+
+}
+.submit-button{
+width: 180px;
+height: 50px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+border-top-left-radius:10px ;
+border-top-right-radius:10px ;
+text-decoration: center;
+margin-left: 50px;
+background-color: #00bfa5;
+color: white;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 16px;
+
+}
+
+
+
 /* Media query for smaller screens */
-@media (max-width: 2560px){
+@media(min-width:700px) and (max-width: 2560px){
+  /* section eight */
   .EightContainer{
     display: none;
   }
 
 }
-@media (max-width: 1440px){
-  .EightContainer{
+@media(min-width:0px) and (max-width: 700px){
+  /* section seven */
+  .footer-container{
     display: none;
   }
 
@@ -521,37 +592,49 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    .footer-container{
     width: 100%;
   } 
-  .contact,.third-contaUs-column{
-    font-size: 13px;
+  .contact{
+    font-size: 15px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    line-height: 1.7;
   }
+  .Second-contact{
+    font-size: 13px;
+    padding-left: 10px;
+    line-height: 1.7;
+
+  }
+  .footerMainCopntainer{
+    grid-template-columns: 30% 30% 30%;
+  }
+ 
   .sukriti-Logo-Container{
-    width: 90%;
+    width: 80%;
   }
   .input-point{
-    width: 90px;
+    width: 120px;
     height: 30px;
   }
   .input-point2{
-    width: 90px;
+   
+    width: 100px;
     height: 30px;
-    margin-left: 120px;
     margin-top: -50px;
+    margin-left: 130px;
   }
   .input-point3{
-    width: 200px;
-   height: 30px;
+    width: 230px;
+   height: 40px;
   }
   .textarea{
-    width: 200px;
-    height: 60px;
+    width: 230px;
+    height: 80px;
   }
   .btn-submit_butn{
     width: 150px;
     height: 50px;
   } 
-  .EightContainer{
-    display: none;
-  }
 }
 
 @media (max-width: 768px) {
@@ -635,25 +718,28 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* section seven */
     .section-seven-container{
       width: 100%;
-      height: auto;
+      
     }
-    .contact,.third-contaUs-column{
-      font-size: 12px;
+    .contact{
+      font-size: 14px;
+      display: flex;
+      /* justify-content: center; */
+    }
+    .third-contaUs-column{
+        font-size: 13px;
+        display: flex;
+
+    }
+
+    .Second-contact{
+      font-size: 13px;
+      margin-left: 20px;
+      /* display: flex; */
     }
     .sukriti-Logo-Container{
       width: 80%;
     }
-    .EightContainer{
-      display: none;
-    }
    
-}
-@media (max-width: 700px){
-  /* section seven */
-  .section-seven-container{
-    display: none;
-  }
-
 }
 
 @media (max-width: 480px) {
