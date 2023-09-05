@@ -349,7 +349,7 @@ border-top-left-radius:3px ;
     border-bottom-left-radius:4px ;
     border-top-left-radius:3px ;
 } 
-.pt,.pt2{
+.pt,.pt2,.pt3{
   font-family:"Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 16px;
   font-weight: 640;
@@ -447,11 +447,11 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 .textarea{
   width: 280px;
   height: 120px;
-  border-bottom-left-radius: 16px;
-  border-bottom-right-radius: 16px;
-  border-top-left-radius:16px ;
-  border-top-right-radius:16px ;
-  text-align: center;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius:15px ;
+  border-top-right-radius:15px ;
+  
 
 }
 .btn-submit_butn{
@@ -471,42 +471,50 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* section eight  */
+.EightContainer{
+  width: 100%;
+
+}
 .backOfEightContainer{
   width:100%;
-  height: 540px;
 }
 .logoicon{
-  margin-top: -400px;
+  margin-top: -1180px;
   text-align: center;
   justify-content: center;
   
 }
+.Form{
+  margin-top: 30px;
+  width: 100%;
+}
 .inputOne{
-     width: 130px;
+     width: 35%;
      height: 35px;
      border-bottom-left-radius: 16px;
      border-bottom-right-radius: 16px;
      border-top-left-radius:16px ;
      border-top-right-radius:16px ;
      text-align: center;
+     margin-right:35%;
 }
 
 .inputTwo{
   
-  width: 130px;
+  width: 34%;
   height: 35px;
   border-bottom-left-radius: 16px;
   border-bottom-right-radius: 16px;
   border-top-left-radius:16px ;
   border-top-right-radius:16px ;
   text-align: center;
-  margin-top: -55px;
+  margin-top: -60px;
   position: absolute; 
- /* margin-left:150px; */
+   margin-left:2%;
 
 }
 .inputThree{
-width: 280px;
+width: 72%;
 height: 35px;
 border-bottom-left-radius: 16px;
 border-bottom-right-radius: 16px;
@@ -515,31 +523,40 @@ border-top-right-radius:16px ;
 text-align: center;
 }
 .text-area{
-width: 280px;
+width: 72%;
 height: 120px;
-border-bottom-left-radius: 16px;
-border-bottom-right-radius: 16px;
-border-top-left-radius:16px ;
-border-top-right-radius:16px ;
-text-align: center;
+border-bottom-left-radius: 15px;
+border-bottom-right-radius: 15px;
+border-top-left-radius:15px ;
+border-top-right-radius:15px ;
+/* text-align: center; */
 
 }
 .submit-button{
-width: 180px;
+width: 35%;
 height: 50px;
 border-bottom-left-radius: 10px;
 border-bottom-right-radius: 10px;
 border-top-left-radius:10px ;
 border-top-right-radius:10px ;
 text-decoration: center;
-margin-left: 50px;
+margin-left: 5%;
 background-color: #00bfa5;
 color: white;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 font-size: 16px;
 
 }
-
+.address,.prevAddress{
+  margin-top: 7%;
+  color:#fff;
+  line-height: 1.9;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sukriti-Logo{
+    width:35%;
+}
 
 
 /* Media query for smaller screens */
@@ -601,7 +618,6 @@ font-size: 16px;
   }
   .Second-contact{
     font-size: 13px;
-    padding-left: 10px;
     line-height: 1.7;
 
   }
@@ -682,39 +698,8 @@ font-size: 16px;
   .recycle-water-heading-content{
     font-size: 25px;
   }
-   /* section six */
-  .iit-logo-container{
-    width: 50%;
-    height: 30%;
-   
-    }
-  
-    .pt{
-      width: 100%;
-      position: absolute;
-      margin-top: 8%;
-      font-size: 11px;
-    }
-    .pt2{
-      width: 100%;
-      position: absolute;
-      margin-top: 10%;
-      font-size: 11px;
-    }
-    .vertical-line-container,.vertical-surrrey-line-container{
-      display: none;
 
-    }
-    .surrey-logo-container{
-      width: 16%;
-      height:13% ;
-    }
-    .indian-oil-icon{
-      width: 7%;
-      height: 5%;
-      margin-top: 20px;
-
-    }
+ 
     /* section seven */
     .section-seven-container{
       width: 100%;
@@ -738,6 +723,9 @@ font-size: 16px;
     }
     .sukriti-Logo-Container{
       width: 80%;
+    }
+    .address,.prevAddress{
+      font-size:14px;
     }
    
 }
@@ -782,33 +770,61 @@ font-size: 16px;
     width: 20px;
     height: 25px;
   }
-  .iit-logo-container{
-    width: 70%;
-    }
-    .pt{
-      width: 100%;
-      position: absolute;
-      margin-top: 12%;
-      font-size: 12px;
-    }
-    .pt2{
-      width: 100%;
-      position: absolute;
-      margin-top: 12%;
-      font-size: 12px;
-      text-align: center;
+ .partner-container{
+  text-align: center;
 
-    }
-    .surrey-logo-container{
-      width: 16%;
-      height:13% ;
-    }
-    .indian-oil-icon{
-      width: 9%;
-      height: 9%;
-      margin-top: 15px;
+  }
+      .pt{
+        position: absolute;
+        margin-top: 10%;
+        font-size: 70%;
+        line-height: 1.5;
+      }
+      .pt2{
+      
+        position: absolute;
+        margin-top: 20%;
+        font-size: 70%;
+        line-height: 1.5;
+      }
+      .pt3{
+       
+        position: absolute;
+        margin-top: 20%;
+        font-size: 70%;
+        line-height: 1.5;
+      }
 
-    }
+      .vertical-line-container,.vertical-surrrey-line-container{
+        display: none;
+  
+      }
+      .iit-logo-container{
+        width: 60%;
+        height: 34%;
+       
+        }
+      
+      .surrey-logo-container{
+        width: 30%;
+        height:25% ;
+        margin-top: 8%;
+      }
+      .indian-oil-icon{
+        width: 12%;
+        height: 8%;
+        margin-top: 7%;
+        text-align: center;
+        margin-left: 10%;
+  
+      }
+      .address,.prevAddress{
+        font-size:13px;
+        line-height: 1.8;
+      }
+      .logoicon{
+        margin-top: -900px;
+      }
 }
 
 @media (max-width: 320px) {
@@ -822,11 +838,19 @@ font-size: 16px;
 }
 .pt{
   width: 100%;
-  margin-top: 12%;
+  margin-top: 10%;
   font-size: 12x;
 }
 .pt2{
-  margin-top: 15%;
+  margin-top: 20%;
   font-size: 11px;
+}
+.pt3{
+  margin-top: 20%;
+  font-size: 11px;
+}
+.sukriti-Logo{
+  margin-top: 10%;
+  /* width:50%; */
 }
 }

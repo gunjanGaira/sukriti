@@ -10,24 +10,24 @@ import renewableEnergy from "../Home/renewable-energy-icon.png";
 import smallDropIcon from "../Home/second-drop-icon.png";
 import dollerIcon from "../Home/doller-icon.png";
 import demoImage from "../Home/demo-img.png";
-import backgroundOfEcomitra from "../Home/background.png";
-import fullImageOfToilet from "../Home/toilet-full-img.JPG";
-import frontView from "../Home/front-view-of-toilet.png";
-import Image from "../Home/IMG_1087.JPG";
-import RewaterIcon from "../Home/rewater-background-icon.png";
-import shiprazRiver from "../Home/shipra-river-img.JPG";
-import BoxesIcon from "../Home/boxes-of-rewater.JPG";
-import RiverIcon from "../Home/river.JPG";
+// import backgroundOfEcomitra from "../Home/background.png";
+// import fullImageOfToilet from "../Home/toilet-full-img.JPG";
+// import frontView from "../Home/front-view-of-toilet.png";
+// import Image from "../Home/IMG_1087.JPG";
+// import RewaterIcon from "../Home/rewater-background-icon.png";
+// import shiprazRiver from "../Home/shipra-river-img.JPG";
+// import BoxesIcon from "../Home/boxes-of-rewater.JPG";
+// import RiverIcon from "../Home/river.JPG";
 import McIcon from "../Home/mc-icon.png";
-import awardIcon from "../Home/awards11.jpg";
-import indianOilIcon from "../Home/indian-oil-icon.png";
-import award2Icon from "../Home/awards2.jpg";
-import emblemIcon from "../Home/emblem-icon.png";
+// import awardIcon from "../Home/awards11.jpg";
+// import indianOilIcon from "../Home/indian-oil-icon.png";
+// import award2Icon from "../Home/awards2.jpg";
+// import emblemIcon from "../Home/emblem-icon.png";
 import iitLogo from "../Home/iit-roorkee-logo.png";
 import surreyIcon from "../Home/university-of-surrey.png";
 import IconOfIndianOil from "../Home/Icon-of-indianoil.png";
 import BackgroundContactUs from "../Home/contact-us-background.JPG";
-import secBackOfConUs from "../Home/123.PNG";
+import secBackOfConUs from "../Home/back.png";
 import IconOfLinkedin from "../Home/linkedin-icon.png";
 import IconOfFacebook from "../Home/facebook-icon.png";
 import IconOfYouTube from "../Home/youtube-icon.png";
@@ -327,7 +327,7 @@ const Home = () => {
           <div className="outer-iit-logo-container">
             <img src={IconOfIndianOil} className="indian-oil-icon" />
             <div className="vertical-surrrey-line-container" />
-            <p className="pt2">
+            <p className="pt3">
               Indian Oil is providing us with funding and
               <br />
               mentoring for the development of smart toilet
@@ -443,7 +443,7 @@ const Home = () => {
 
           <div className="third-contaUs-column" >
             <p className="Second-contact" style={{ fontSize: "15px",opacity:"0.7",lineHeight:"1.7",
-          marginTop:"-10px"}}>
+          marginTop:"-10px" }}>
               Corporate Office :<br />
               1567, Sector 15, Part II
               <br />
@@ -469,7 +469,7 @@ const Home = () => {
       {/* section eight */}
 
       <footer className="EightContainer">
-        <div>
+        <div style={{width:"100%"}}>
           <img src={secBackOfConUs} className="backOfEightContainer" />
         </div>
 
@@ -478,21 +478,21 @@ const Home = () => {
             <img
               src={IconOfLinkedin}
               className="linkedinIcon"
-              style={{ width: "70px" }}
+              style={{ width: "10%" }}
             />
             <img
               src={IconOfFacebook}
               className="facebookIcon"
-              style={{ marginLeft: "65px", width: "65px" }}
+              style={{ marginLeft: " 8%", width: "10%" }}
             />
             <img
               src={IconOfYouTube}
               className="youtubeIcon"
-              style={{ marginLeft: "65px", width: "65px" }}
+              style={{ marginLeft: "8%", width: "10%" }}
             />
           </div>
           <form action="Home.js" method="post" className="form">
-            <div className="form">
+            <div className="Form">
               <div className="form-inline">
                 <div className="inputs">
                   <input
@@ -548,7 +548,44 @@ const Home = () => {
               CONTACT US
             </button>
           </form>
-        </div>
+            <p className="address" >
+              Corporate Office :<br />
+              1567, Sector 15, Part II
+              <br />
+              Gurugram, Haryana - 122022
+              <br /> <br />
+              Production Centre :<br />
+              Sukriti Social Foundation
+              <br />
+              Opposite Vinay High School
+              <br />
+              Chandu Sultanpur Road
+              <br />
+              Near Sultanpur National Park
+              <br />
+              Gurugram, Haryana - 122022
+              <br />
+            </p>
+            <p className="prevAddress">
+                011-40196604
+                <br />
+                contact@sukriti.ngo
+                <br />
+                <br />
+                Registered Office :<br />
+                190, DDA Office Complex,
+                <br />
+                Jhandewalan Phase 1 ,Delhi 110055, India
+                <br />
+              </p>
+          </div>
+          
+              <img
+                src={LogoOfSukriti}
+                alt="logo"
+                className="sukriti-Logo "
+              />
+
       </footer>
     </div>
   );
