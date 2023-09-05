@@ -9,20 +9,8 @@ import waterCare from "../Home/water-care.png";
 import renewableEnergy from "../Home/renewable-energy-icon.png";
 import smallDropIcon from "../Home/second-drop-icon.png";
 import dollerIcon from "../Home/doller-icon.png";
-import demoImage from "../Home/demo-img.png";
-// import backgroundOfEcomitra from "../Home/background.png";
-// import fullImageOfToilet from "../Home/toilet-full-img.JPG";
-// import frontView from "../Home/front-view-of-toilet.png";
-// import Image from "../Home/IMG_1087.JPG";
-// import RewaterIcon from "../Home/rewater-background-icon.png";
-// import shiprazRiver from "../Home/shipra-river-img.JPG";
-// import BoxesIcon from "../Home/boxes-of-rewater.JPG";
-// import RiverIcon from "../Home/river.JPG";
+import demoImage from "../Home/re-img.png";
 import McIcon from "../Home/mc-icon.png";
-// import awardIcon from "../Home/awards11.jpg";
-// import indianOilIcon from "../Home/indian-oil-icon.png";
-// import award2Icon from "../Home/awards2.jpg";
-// import emblemIcon from "../Home/emblem-icon.png";
 import iitLogo from "../Home/iit-roorkee-logo.png";
 import surreyIcon from "../Home/university-of-surrey.png";
 import IconOfIndianOil from "../Home/Icon-of-indianoil.png";
@@ -571,11 +559,12 @@ const Home = () => {
                 <br />
                 contact@sukriti.ngo
                 <br />
-                <br />
                 Registered Office :<br />
                 190, DDA Office Complex,
                 <br />
-                Jhandewalan Phase 1 ,Delhi 110055, India
+                Jhandewalan Phase 1 ,
+                <br />
+                Delhi 110055, India
                 <br />
               </p>
           </div>
