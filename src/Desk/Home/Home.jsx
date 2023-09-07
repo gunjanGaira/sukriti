@@ -44,14 +44,16 @@ const Home = () => {
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
-          paddingTop: "50%",
+          paddingTop: "43%",
           position: "relative",
+          width:"100%"
         }}
       >
         <p className="Banner-text">
           Sustainable creations for <span id="banner-text">you</span>
         </p>
       </div>
+
       {/* section two */}
       <div className="below-banner">
         <div>
@@ -86,7 +88,6 @@ const Home = () => {
       </div>
 
       {/* section three */}
-
       <div className="col-main-content">
         <div className="col-ecolats">
           <p className="heading-content">SMART PUBLIC TOILETS</p>
@@ -128,8 +129,6 @@ const Home = () => {
               <p className="p-text"> Works on renewable energy</p>
             </div>
 
-            {/* </div> */}
-
             <p className="p-text5">
               <a href="Ecomitra">
                 <input type="button" name="learn" value="LEARN MORE" />
@@ -143,8 +142,7 @@ const Home = () => {
       </div>
 
       {/* section four */}
-
-      <div className="col-main-content">
+      <div className="main-content">
         <div className="col-ecolats-left">
           <img src={demoImage} alt="" className="demo_img" />
         </div>
@@ -327,12 +325,11 @@ const Home = () => {
       </div>
 
       {/*section seven */}
-
       <footer className="footer-container">
         <img src={BackgroundContactUs} className="section-seven-container" />
 
         <div className="Footer-content-container">
-          <div className="first-contaUs-column">
+          <div className="first-contaUs-column"style={{justifySelf:"center"}}>
             <div className="footerMainCopntainer">
               <img src={IconOfLinkedin} className="linkedinIcon" />
               <img src={IconOfFacebook} className="facebookIcon" />
@@ -349,7 +346,9 @@ const Home = () => {
                 Registered Office :<br />
                 190, DDA Office Complex,
                 <br />
-                Jhandewalan Phase 1 ,Delhi 110055, India
+                Jhandewalan Phase 1 ,
+                <br />
+                Delhi 110055, India
                 <br />
               </p>
             </div>
@@ -361,14 +360,8 @@ const Home = () => {
               />
             </div>
           </div>
-          <div className="second-contaUs-column">
-            <div
-              style={
-                {
-                  // marginTop: "100px"
-                }
-              }
-            >
+          <div className="second-contaUs-column"style={{justifySelf:"center"}}>
+            <div>
               <form action="Home.js" method="post" className="form">
                 <div className="form-group">
                   <div className="form-inline">
@@ -429,7 +422,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="third-contaUs-column" >
+          <div className="third-contaUs-column" style={{justifySelf:"center"}}>
             <p className="Second-contact" style={{ fontSize: "15px",opacity:"0.7",lineHeight:"1.7",
           marginTop:"-10px" }}>
               Corporate Office :<br />
@@ -452,10 +445,8 @@ const Home = () => {
           </div>
         </div>
       </footer>
-      {/* </div> */}
 
       {/* section eight */}
-
       <footer className="EightContainer">
         <div style={{width:"100%"}}>
           <img src={secBackOfConUs} className="backOfEightContainer" />
@@ -576,6 +567,8 @@ const Home = () => {
               />
 
       </footer>
+
+
     </div>
   );
 };

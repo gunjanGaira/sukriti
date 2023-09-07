@@ -55,7 +55,7 @@
 }
 
 /* section two */
-.col-main-content {
+.col-main-content,.main-content {
   display: flex;
   flex-direction: row; 
   justify-content: space-between; 
@@ -353,7 +353,7 @@ border-top-left-radius:3px ;
   font-family:"Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 16px;
   font-weight: 640;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 
 .surrey-logo-container{
@@ -376,7 +376,10 @@ border-top-left-radius:3px ;
 }
 .footerMainCopntainer{
   display: grid;
-  grid-template-columns: 20% 20% 20%;
+  grid-template-columns: .3fr .3fr .3fr;
+}
+.linkedinIcon,.facebookIcon,.youtubeIcon{
+  width:60%;
 }
 
 .Footer-content-container{
@@ -447,10 +450,10 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 .textarea{
   width: 280px;
   height: 120px;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-  border-top-left-radius:15px ;
-  border-top-right-radius:15px ;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius:5px ;
+  border-top-right-radius:5px ;
   
 
 }
@@ -480,13 +483,13 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   height: 1350px;
 }
 .logoicon{
-  margin-top: -1150px;
+  margin-top: -1200px;
   text-align: center;
   justify-content: center;
   
 }
 .Form{
-  margin-top: 10px;
+  margin-top: 10%;
   width: 100%;
 }
 .inputOne{
@@ -526,10 +529,10 @@ text-align: center;
 .text-area{
 width: 72%;
 height: 120px;
-border-bottom-left-radius: 15px;
-border-bottom-right-radius: 15px;
-border-top-left-radius:15px ;
-border-top-right-radius:15px ;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+border-top-left-radius:5px ;
+border-top-right-radius:5px ;
 /* text-align: center; */
 
 }
@@ -549,19 +552,20 @@ font-size: 16px;
 
 }
 .address,.prevAddress{
-  margin-top: 8%;
+  margin-top: 9%;
   color: #fff;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.7;
-  font-size: 20px;
+  line-height: 1.8;
+  font-size: 18px;
 }
 .sukriti-Logo{
-  width:45%;
+  width:40%;
+  margin-top: 2%;
 }
 
 
 /* Media query for smaller screens */
-@media(min-width:700px) and (max-width: 2550px){
+@media(min-width:700px) and (max-width: 2560px){
   /* section eight */
   .EightContainer{
     display: none;
@@ -623,11 +627,13 @@ font-size: 16px;
 
   }
   .footerMainCopntainer{
-    grid-template-columns: 30% 30% 30%;
+    column-gap: 10%;
+    margin-left: 45px;
   }
  
   .sukriti-Logo-Container{
-    width: 80%;
+    width: 89%;
+    margin-left: 10%;
   }
   .input-point{
     width: 120px;
@@ -670,6 +676,12 @@ font-size: 16px;
   .col-main-content {
     flex-direction: column; /* Stack items vertically */
   }
+  .main-content{
+   flex-direction: column-reverse;
+  }
+  .demo_img{
+    margin-left: -10pxb ;
+  }
 /* third and fourth section */
   .col-ecolats-left,
   .col-ecolats-right,.belw-ban-inr-con {
@@ -701,76 +713,74 @@ font-size: 16px;
   }
 
  
-    /* section seven */
+ /* section seven */
+ .footerMainCopntainer{
+  /* grid-template-columns: 30% 30% 30%; */
+  column-gap: 0%;
+  margin-left: 11%;
+}
     .section-seven-container{
       width: 100%;
       
+    }
+    .linkedinIcon,.facebookIcon,.youtubeIcon{
+      width:60%;
     }
     .contact{
       font-size: 14px;
       display: flex;
       /* justify-content: center; */
     }
-    .third-contaUs-column{
+    .third-contaUs-column,.Second-contact{
         font-size: 13px;
         display: flex;
+        line-height: 1.8;
 
-    }
-
-    .Second-contact{
-      font-size: 13px;
-      margin-left: 20px;
-      /* display: flex; */
     }
     .sukriti-Logo-Container{
-      width: 80%;
+      width: 92%;
+      margin-left: 10px;
     }
    
 }
 
 @media(max-width:650px){
   .address,.prevAddress{
-    margin-top: 8%;
-    color: #fff;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.7;
-    font-size: 19px;
+    margin-top: 9%;
+    line-height: 1.8;
+    font-size: 15px;
   }
-  .Form{
-    margin-top: 10%;
+  .backOfEightContainer{
+    width:100%;
+    height: 1270px;
+  }
+  .logoicon{
+    margin-top: -1100px;
   }
   .sukriti-Logo{
     width:40%;
-    margin-top: 2%;
-    margin-bottom: 1%;
-  }
-  .logoicon{
-    margin-top: -1175px;
-
-  }
-
-}
-@media(max-width:600px){
-
-  .logoicon{
-    margin-top: -1150px;
-
   }
 }
 
 @media(max-width:550px){
-  .logoicon{
-    margin-top: -1150px;
-
-  }
   .address,.prevAddress{
     margin-top: 8%;
     line-height: 1.8;
-    font-size: 19px;
+    font-size: 14px;
   }
-
+  .backOfEightContainer{
+    width:100%;
+    height: 1150px;
+  }
+  .logoicon{
+    margin-top: -1000px;
+  }
+  .sukriti-Logo{
+    width:40%;
+  }
 }
 @media (max-width: 480px) {
+  /* section one */
   .Banner-text {
     font-size: 20px; /* Adjust font size for even smaller screens */
   }
@@ -781,6 +791,7 @@ font-size: 16px;
   }
   
    .belw-ban-inr-con,.belw-ban-inr-con,.commanText{
+    width: 100%;
     text-align: center;
     font-size: 12px;
 
@@ -788,7 +799,15 @@ font-size: 16px;
   .common-img {
     width: 25px;
   }
-  .elats_right,.elats_left,.PERA_text,.PERA_text_form,.belw-ban-inr-con{
+  /* section three and four */
+  .col-ecolats,.col-ecolats-left{
+    margin-left:20px;
+  }
+  .responsive-image,.demo_img{
+    margin-left:-10px;
+
+  }
+  .elats_right,.elats_left,.PERA_text,.PERA_text_form{
     font-size: 16px;
   }
   
@@ -810,10 +829,12 @@ font-size: 16px;
     width: 20px;
     height: 25px;
   }
+  /* section five */
  .partner-container{
   text-align: center;
 
   }
+  /* section six */
       .pt{
         position: absolute;
         margin-top: 10%;
@@ -855,14 +876,46 @@ font-size: 16px;
         height: 8%;
         margin-top: 7%;
         text-align: center;
-        margin-left: 10%;
+        /* margin-left: 10%; */
   
       }
+      /* section seven */
+
+      /* section  eight */
       .address,.prevAddress{
-        margin-top: 8%;
-        line-height: 1.9;
-        font-size: 19px;
+        margin-top: 6%;
+        line-height: 1.7;
+        font-size: 16px;
       }
+      .backOfEightContainer{
+        width:100%;
+        height: 1100px;
+      }
+      .logoicon{
+        margin-top: -980px;
+      }
+      .sukriti-Logo{
+        width:37%;
+      }
+}
+@media(max-width:400px)
+{
+  .address,.prevAddress{
+    margin-top: 7%;
+    line-height: 1.7;
+    font-size: 13px;
+  }
+  .backOfEightContainer{
+    width:100%;
+    height: 1000px;
+  }
+  .logoicon{
+    margin-top: -870px;
+  }
+  .sukriti-Logo{
+    margin-top: 2%;
+    width:37%;
+  }
 }
 
 @media (max-width: 320px) {

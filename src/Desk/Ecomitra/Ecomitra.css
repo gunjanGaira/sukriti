@@ -1,0 +1,64 @@
+.eco-container{
+    width: 100%;
+ }
+ .img-eco-container{
+    width: 100%;
+ }
+#bannerTextEcolat{
+     width: 100%;
+     position: absolute;
+     top: 75%;
+     transform: translateY(-50%);
+     line-height: 1.19;
+     justify-content: center;
+     text-align: center;
+     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+     text-shadow: black 2px 5px 16px;
+     color: #fff;
+     font-weight: 650;
+     font-size: 56px; 
+   }
+/* section two */
+.container-fluid-slide1{
+    width: 100%;
+}
+.image-Con{
+    width: 100%;
+    display: flex;
+}
+.heading-content-elat_h{
+    width: 100%;
+    padding: 30px 18px;
+    text-align: center;
+    font-size: 20px;
+    font-weight:650 ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+   /* media query */
+   @media (max-width: 1024px) {
+    /* section one */
+    #bannerTextEcolat{
+        font-size: 42px;
+    }
+  }
+  @media (max-width: 768px) {
+    /* section one */
+    #bannerTextEcolat{
+        font-size: 28px;
+    }
+}
+@media (max-width: 480px) {
+    /* section one */
+    #bannerTextEcolat{
+        font-size: 20px;
+    }
+}
+@media (max-width: 320px) {
+    /* section one */
+    #bannerTextEcolat{
+        font-size: 15px;
+    }
+}
+
