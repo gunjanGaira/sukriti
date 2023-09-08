@@ -1,3 +1,4 @@
+/* section one */
 .eco-container{
     width: 100%;
  }
@@ -27,13 +28,48 @@
     display: flex;
 }
 .heading-content-elat_h{
-    width: 100%;
     padding: 30px 18px;
     text-align: center;
     font-size: 20px;
     font-weight:650 ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+/* section three */
+.challenges_container{
+    margin-top: 5%;
+    width: 100%;
+    text-align: center;
+}
+.headingOfChallenges{
+    font-size: 17px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.keys_con{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.fectorImg{
+    width:50px;
+    height: 50px;
+}
+.keyPera{
+    width: 100%;
+    text-align: center;
+}
+.key1,.key2,.key3{
+    display: flex;
+}
+.peraKey{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 640;
+}
+.LONG-PERA{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+/* section four */
 
 
    /* media query */
@@ -42,23 +78,105 @@
     #bannerTextEcolat{
         font-size: 42px;
     }
+    /* section two */
+    .heading-content-elat_h{
+        font-size: 18px;
+    }
+    /* section three */
+    .peraKey{
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .fectorImg{
+        width:40px;
+        height: 40px;
+    }
+
   }
   @media (max-width: 768px) {
     /* section one */
     #bannerTextEcolat{
         font-size: 28px;
     }
+     /* section two */
+     .heading-content-elat_h{
+        font-size: 16px;
+    }
+    /* section three */
+    .keys_con{
+        flex-direction: column;
+        text-align: center;
+
+    }
+    .key1,.key2,.key3{
+        margin-left:30%;
+    }
+    .fectorImg{
+        width:35px;
+        height: 35px;
+    }
+    .peraKey{
+        margin-top: -1px;
+        margin-left: 10px;
+        font-size: 13px;
+    }
+    .headingOfChallenges{
+        font-size: 14px;
+    }
+    .LONG-PERA{
+        font-size: 14px;
+    }
+    /* section four */
+    .solution-Container{
+      margin-left: 30%;
+    }
+    
 }
 @media (max-width: 480px) {
     /* section one */
     #bannerTextEcolat{
         font-size: 20px;
     }
+     /* section two */
+     .heading-content-elat_h{
+        font-size: 14px;
+    }
+    /* section three */
+    .key1,.key2,.key3{
+        margin-left:30%;
+    }
+    .peraKey{
+        font-size: 11px;
+        justify-self: center;
+    }
+    .fectorImg{
+        width:20px;
+        height: 25px;
+    }
+    .headingOfChallenges{
+        font-size: 12px;
+    }
+    .LONG-PERA{
+        font-size: 11px;
+    }
+
 }
 @media (max-width: 320px) {
     /* section one */
     #bannerTextEcolat{
         font-size: 15px;
+    }
+     /* section two */
+     .heading-content-elat_h{
+        font-size: 11px;
+    }
+    /* section three */
+    .peraKey{
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    .key1,.key2,.key3{
+        margin-left:20%;
     }
 }
 
