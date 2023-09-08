@@ -15,7 +15,9 @@ import wasteWaterIcon from "../Ecomitra/water-treatment-icon.png";
 import healthMonitoring from "../Ecomitra/smart-health-icon.svg";
 import solarEnergy from "../Ecomitra/solar-energy.svg";
 import robustStructure from "../Ecomitra/Robust-Structure.svg";
-
+import EcoVideo from "../Ecomitra/eco-video.mp4";
+import playIcon from "../Ecomitra/play.png";
+import VideoImage from "../Ecomitra/video-img(2).png";
 
 const Ecomitra = () => {
   return (
@@ -177,83 +179,101 @@ const Ecomitra = () => {
           </p>
         </div>
       </div>
+
       {/* section four */}
-
-      <div>
-
+      <div className="mainCon">
         <div>
-          <p>ECOMITRA </p>
-          <span>
-            <span>:</span> A SMART SOLUTION
-          </span>
-          <hr />
+        <div>
+          <p className="H_of_smrt_sluton">
+            ECOMITRA
+            <span> : A SMART SOLUTION </span>
+          </p>
+          {/* <hr /> */}
         </div>
 
         <div className="solution-Container">
-            <div style={{display:"flex"}} >
-              <img src={smartHygieneIcon} />
-              <p>
-                <span>Smart hygiene maintenance: </span>
-                eliminates manual cleaning with auto<br/> flushing and floor
-                cleaning. It also decides the optimum water required.
-              </p>
+          <div style={{ display: "flex" }}>
+            <img src={smartHygieneIcon} />
+            <p className="pera-solution-Container">
+              <span>Smart hygiene maintenance: </span>
+              eliminates manual cleaning with auto
+              <br /> flushing and floor cleaning. It also decides the optimum
+              water required.
+            </p>
           </div>
 
-            <div style={{display:"flex"}}>
-              <img src={smartentryIcon} />
-             <p>
-                <span>Smart entry management:</span>
-                stops user entry in case of empty water <br/> tanks or chokes, a
-                patented sensorless tech. <br />
-              </p>
+          <div style={{ display: "flex" }}>
+            <img src={smartentryIcon} />
+            <p className="pera-solution-Container">
+              <span>Smart entry management:</span>
+              stops user entry in case of empty water <br /> tanks or chokes, a
+              patented sensorless tech. <br />
+            </p>
           </div>
 
-          <div style={{display:"flex"}}>
-              <img src={wasteWaterIcon}/>
-              <p>
-                <span>On-site waste water treatment:</span>
-                saves 80% water by recycling it for <br/> flushing, floor cleaning,
-                etc. A patented model, it is maintenance free <br/> with zero
-                operational costs.
-                <br />
-              </p>
+          <div style={{ display: "flex" }}>
+            <img
+              src={wasteWaterIcon}
+              style={{ width: "30px", height: "30px", marginTop: "3%" }}
+            />
+            <p className="pera-solution-Container">
+              <span>On-site waste water treatment:</span>
+              saves 80% water by recycling it for <br /> flushing, floor
+              cleaning, etc. A patented model, it is maintenance free <br />{" "}
+              with zero operational costs.
+              <br />
+            </p>
           </div>
 
-          <div style={{display:"flex"}}>
-              <img src={healthMonitoring} />
-             <p>
-                <span>Smart health monitoring:</span>
-                conveys maintenance schedule to central <br/> monitoring station based
-                on the toilet’s health.
-                <br />
-              </p>
+          <div style={{ display: "flex" }}>
+            <img src={healthMonitoring} />
+            <p className="pera-solution-Container">
+              <span>Smart health monitoring:</span>
+              conveys maintenance schedule to central <br /> monitoring station
+              based on the toilet’s health.
+              <br />
+            </p>
           </div>
 
-
-          <div style={{display:"flex"}}>
-              <img src={solarEnergy}/>
-              <p>
-                <span>Runs on solar energy:</span> no grid connection needed.
-                <br />
-              </p>
+          <div style={{ display: "flex" }}>
+            <img src={solarEnergy} />
+            <p className="pera-solution-Container">
+              <span>Runs on solar energy:</span> no grid connection needed.
+              <br />
+            </p>
           </div>
 
-          <div style={{display:"flex"}}>
-              <img src={robustStructure} />
-              <p>
-                <span>Robust Structure:</span>
-                Our toilet is a strong and robust RCC superstructure.<br/> The use of
-                metallic fixtures and sturdy fittings ensure their use over a<br/>
-                long period of time and reduce the probability and need of <br/>
-                replacement.
-                <br />
-              </p>
+          <div style={{ display: "flex" }}>
+            <img src={robustStructure} />
+            <p className="pera-solution-Container">
+              <span>Robust Structure:</span>
+              Our toilet is a strong and robust RCC superstructure.
+              <br /> The use of metallic fixtures and sturdy fittings ensure
+              their use over a<br />
+              long period of time and reduce the probability and need of <br />
+              replacement.
+              <br />
+            </p>
           </div>
-
-
         </div>
-      </div>
+     </div>
+      <div>
+        <div class="ev_container">
+        <img id="play_btn" class="e_play_btn" src={playIcon} />
+          <video
 
+            className="eco-vi-Img"
+            poster={VideoImage}
+            src={EcoVideo}
+            type="video/mp4"
+            
+          ></video>
+          {/* <img id="play_btn" class="e_play_btn" src={playIcon} /> */}
+        </div>
+
+      </div>
+  </div>
+      
     </div>
   );
 };

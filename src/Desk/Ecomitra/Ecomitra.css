@@ -66,11 +66,45 @@
     font-weight: 640;
 }
 .LONG-PERA{
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
-/* section four */
+ /* section four */
+ .mainCon{
+    display: flex;
+    width: 100%;
+    margin-top: 7%;
+    justify-content: space-evenly;
+}
+.solution-Container{
+  margin-top:3%;
+}
+.H_of_smrt_sluton{
+    margin-left: 8%;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 650;
+    opacity: 0.9;
+}
+.pera-solution-Container{
+    margin-left: 2%;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
+}
+.eco-vi-Img{
+    margin-top: 10%;
+    height: 50%;
+    width: 85%;
+    position: relative;
+    opacity: 0.7;
+    object-fit: cover;
+}
+.e_play_btn{
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 20%;
+}
 
    /* media query */
    @media (max-width: 1024px) {
@@ -127,10 +161,31 @@
         font-size: 14px;
     }
     /* section four */
-    .solution-Container{
-      margin-left: 30%;
+    .pera-solution-Container{
+        font-size: 14px;
     }
-    
+    /* .ev_container{
+        margin-top: 10%;
+    } */
+    .eco-vi-Img{
+        height: 37%;
+        width: 27%;
+        position: relative;
+        opacity: 0.7;
+        object-fit: cover;
+        margin-left: 60%;
+        margin-top: -8%;
+    }
+    .e_play_btn{
+        position: absolute;
+        margin-left: 15%;
+        margin-top: 20%;
+    }
+    .mainCon{
+        display: flex;
+        width: 100%;
+        flex-direction: column-reverse;
+    }
 }
 @media (max-width: 480px) {
     /* section one */
@@ -158,6 +213,16 @@
     }
     .LONG-PERA{
         font-size: 11px;
+    }
+    /* section four */
+    .pera-solution-Container{
+        font-size: 13px;
+    }
+    .solution-Container{
+        margin-left: 2%;
+    }
+    .H_of_smrt_sluton{
+        margin-left: 3%;
     }
 
 }
