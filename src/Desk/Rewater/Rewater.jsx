@@ -1,6 +1,14 @@
 import React from "react";
 import "./Rewater.css";
 import RewaterImage from "../Rewater/rewater-banner.png";
+import ImageOne from "../Rewater/group-26@3x.jpg";
+import ImageTwo from "../Rewater/group-26-copy-3@2x.jpg";
+import ImageThree from "../Rewater/group-29@3x.jpg";
+import Imagefour from "../Rewater/group-26-copy-2@3x.jpg";
+
+
+
+
 
 const Rewater = () => {
   return (
@@ -8,7 +16,7 @@ const Rewater = () => {
       {/* section one */}
       <div className=".rewater_banner">
         <div
-          className="imgContent"
+          className="img-Content"
           style={{
             backgroundImage: `url(${RewaterImage})`,
             backgroundSize: "cover",
@@ -16,7 +24,6 @@ const Rewater = () => {
             backgroundPosition: "center",
             paddingTop: "43%",
             position: "relative",
-            width: "100%",
           }}
         >
           <p className="Text-of-Banner">
@@ -47,23 +54,23 @@ const Rewater = () => {
         </div>
 
         <div>
-          <img src="assets/ngo/group-26@3x.jpg" />
+          {/* <img src={ImageOne} /> */}
         </div>
         <div>
-          <img src="assets/ngo/group-26-copy-3@2x.jpg" />
+          {/* <img src={ImageTwo} /> */}
         </div>
         <div>
-          <img src="assets/ngo/group-29@3x.jpg" />
-        </div>
-
-        <div>
-          <img src="assets/ngo/group-26-copy-2@3x.jpg" />
+          {/* <img src={ImageThree} /> */}
         </div>
 
         <div>
-          <svg viewbox="0 0 16000 16000">
+          {/* <img src={Imagefour} /> */}
+        </div>
+
+        <div>
+          {/* <svg viewbox="0 0 16000 16000">
             <circle class="b" cx="8000" cy="8000" r="5000"></circle>
-          </svg>
+          </svg> */}
         </div>
         </div>
       </div>

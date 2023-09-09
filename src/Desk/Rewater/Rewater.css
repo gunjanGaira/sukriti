@@ -2,6 +2,9 @@
 .rewater_banner{
     width:100%;
 }
+.img-Content{
+  width: 100%;
+}
 .Text-of-Banner{
     width: 100%;
     position: absolute;
@@ -30,7 +33,7 @@
   .carousel_images{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
   }
   /* section three */
@@ -53,12 +56,22 @@
     .Text-of-Banner{
         font-size: 35px;
     }
+    /* section two */
+    .carousel-content-pera{
+      font-size: 16px;
+
+    }
 
 }
 @media (max-width:786px){
     /* section one */
     .Text-of-Banner{
         font-size: 24px;
+    }
+    /* section two */
+    .carousel-content-pera{
+      font-size: 14px;
+
     }
 
     
@@ -67,6 +80,11 @@
     /* section one */
     .Text-of-Banner{
         font-size: 16px;
+    }
+    /* section two */
+    .carousel-content-pera{
+      font-size: 12px;
+
     }
 
     
