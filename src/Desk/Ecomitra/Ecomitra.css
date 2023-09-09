@@ -105,9 +105,246 @@
     margin-left: 15%;
     margin-top: 20%;
 }
+/* section five */
+.memories-content{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+    width: 100%;
+    background-color: #00bfa5;
+}
+/* section six */
+.impect_container{
+    margin-top: 8%;
+    width: 100%;
+}
+.impe{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 650;
+}
+.impe_content{
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+
+}
+/* section seven */
+.section-seven-container{
+    width:100%;
+    height: 530px;
+  
+  }
+  .footerMainCopntainer{
+    display: grid;
+    grid-template-columns: .3fr .3fr .3fr;
+  }
+  .linkedinIcon,.facebookIcon,.youtubeIcon{
+    width:60%;
+  }
+  
+  .Footer-content-container{
+    margin-top: -400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 5%;
+  }
+  .sukriti-Logo-Container{
+    width: 80%;
+    margin-top: 20px;
+  }
+  .first-contaUs-column{
+    justify-content: space-evenly;
+  }
+  .contact,.Second-contact{
+    width: 100%;
+    color: #fff;
+    font-size: 15x;
+    opacity: 0.7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    white-space: 2px;
+    line-height: 1.5;
+  }
+  .form-container{
+    color: #fff;
+   font-size: 17px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  }
+  .form-group{
+    width: 100%;
+  }
+   .input-point{
+       width: 130px;
+       height: 35px;
+       border-bottom-left-radius: 16px;
+       border-bottom-right-radius: 16px;
+       border-top-left-radius:16px ;
+       border-top-right-radius:16px ;
+       text-align: center;
+    
+    
+  }
+  .input-point2{
+    
+       width: 130px;
+       height: 35px;
+       border-bottom-left-radius: 16px;
+       border-bottom-right-radius: 16px;
+       border-top-left-radius:16px ;
+       border-top-right-radius:16px ;
+       text-align: center;
+       margin-top: -55px;
+       position: absolute; 
+       margin-left: 150px;
+    
+  }
+  .input-point3{
+    width: 280px;
+    height: 35px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-top-left-radius:16px ;
+    border-top-right-radius:16px ;
+    text-align: center;
+  }
+  .textarea{
+    width: 280px;
+    height: 120px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius:5px ;
+    border-top-right-radius:5px ;
+    
+  
+  }
+  .btn-submit_butn{
+    width: 180px;
+    height: 50px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+    text-decoration: center;
+    margin-left: 50px;
+     background-color: #00bfa5;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+  
+  }
+  
+  /* section eight */
+  .EightContainer{
+    width: 100%;
+  
+  }
+  .backOfEightContainer{
+    width:100%;
+    height: 1350px;
+  }
+  .logoicon{
+    margin-top: -1200px;
+    text-align: center;
+    justify-content: center;
+    
+  }
+  .Form{
+    margin-top: 10%;
+    width: 100%;
+  }
+  .inputOne{
+       width: 35%;
+       height: 35px;
+       border-bottom-left-radius: 16px;
+       border-bottom-right-radius: 16px;
+       border-top-left-radius:16px ;
+       border-top-right-radius:16px ;
+       text-align: center;
+       margin-right:35%;
+  }
+  
+  .inputTwo{
+    
+    width: 34%;
+    height: 35px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-top-left-radius:16px ;
+    border-top-right-radius:16px ;
+    text-align: center;
+    margin-top: -60px;
+    position: absolute; 
+     margin-left:2%;
+  
+  }
+  .inputThree{
+  width: 72%;
+  height: 35px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  border-top-left-radius:16px ;
+  border-top-right-radius:16px ;
+  text-align: center;
+  }
+  .text-area{
+  width: 72%;
+  height: 120px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius:5px ;
+  border-top-right-radius:5px ;
+  /* text-align: center; */
+  
+  }
+  .submit-button{
+  width: 35%;
+  height: 50px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius:10px ;
+  border-top-right-radius:10px ;
+  text-decoration: center;
+  margin-left: 5%;
+  background-color: #00bfa5;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  
+  }
+  .address,.prevAddress{
+    margin-top: 9%;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.8;
+    font-size: 18px;
+  }
+  .sukriti-Logo{
+    width:40%;
+    margin-top: 2%;
+  }
+
+
+
 
    /* media query */
-   @media (max-width: 1024px) {
+@media(min-width:700px) and (max-width: 2560px){
+    /* section six */
+    .EightContainer{
+      display: none;
+    }
+  }
+@media(min-width:0px) and (max-width: 699px){
+    /* section seven */
+    .footer-container{
+      display: none;
+    }
+}
+ @media (max-width: 1024px) {
     /* section one */
     #bannerTextEcolat{
         font-size: 42px;
@@ -127,7 +364,7 @@
     }
 
   }
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
     /* section one */
     #bannerTextEcolat{
         font-size: 28px;
@@ -164,29 +401,105 @@
     .pera-solution-Container{
         font-size: 14px;
     }
-    /* .ev_container{
-        margin-top: 10%;
-    } */
     .eco-vi-Img{
         height: 37%;
         width: 27%;
         position: relative;
         opacity: 0.7;
         object-fit: cover;
-        margin-left: 60%;
+        margin-left:58%;
         margin-top: -8%;
     }
     .e_play_btn{
         position: absolute;
-        margin-left: 15%;
-        margin-top: 20%;
+        margin-left: 64%;
+        margin-top: -3%;
     }
     .mainCon{
         display: flex;
         width: 100%;
         flex-direction: column-reverse;
     }
+    /* section six */
+    .impe_content{
+        font-size: 14px;
+        line-height: 1.6;
+    
+    }
+    /* section seven */
+     .row-first,.row-second{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .row-second{
+      margin-left: -20%;
+
+    }
+    .footerMainCopntainer{
+      /* grid-template-columns: 30% 30% 30%; */
+      column-gap: 0%;
+      margin-left: 11%;
+    }
+        .section-seven-container{
+          width: 100%;
+          
+        }
+        .linkedinIcon,.facebookIcon,.youtubeIcon{
+          width:60%;
+        }
+        .contact{
+          font-size: 14px;
+          display: flex;
+          /* justify-content: center; */
+        }
+        .third-contaUs-column,.Second-contact{
+            font-size: 13px;
+            display: flex;
+            line-height: 1.8;
+    
+        }
+        .sukriti-Logo-Container{
+          width: 92%;
+          margin-left: 10px;
+        }
+       
+    
 }
+@media(max-width:650px){
+    .address,.prevAddress{
+      margin-top: 9%;
+      line-height: 1.8;
+      font-size: 15px;
+    }
+    .backOfEightContainer{
+      width:100%;
+      height: 1270px;
+    }
+    .logoicon{
+      margin-top: -1100px;
+    }
+    .sukriti-Logo{
+      width:40%;
+    }
+  }
+  @media(max-width:550px){
+    .address,.prevAddress{
+      margin-top: 8%;
+      line-height: 1.8;
+      font-size: 14px;
+    }
+    .backOfEightContainer{
+      width:100%;
+      height: 1150px;
+    }
+    .logoicon{
+      margin-top: -1000px;
+    }
+    .sukriti-Logo{
+      width:40%;
+    }
+  }
 @media (max-width: 480px) {
     /* section one */
     #bannerTextEcolat{
@@ -224,7 +537,79 @@
     .H_of_smrt_sluton{
         margin-left: 3%;
     }
+    .eco-vi-Img{
+        height: 37%;
+        width: 27%;
+        position: relative;
+        opacity: 0.7;
+        object-fit: cover;
+        margin-left:58%;
+        margin-top: -7%;
+    }
+    .e_play_btn{
+        position: absolute;
+        width: 13%;
+        margin-left: 64%;
+        margin-top: -2%;
+    }
+    .mainCon{
+        display: flex;
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+     /* section six */
+     .impe_content{
+        font-size: 12px;
+        line-height: 1.6;
+        margin-left: 3%;
+        margin-right: 3%;
+    
+    }
+    .impe{
+        font-size: 15px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 650;
+    }
+    /* section seven */
 
+      /* section  eight */
+      .address,.prevAddress{
+        margin-top: 6%;
+        line-height: 1.7;
+        font-size: 16px;
+      }
+      .backOfEightContainer{
+        width:100%;
+        height: 1100px;
+      }
+      .logoicon{
+        margin-top: -980px;
+      }
+      .sukriti-Logo{
+        width:37%;
+      }
+    
+
+    
+
+}
+@media(max-width:400px) {
+    .address,.prevAddress{
+    margin-top: 7%;
+    line-height: 1.7;
+    font-size: 13px;
+  }
+  .backOfEightContainer{
+    width:100%;
+    height: 1000px;
+  }
+  .logoicon{
+    margin-top: -870px;
+  }
+  .sukriti-Logo{
+    margin-top: 2%;
+    width:37%;
+  }
 }
 @media (max-width: 320px) {
     /* section one */

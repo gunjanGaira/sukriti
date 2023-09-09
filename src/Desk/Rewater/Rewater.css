@@ -1,0 +1,83 @@
+/* .section first */
+.rewater_banner{
+    width:100%;
+}
+.Text-of-Banner{
+    width: 100%;
+    position: absolute;
+    top: 68%;
+    transform: translateY(-35%);
+    line-height: 1.19;
+    justify-content: center;
+    text-align: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: black 2px 5px 16px;
+    color: #fff;
+    font-weight: 650;
+    font-size: 50px; 
+  }
+
+  /* section two */
+  .recycleContainer{
+    width:100%;
+    margin-top: 7%;
+  }
+  .pera-of-rcyl{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+  }
+  .carousel_images{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /* section three */
+  .carousel-content{
+    width: 100%;
+    text-align: center;
+  }
+  .carousel-content-pera{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 16px;
+    line-height: 1.7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+
+  /* media query */
+@media (max-width:1024px){
+    /* section one */
+    .Text-of-Banner{
+        font-size: 35px;
+    }
+
+}
+@media (max-width:786px){
+    /* section one */
+    .Text-of-Banner{
+        font-size: 24px;
+    }
+
+    
+}
+@media (max-width:480px){
+    /* section one */
+    .Text-of-Banner{
+        font-size: 16px;
+    }
+
+    
+}
+@media (max-width:320px){
+    /* section one */
+    .Text-of-Banner{
+        font-size: 13px;
+    }
+
+    
+}
+
+

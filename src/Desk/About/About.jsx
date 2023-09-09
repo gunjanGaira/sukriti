@@ -222,7 +222,6 @@ const About = () => {
       </div>
     
     {/* section five  */}
-     {/*section seven */}
      <footer className="footer-container">
         <img src={BackgroundContactUs} className="section-seven-container" />
 
@@ -344,7 +343,7 @@ const About = () => {
         </div>
       </footer>
 
-      {/* section eight */}
+      {/* section six */}
       <footer className="EightContainer">
         <div style={{width:"100%"}}>
           <img src={secBackOfConUs} className="backOfEightContainer" />
