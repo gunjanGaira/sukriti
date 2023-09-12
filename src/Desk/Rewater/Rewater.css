@@ -127,16 +127,25 @@
     }
     .rivar-imag{
       width: 35%;
-      margin-top: -29%;
-      margin-left: 76%;
+      margin-top: -22%;
+      margin-left: 68%;
     }
 
     .play_ic{
       position: absolute;
-        margin-left: 87%;
-        margin-top: -18%;
+        margin-left: 78%;
+        margin-top: -12%;
     }
-    
+    .inner-regenrating-container {
+      margin-top: 14%;
+  }
+  .rewater_heading{
+    font-size:19px;
+    width:70%;
+  }
+  .rewater_pera{
+    font-size: 15px;
+  }
 
     
 }
@@ -154,6 +163,26 @@
       font-size: 12px;
 
     }
+    /* section four */
+    .rewater_heading{
+      font-size:16px;
+      width:60%;
+    }
+    .rivar-imag {
+      margin-left: 65%;
+      margin-top: -20%;
+  }
+  .play_ic {
+    width: 18%;
+    margin-left: 74%;
+    margin-top: -10%;
+  }
+  .inner-regenrating-container {
+    margin-top: 14%;
+}
+.rewater_pera{
+  font-size: 12px;
+}
     
 }
 @media (max-width:320px){
@@ -164,6 +193,10 @@
    /* section two */
     .pera-of-rcyl{
       font-size: 12px;
+    }
+    /* section four */
+    .rewater_pera{
+      font-size: 11px;
     }
 
     
