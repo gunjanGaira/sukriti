@@ -13,16 +13,38 @@ import SolarEnergy from "../Rewater/solar-energy.svg";
 import Shipra_River from "../Rewater/10.JPG";
 import Rewater_video from "../Rewater/rewater_vid.mp4";
 import PLAY_icon from "../Rewater/play.png";
-
+import rewaterInsures1 from "../Rewater/rewater_insures1.svg";
+import rewaterInsures2 from "../Rewater/rewater_insures2.png";
+import rewaterInsures3 from "../Rewater/rewater_insures3.png";
+import rewaterInsures4 from "../Rewater/rewater_insures4.png";
+import rewaterInsures5 from "../Rewater/rewater_insures5.png";
+import rewaterInsures6 from "../Rewater/rewater_insures6.png";
+import rewaterInsures7 from "../Rewater/rewater_insures7.png";
+import rewaterInsures8 from "../Rewater/rewater_insures8.png";
+import rewaterInsures9 from "../Rewater/rewater_insures9.png";
+import rewaterInsures10 from "../Rewater/rewater_insures10.png";
+import rewaterInsures11 from "../Rewater/rewater_insures11.png";
+import rewaterInsures12 from "../Rewater/rewater_insures12.png";
+import rewaterInsures13 from "../Rewater/rewater_insures13.png";
+import rewaterInsures14 from "../Rewater/rewater_insures14.png";
+import rewaterInsures15 from "../Rewater/rewater_insures15.png";
+import rewaterInsures16 from "../Rewater/rewater_insures16.png";
+import rewaterInsures17 from "../Rewater/rewater_insures17.png";
+import rewaterInsures18 from "../Rewater/rewater_insures18.png";
+import rewaterInsures19 from "../Rewater/rewater_insures19.png";
+import rewaterInsures20 from "../Rewater/rewater_insures20.png";
+import rewaterInsures21 from "../Rewater/rewater_insures21.png";
+import rewaterInsures22 from "../Rewater/rewater_insures22.png";
+import rewaterInsures23 from "../Rewater/rewater_insures23.png";
+import rewaterInsures24 from "../Rewater/rewater_insures24.png";
+import rewaterInsures25 from "../Rewater/rewater_insures25.svg";
+import rewaterInsures26 from "../Rewater/rewater_insures26.svg";
 const Rewater = () => {
-  const my_func=()=>{
-    if(document.getElementById('player').paused){
-      document.getElementById('player').play()
-      ('#play_btn').hide();
-    }
-    else{
-      document.getElementById('player').pause()
-      ('#play_btn').show();
+  const my_func = () => {
+    if (document.getElementById("player").paused) {
+      document.getElementById("player").play()("#play_btn").hide();
+    } else {
+      document.getElementById("player").pause()("#play_btn").show();
     }
   };
   return (
@@ -54,7 +76,6 @@ const Rewater = () => {
           </p>
         </div>
       </div>
-
       {/* section two */}
       <div className="recycleContainer">
         <div style={{ textAlign: "center" }}>
@@ -78,7 +99,6 @@ const Rewater = () => {
           </div>
         </div>
       </div>
-
       {/* section three */}
       <div className="carousel-content">
         <p className="carousel-content-pera">
@@ -184,8 +204,224 @@ const Rewater = () => {
             </video>
             <img id="play_btn" src={PLAY_icon} className="play_ic" />
           </div>
-
         </div>
+      </div>
+      {/* section five */}
+      <div style={{ marginTop: "10%", width: "100%" }}>
+        {/* <div><img src={ rewaterInsures1} /></div> */}
+        <div className="insures">
+          <div>
+            <img src={rewaterInsures2} className="insures-img" />
+          </div>
+          <div>
+            <img src={rewaterInsures3} className="insures-img" />
+          </div>
+          <div>
+            <img src={rewaterInsures4} className="insures-img" />
+          </div>
+          <div>
+            <img src={rewaterInsures5} className="insures-img" />
+          </div>
+          <div>
+            <img src={rewaterInsures6} className="insures-img" />
+          </div>
+          <div>
+            <img src={rewaterInsures7} className="insures-img" />
+          </div>
+          <div>
+            <img src={rewaterInsures8} className="insures-img" />
+          </div>
+          <div>
+            <img src={rewaterInsures9} className="insures-img" />
+          </div>
+          <div>
+            <img src={rewaterInsures10} className="insures-img" />
+          </div>
+          <div>
+            <img src={rewaterInsures11} className="insures-img" />
+          </div>
+          <div>
+            <img src={rewaterInsures12} className="insures-img" />
+          </div>
+          <div>
+            <img src={rewaterInsures13} className="insures-img" />
+          </div>
+          <div>
+            <img src={rewaterInsures14} className="insures-img" />
+          </div>
+          <div>
+            <img src={rewaterInsures15} className="insures-img" />
+          </div>
+          <div>
+            <img src={rewaterInsures16} className="insures-img" />
+          </div>
+          <div>
+            <img src={rewaterInsures17} className="insures-img" />
+          </div>
+          <div>
+            <img src={rewaterInsures18} className="insures-img" />
+          </div>
+          <div>
+            <img src={rewaterInsures19} className="insures-img" />
+          </div>
+          <div>
+            <img src={rewaterInsures20} className="insures-img" />
+          </div>
+          <div>
+            <img src={rewaterInsures21} className="insures-img" />
+          </div>
+          <div>
+            <img src={rewaterInsures22} className="insures-img" />
+          </div>
+          <div>
+            <img src={rewaterInsures23} className="insures-img" />
+          </div>
+          <div>
+            <img src={rewaterInsures24} className="insures-img" />
+          </div>
+
+          <div>
+            <img src={rewaterInsures25} className="insures-arrow" />
+          </div>
+          <div>
+            <img src={rewaterInsures26} className="insures-arrow" />
+          </div>
+        </div>
+      </div>
+      {/* section six */}
+      <div>
+        <div
+          style={{ width: "100%", height: "100%", backgroundColor: "#00bfa5" }}
+        >
+          <div className="h-Of_re">
+            <p className="h-of-insures">REWATER ENSURES:</p>
+          </div>
+          <div>
+            <div className="p-Of_re">
+              <div>
+                <p className="con-of-insures">BOD 10mg/l</p>
+              </div>
+              <div>
+                <p className="con-of-insures">COD 100mg/l</p>
+              </div>
+              <div>
+                <p className="con-of-insures">TSS 20mg/l</p>
+              </div>
+              <div>
+                <p className="con-of-insures">Coliforms 10MPN</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* section seven */}
+      {/* <div> */}
+        <div className="rejuvenation">
+          <div>
+            <div>
+              <p className="head-water-bodies">Rejuvenation of water bodies</p>
+              {/* <hr class="about_hr" /> */}
+            </div>
+            <div className="pera-water-bodies">
+              <p>
+                We are working to clean polluted rivers and lakes, and to make
+                them conducive to aquatic flora and fauna. This will not only
+                help the ecosystem, but also help tourism and livelihood of the
+                people supported by these water bodies. We aim for long term and
+                permanent solutions with this effective methodology:
+              </p>
+            </div>
+          </div>
+         
+            <div className="water-bodies">
+              <div>
+                <p className="water-bodies1" >
+                  <span style={{fontWeight:"650"}}>Baseline survey:</span>
+                  <span>finding parameters to define<br/> the actual problems.</span>
+                </p>
+              </div>
+              <div>
+                <p className="water-bodies1">
+                  <span  style={{fontWeight:"650"}}>Custom proposal:</span>
+                  <span>solutions are designed <br/>based on each survey.</span>
+                </p>
+              </div>
+              <div>
+                <p className="water-bodies1">
+                  <span  style={{fontWeight:"650"}}>Sustainable:</span>
+                  <span>
+                    {" "}
+                    automated , energy efficient, <br/>and low cost solutions.
+                  </span>
+                </p>
+               </div>
+               </div>
+        </div>
+      {/* section eight */}
+
+      <div>
+        <div>
+          <p>Cleaning the waste stream in Bhowali town, Nainital:</p>
+          <p>
+            Bhowali, a small town in Naintal district, does not have a sewer
+            infrastructure. The result being, sewage is discharged directly into
+            the nearby Shipra river which ultimately ends up in River Ganga.
+          </p>
+          <p>
+            We are designing a small, innovative waste treatment setup on the
+            junction where the waste stream enters Shipra. Low on maintenance
+            and low on energy consumption, this treatment plant would reduce the
+            biological oxygen demand of waste water to less then 10 mg/L,
+            reducing nitrogen and phosphorus concentrations and eliminating
+            pathogens, thereby making sewage reusable.
+          </p>
+        </div>
+        {/* <div url('./assets/home/group-14_Copy.png');"> */}
+        <img src="./rewater/11.JPG" />
+      </div>
+      {/* section night */}
+      <div>
+        <div>
+          {/* <div url('./assets/home/group-14_Copy.png')> */}
+          <img src="./rewater/23.JPG" />
+        </div>
+        <div>
+          <p>Rejuvenation of Tiliyar lake in Rohtak, Haryana:</p>
+          <p>
+            This lake is highly eutrophic meaning it has a lot of algal growth
+            on its surface. The algal growth has reduced the aquatic flora and
+            fauna and has also affected tourism.
+          </p>
+          <p>
+            Working with Directorate of Coldwater Fisheries Research, Bhimtal we
+            are working on the revival of Tilyar lake. Aerators would be
+            installed throughout the lake to increase the dissolved oxygen
+            concentrations and algae eating fishes would be bred in the water.
+            All these interventions would decrease algal growth, making water
+            clean and transparent and increasing the aesthetics of the area.
+          </p>
+        </div>
+      </div>
+      {/* section nine */}
+      <div>
+        <div>
+          <p>Cleaning of Shyam Kund and Radha Kund in Goverdhan, Mathura</p>
+          <p>
+            Radha Kund is a famous pilgrim place near Mathura, considered most
+            supreme of all the religious places for Vaishnav Hindus. Millions of
+            devotees travel to Radha Kund and nearby Shyam Kund for holy baths.
+          </p>
+          <p>
+            The stagnant water of the kund is highly contaminated with an
+            enormous BOD, COD and Total Nitrogen levels. We are working on
+            cleaning of the kund through a low cost, low energy waste treatment
+            setup, on the banks of the kund, that can render the water
+            colorless, odour free and without any pathogens making it hygienic,
+            healthy and safe for devotees.
+          </p>
+        </div>
+        {/* <div url('./assets/home/group-14.png');> */}
+        <img class="rewater r_align5" src="./rewater/25.JPG" />
       </div>
     </div>
   );
