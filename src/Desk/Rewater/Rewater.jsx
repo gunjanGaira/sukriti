@@ -39,6 +39,9 @@ import rewaterInsures23 from "../Rewater/rewater_insures23.png";
 import rewaterInsures24 from "../Rewater/rewater_insures24.png";
 import rewaterInsures25 from "../Rewater/rewater_insures25.svg";
 import rewaterInsures26 from "../Rewater/rewater_insures26.svg";
+import bhowaliTownImage from "../Rewater/image_1.png";
+import TiliyarLakeImage from "../Rewater/image _2.png";
+import RadhakundImage from "../Rewater/image_3.png";
 const Rewater = () => {
   const my_func = () => {
     if (document.getElementById("player").paused) {
@@ -320,7 +323,7 @@ const Rewater = () => {
           <div>
             <div>
               <p className="head-water-bodies">Rejuvenation of water bodies</p>
-              {/* <hr class="about_hr" /> */}
+              <hr class="rewater-hr" />
             </div>
             <div className="pera-water-bodies">
               <p>
@@ -359,69 +362,68 @@ const Rewater = () => {
         </div>
       {/* section eight */}
 
-      <div>
-        <div>
-          <p>Cleaning the waste stream in Bhowali town, Nainital:</p>
-          <p>
+      <div className="Bhowali-town">
+        <div >
+          <p className="h-Bhowali-town">Cleaning the waste stream in Bhowali town, Nainital:</p>
+          <p className="p-Bhowali-town">
             Bhowali, a small town in Naintal district, does not have a sewer
-            infrastructure. The result being, sewage is discharged directly into
+            infrastructure. The result being, sewage is <br/>discharged directly into
             the nearby Shipra river which ultimately ends up in River Ganga.
           </p>
-          <p>
+          <p className="p-Bhowali-town">
             We are designing a small, innovative waste treatment setup on the
-            junction where the waste stream enters Shipra. Low on maintenance
+            junction where the waste stream enters<br/> Shipra. Low on maintenance
             and low on energy consumption, this treatment plant would reduce the
-            biological oxygen demand of waste water to less then 10 mg/L,
-            reducing nitrogen and phosphorus concentrations and eliminating
+            <br/> oxygen demand of waste water to less then 10 mg/L,
+            reducing nitrogen and phosphorus concentrations and <br/>eliminating
             pathogens, thereby making sewage reusable.
           </p>
         </div>
-        {/* <div url('./assets/home/group-14_Copy.png');"> */}
-        <img src="./rewater/11.JPG" />
+        <img src={bhowaliTownImage} className="bhowaliImg"/>
       </div>
-      {/* section night */}
-      <div>
+      {/* section nine */}
+      <div className="tiliyarLake">
         <div>
-          {/* <div url('./assets/home/group-14_Copy.png')> */}
-          <img src="./rewater/23.JPG" />
+         
+          <img src={TiliyarLakeImage} className="tiliyarImage"/>
         </div>
         <div>
-          <p>Rejuvenation of Tiliyar lake in Rohtak, Haryana:</p>
-          <p>
+          <p className="h-Tiliyar-lake">Rejuvenation of Tiliyar lake in Rohtak, Haryana:</p>
+          <p className="p-Tiliyar-lake">
             This lake is highly eutrophic meaning it has a lot of algal growth
-            on its surface. The algal growth has reduced the aquatic flora and
+            on its surface. The algal growth has reduced <br/> the aquatic flora and
             fauna and has also affected tourism.
           </p>
-          <p>
+          <p className="p-Tiliyar-lake">
             Working with Directorate of Coldwater Fisheries Research, Bhimtal we
-            are working on the revival of Tilyar lake. Aerators would be
+            are working on the revival of Tilyar lake. <br/> Aerators would be
             installed throughout the lake to increase the dissolved oxygen
-            concentrations and algae eating fishes would be bred in the water.
-            All these interventions would decrease algal growth, making water
+            concentrations and algae <br/> eating fishes would be bred in the water.
+            All these interventions would decrease algal growth, making water <br/>
             clean and transparent and increasing the aesthetics of the area.
           </p>
         </div>
       </div>
-      {/* section nine */}
-      <div>
+      {/* section ten */}
+      <div className="Radha-kund">
         <div>
-          <p>Cleaning of Shyam Kund and Radha Kund in Goverdhan, Mathura</p>
-          <p>
+          <p className="h-radha-kund">Cleaning of Shyam Kund and Radha Kund in Goverdhan, Mathura</p>
+          <p className="p-radha-kund">
             Radha Kund is a famous pilgrim place near Mathura, considered most
-            supreme of all the religious places for Vaishnav Hindus. Millions of
+            supreme of all the religious places for <br/> Vaishnav Hindus. Millions of
             devotees travel to Radha Kund and nearby Shyam Kund for holy baths.
           </p>
-          <p>
+          <p className="p-radha-kund">
             The stagnant water of the kund is highly contaminated with an
-            enormous BOD, COD and Total Nitrogen levels. We are working on
+            enormous BOD, COD and Total Nitrogen levels.<br/> We are working on
             cleaning of the kund through a low cost, low energy waste treatment
-            setup, on the banks of the kund, that can render the water
+            setup, on the banks of <br/> the kund, that can render the water
             colorless, odour free and without any pathogens making it hygienic,
-            healthy and safe for devotees.
+            healthy <br/> and safe for devotees.
           </p>
         </div>
-        {/* <div url('./assets/home/group-14.png');> */}
-        <img class="rewater r_align5" src="./rewater/25.JPG" />
+        
+        <img src={RadhakundImage} className="radhakundImg" />
       </div>
     </div>
   );

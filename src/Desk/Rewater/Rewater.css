@@ -1,257 +1,295 @@
 /* .section first */
-.rewater_banner{
-    width:100%;
-}
-.img-Content{
+.rewater_banner {
   width: 100%;
 }
-.Text-of-Banner{
-    width: 100%;
-    position: absolute;
-    top: 68%;
-    transform: translateY(-35%);
-    line-height: 1.19;
-    justify-content: center;
-    text-align: center;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    text-shadow: black 2px 5px 16px;
-    color: #fff;
-    font-weight: 650;
-    font-size: 50px; 
-  }
+.img-Content {
+  width: 100%;
+}
+.Text-of-Banner {
+  width: 100%;
+  position: absolute;
+  top: 68%;
+  transform: translateY(-35%);
+  line-height: 1.19;
+  justify-content: center;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: black 2px 5px 16px;
+  color: #fff;
+  font-weight: 650;
+  font-size: 50px;
+}
 
-  /* section two */
-  .recycleContainer{
-    width:100%;
-    margin-top: 7%;
-  }
-  .pera-of-rcyl{
-    font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 650;
-  }
-  .carousel_images{
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-  /* section three */
-  .carousel-content{
-    width: 100%;
-    text-align: center;
-  }
-  .carousel-content-pera{
-    margin-left: 10%;
-    margin-right: 10%;
-    font-size: 16px;
-    line-height: 1.7;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-  /* section four */
-  .rewater-regenrating-container{
-    width:100%;
-    margin-top: 17%;
-  }
-.inner-regenrating-container{
+/* section two */
+.recycleContainer {
+  width: 100%;
+  margin-top: 7%;
+}
+.pera-of-rcyl {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 650;
+}
+.carousel_images {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+/* section three */
+.carousel-content {
+  width: 100%;
+  text-align: center;
+}
+.carousel-content-pera {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 16px;
+  line-height: 1.7;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/* section four */
+.rewater-regenrating-container {
+  width: 100%;
+  margin-top: 17%;
+}
+.inner-regenrating-container {
   width: 100%;
   justify-content: space-between;
   margin-top: 4%;
 }
-.icon-content{
+.icon-content {
   display: flex;
   margin-left: 10%;
 }
-.rivar-imag{
-  width:80vh;
+.rivar-imag {
+  width: 80vh;
   height: 85vh;
   object-fit: cover;
   border-radius: 50%;
 }
-.play_ic{
+.play_ic {
   position: absolute;
-    margin-left: -22%;
-    margin-top: 16%;
+  margin-left: -22%;
+  margin-top: 16%;
 }
-.rewater_pera{
+.rewater_pera {
   margin-left: 3%;
   font-size: 16px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.rewater_heading{
+.rewater_heading {
   margin-left: 6%;
   font-size: 20px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 650;
   opacity: 0.9;
 }
-.content_img_con{
+.content_img_con {
   display: flex;
 }
 /* part two */
-.vid-Image,.rivar_Image{
+.vid-Image,
+.rivar_Image {
   width: 100%;
-
 }
 
 /* section five */
-  .insures-img{
-    width: 16%;
-    height: 25%;
-      
-  }
-  .insures{
-    display: flex;
-    justify-content: space-between;
-  }
-  /* section six */
-.h-Of_re{
+.insures-img {
+  width: 16%;
+  height: 25%;
+}
+.insures {
+  display: flex;
+  justify-content: space-between;
+}
+/* section six */
+.h-Of_re {
   text-align: center;
 }
-.p-Of_re{
+.p-Of_re {
   display: flex;
   justify-content: space-evenly;
 }
-.h-of-insures{
+.h-of-insures {
   color: #fff;
   font-size: 23px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 640;
   padding: 3%;
 }
-.p-Of_re{
+.p-Of_re {
   color: #fff;
   font-size: 20px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 620;
-
 }
 /* section seven */
-.rejuvenation{
-  width:100%;
-  margin-top:8%;
+.rejuvenation {
+  width: 100%;
+  margin-top: 8%;
 }
-.water-bodies{
+.water-bodies {
   display: flex;
   justify-content: space-evenly;
-  padding-bottom:10% ;
+  padding-bottom: 10%;
 }
-.head-water-bodies{
+.head-water-bodies {
   text-align: center;
   font-size: 24px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 645;
 }
-.pera-water-bodies{
+.pera-water-bodies {
   text-align: center;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 8%;
+  padding-right: 8%;
+  line-height: 1.7;
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.water-bodies1 {
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.rewater-hr{
+  width: 15%;
+  justify-content: right;
+  height: 3px;
+  color: #00bfa5;
+  background-color: #00bfa5;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+/* section eight /nine/ten*/
+.Bhowali-town,.tiliyarLake,.Radha-kund{
+  width:100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.h-Bhowali-town,.h-Tiliyar-lake,.h-radha-kund{
+  font-size: 21px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 650;
+}
+.p-Bhowali-town,.p-Tiliyar-lake,.p-radha-kund{
+  margin-top: 3%;
   font-size: 16px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.water-bodies1{
-  font-size: 16px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   line-height: 1.8;
 
 }
+.bhowaliImg,.radhakundImg{
+  width:20%;
+}
 
 
 
 
-  /* media query */
-  @media(min-width:0px) and (max-width:1024px){
-    .vidImage{
-      display: none;
-    }
+/* media query */
+@media (min-width: 0px) and (max-width: 1024px) {
+  .vidImage {
+    display: none;
   }
-  @media(min-width:1025px) and (max-width:2560px){
-    .vid-Image{
-      display: none;
-    }
+}
+@media (min-width: 786px) and (max-width: 2560px){
+  .rewater-hr{
+    display: none;
   }
-@media (max-width:1024px){
-    /* section one */
-    .Text-of-Banner{
-        font-size: 35px;
-    }
-    /* section two */
-    .carousel-content-pera{
-      font-size: 16px;
 
-    }
-    /* section four */
-    /* .play_ic{
-      position: absolute;
-      margin-left: -34%;
-      margin-top: 27%;
-  } */
-  .content_img_con
-   {
+}
+@media (min-width: 1025px) and (max-width: 2560px) {
+  .vid-Image {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  /* section one */
+  .Text-of-Banner {
+    font-size: 35px;
+  }
+  /* section two */
+  .carousel-content-pera {
+    font-size: 16px;
+  }
+  /* section four */
+  .content_img_con {
     flex-direction: column;
   }
-  .play_ic{
+  .play_ic {
     position: absolute;
-      margin-left: -59%;
-      margin-top: 16%;
+    margin-left: -59%;
+    margin-top: 16%;
   }
 }
-@media (max-width:786px){
-    /* section one */
-    .Text-of-Banner{
-        font-size: 24px;
-    }
-    /* section two */
-    .carousel-content-pera{
-      font-size: 14px;
+@media (max-width: 786px) {
+  /* section one */
+  .Text-of-Banner {
+    font-size: 24px;
+  }
+  /* section two */
+  .carousel-content-pera {
+    font-size: 14px;
+  }
+  .pera-of-rcyl {
+    font-size: 17px;
+  }
 
-    }
-    .pera-of-rcyl{
-      font-size: 17px;
-    }
-    /* section four */
- /* .content_img_con
-   {
+  /* section seven */
+  .water-bodies {
     flex-direction: column;
+    text-align: center;
   }
-  .play_ic{
-    position: absolute;
-      margin-left: -59%;
-      margin-top: 16%;
-  } */
-
-    
+  /* section eight /nine/ten*/
+.Bhowali-town,.tiliyarLake,.Radha-kund{
+  margin-left: 2%;
+  flex-direction: column;
 }
-@media (max-width:480px){
-    /* section one */
-    .Text-of-Banner{
-        font-size: 16px;
-    }
-    /* section two */
-    .pera-of-rcyl{
-      font-size: 14px;
-    }
-    /* section three */
-    .carousel-content-pera{
-      font-size: 12px;
-
-    }
-    /* section four */
-    .icon-content{
-      margin-left: 3%;
-    }
-
+.tiliyarLake{
+  margin-left: 2%;
+  flex-direction: column-reverse;
 }
-@media (max-width:320px){
-    /* section one */
-    .Text-of-Banner{
-        font-size: 13px;
-    }
-   /* section two */
-    .pera-of-rcyl{
-      font-size: 12px;
-    }
-   
+.tiliyarImage{
+  margin-left: 30%;
 }
-
-
+.bhowaliImg,.radhakundImg{
+  width:40%;
+ margin-left: 30%;
+}
+}
+@media (max-width: 480px) {
+  /* section one */
+  .Text-of-Banner {
+    font-size: 16px;
+  }
+  /* section two */
+  .pera-of-rcyl {
+    font-size: 14px;
+  }
+  /* section three */
+  .carousel-content-pera {
+    font-size: 12px;
+  }
+  /* section four */
+  .icon-content {
+    margin-left: 3%;
+  }
+  /* section seven */
+  .head-water-bodies{
+    font-size: 18px;
+  }
+}
+@media (max-width: 320px) {
+  /* section one */
+  .Text-of-Banner {
+    font-size: 13px;
+  }
+  /* section two */
+  .pera-of-rcyl {
+    font-size: 12px;
+  }
+}
