@@ -7,6 +7,7 @@ import Rewater from './Desk/Rewater/Rewater'
 import Careers from './Desk/Careers/Careers'
 import Contact from './Desk/Contact/Contact'
 import Navbar from './Desk/Navbar/Navbar'
+import Footer from "./Desk/Footer/Footer"
 
  
 

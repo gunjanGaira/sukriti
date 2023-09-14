@@ -42,6 +42,7 @@ import rewaterInsures26 from "../Rewater/rewater_insures26.svg";
 import bhowaliTownImage from "../Rewater/image_1.png";
 import TiliyarLakeImage from "../Rewater/image _2.png";
 import RadhakundImage from "../Rewater/image_3.png";
+import Footer from "../Footer/Footer";
 const Rewater = () => {
   const my_func = () => {
     if (document.getElementById("player").paused) {
@@ -424,6 +425,11 @@ const Rewater = () => {
         </div>
         
         <img src={RadhakundImage} className="radhakundImg" />
+      </div>
+      {/* section eleven */}
+      <div >
+        <Footer />
+      
       </div>
     </div>
   );

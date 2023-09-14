@@ -1,0 +1,42 @@
+.career-container{
+    width: 100%;
+ }
+.img-career-container{
+    width: 100%;
+ }
+#bannerTextcareer{
+     width: 100%;
+     position: absolute;
+     top: 75%;
+     transform: translateY(-50%);
+     line-height: 1.19;
+     justify-content: center;
+     text-align: center;
+     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+     text-shadow: black 2px 5px 16px;
+     color: #fff;
+     font-weight: 650;
+     font-size: 53px; 
+   }
+   @media (max-width: 1024px) {
+    #bannerTextcareer{
+    font-size: 42px;
+    }
+   }
+   @media (max-width: 768px){
+    #bannerTextcareer{
+        font-size: 28px;
+        }
+
+   }
+   @media (max-width: 480px) {
+    #bannerTextcareer{
+        font-size: 20px;
+        }
+
+   }
+   @media (max-width: 320px) {
+    #bannerTextcareer{
+        font-size: 15px;
+   }
+   }

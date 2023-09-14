@@ -1,570 +1,213 @@
 /* section one */
- .headerContent{
-   width: 100%;
+.headerContent {
+  width: 100%;
 }
-.imgContent{
-    width: 100%;
+.imgContent {
+  width: 100%;
 }
-  .TextofBanner{
-    width: 100%;
-    position: absolute;
-    top: 68%;
-    transform: translateY(-50%);
-    line-height: 1.19;
-    justify-content: center;
-    text-align: center;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    text-shadow: black 2px 5px 16px;
-    color: #fff;
-    font-weight: 650;
-    font-size: 56px; 
-  }
-
-  /* section two */
-  .visiov-container{
-    width: 100%;
-    text-align: center;
-  }
-  .heading-of-vision{
-    font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 700;
-  }
-  .p-Of-Vision{
-    width: 100%;
-    line-height: 1.6;
-    justify-content: center;
-    text-align: center;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-
-  }
-
-  /* section three */
-  .story{
-    width: 100%;
-     display: flex;
-     margin-top: 10%;
-
-  }
-  .story-container{
-    line-height: 1.6;
-    margin-left: 20%;
-    margin-right: 10%;
-  }
-
-  .pera-H{
-    font-size: 22px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 600;
-  }
-  .pera-C,.pera-C2,.pera-C3{
-    width: 100%;
-    font-size: 16px;
-    line-height: 1.7;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-  .right-side{
-    margin-left: 20%;
-  }
-
- /* section four */
-  .container-of-advisors{
-    width: 100%;
-  }
-  .H-P-container{
-    width: 100%;
-    line-height: 1.6;
-    justify-content: center;
-    text-align: center;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-  }
-
-  .row-first{
-    display: flex;
-    justify-content: space-evenly;
-   
-  }
-  .row-second{
-    display: flex;
-    justify-content:space-around;
-    padding: 0 0 3% 10%;
-
-  }
-
-  .Advisor1{
-    width: 150px;
-    height: 150px;
-    align-items: center;
-  }
-  .content-pera{
-    font-size: 16px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-  }
-  .profile-pera{
-    font-size: 17px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-    font-weight: 600;
-    /* justify-content:space-around; */
-
-  }
-
-   /* section five */
-   .section-seven-container{
-    width:100%;
-    height: 530px;
-  
-  }
-  .footerMainCopntainer{
-    display: grid;
-    grid-template-columns: .3fr .3fr .3fr;
-  }
-  .linkedinIcon,.facebookIcon,.youtubeIcon{
-    width:60%;
-  }
-  
-  .Footer-content-container{
-    margin-top: -400px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin-left: 5%;
-  }
-  .sukriti-Logo-Container{
-    width: 80%;
-    margin-top: 20px;
-  }
-  .first-contaUs-column{
-    justify-content: space-evenly;
-  }
-  .contact,.Second-contact{
-    width: 100%;
-    color: #fff;
-    font-size: 15x;
-    opacity: 0.7;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    white-space: 2px;
-    line-height: 1.5;
-  }
-  .form-container{
-    color: #fff;
-   font-size: 17px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  
-  }
-  .form-group{
-    width: 100%;
-  }
-   .input-point{
-       width: 130px;
-       height: 35px;
-       border-bottom-left-radius: 16px;
-       border-bottom-right-radius: 16px;
-       border-top-left-radius:16px ;
-       border-top-right-radius:16px ;
-       text-align: center;
-    
-    
-  }
-  .input-point2{
-    
-       width: 130px;
-       height: 35px;
-       border-bottom-left-radius: 16px;
-       border-bottom-right-radius: 16px;
-       border-top-left-radius:16px ;
-       border-top-right-radius:16px ;
-       text-align: center;
-       margin-top: -55px;
-       position: absolute; 
-       margin-left: 150px;
-    
-  }
-  .input-point3{
-    width: 280px;
-    height: 35px;
-    border-bottom-left-radius: 16px;
-    border-bottom-right-radius: 16px;
-    border-top-left-radius:16px ;
-    border-top-right-radius:16px ;
-    text-align: center;
-  }
-  .textarea{
-    width: 280px;
-    height: 120px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-top-left-radius:5px ;
-    border-top-right-radius:5px ;
-    
-  
-  }
-  .btn-submit_butn{
-    width: 180px;
-    height: 50px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-left-radius:10px ;
-    border-top-right-radius:10px ;
-    text-decoration: center;
-    margin-left: 50px;
-     background-color: #00bfa5;
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 16px;
-  
-  }
-  
-  /* section six  */
-  .EightContainer{
-    width: 100%;
-  
-  }
-  .backOfEightContainer{
-    width:100%;
-    height: 1350px;
-  }
-  .logoicon{
-    margin-top: -1200px;
-    text-align: center;
-    justify-content: center;
-    
-  }
-  .Form{
-    margin-top: 10%;
-    width: 100%;
-  }
-  .inputOne{
-       width: 35%;
-       height: 35px;
-       border-bottom-left-radius: 16px;
-       border-bottom-right-radius: 16px;
-       border-top-left-radius:16px ;
-       border-top-right-radius:16px ;
-       text-align: center;
-       margin-right:35%;
-  }
-  
-  .inputTwo{
-    
-    width: 34%;
-    height: 35px;
-    border-bottom-left-radius: 16px;
-    border-bottom-right-radius: 16px;
-    border-top-left-radius:16px ;
-    border-top-right-radius:16px ;
-    text-align: center;
-    margin-top: -60px;
-    position: absolute; 
-     margin-left:2%;
-  
-  }
-  .inputThree{
-  width: 72%;
-  height: 35px;
-  border-bottom-left-radius: 16px;
-  border-bottom-right-radius: 16px;
-  border-top-left-radius:16px ;
-  border-top-right-radius:16px ;
+.TextofBanner {
+  width: 100%;
+  position: absolute;
+  top: 68%;
+  transform: translateY(-50%);
+  line-height: 1.19;
+  justify-content: center;
   text-align: center;
-  }
-  .text-area{
-  width: 72%;
-  height: 120px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  border-top-left-radius:5px ;
-  border-top-right-radius:5px ;
-  /* text-align: center; */
-  
-  }
-  .submit-button{
-  width: 35%;
-  height: 50px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  border-top-left-radius:10px ;
-  border-top-right-radius:10px ;
-  text-decoration: center;
-  margin-left: 5%;
-  background-color: #00bfa5;
-  color: white;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: black 2px 5px 16px;
+  color: #fff;
+  font-weight: 650;
+  font-size: 56px;
+}
+
+/* section two */
+.visiov-container {
+  width: 100%;
+  text-align: center;
+}
+.heading-of-vision {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+}
+.p-Of-Vision {
+  width: 100%;
+  line-height: 1.6;
+  justify-content: center;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+/* section three */
+.story {
+  width: 100%;
+  display: flex;
+  margin-top: 10%;
+}
+.story-container {
+  line-height: 1.6;
+  margin-left: 20%;
+  margin-right: 10%;
+}
+
+.pera-H {
+  font-size: 22px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+}
+.pera-C,
+.pera-C2,
+.pera-C3 {
+  width: 100%;
   font-size: 16px;
-  
-  }
-  .address,.prevAddress{
-    margin-top: 9%;
-    color: #fff;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.8;
-    font-size: 18px;
-  }
-  .sukriti-Logo{
-    width:40%;
-    margin-top: 2%;
-  }
+  line-height: 1.7;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.right-side {
+  margin-left: 20%;
+}
 
-@media(min-width:700px) and (max-width: 2560px){
-    /* section eight */
-    .EightContainer{
-      display: none;
-    }
+/* section four */
+.container-of-advisors {
+  width: 100%;
+}
+.H-P-container {
+  width: 100%;
+  line-height: 1.6;
+  justify-content: center;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.row-first {
+  display: flex;
+  justify-content: space-evenly;
+}
+.row-second {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 0 3% 10%;
+}
+
+.Advisor1 {
+  width: 150px;
+  height: 150px;
+  align-items: center;
+}
+.content-pera {
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+.profile-pera {
+  font-size: 17px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-weight: 600;
+  /* justify-content:space-around; */
+}
+
+@media (max-width: 1024px) {
+  /* section one */
+  .TextofBanner {
+    font-size: 42px;
   }
-@media(min-width:0px) and (max-width: 699px){
-    /* section seven */
-    .footer-container{
-      display: none;
-    }
-  
-  }  
-
- @media (max-width: 1024px) {
-    /* section one */
-    .TextofBanner{
-        font-size: 42px;
-    }
-    /* section two */
-    .p-Of-Vision{
-        width: 70%;
-        display: flex;
-        margin-left: 20%;
-        font-size: 17px;
-
-    }
-    /* sectrion three */
-    .right-side{
-      width: 300px;
-    }
-    .pera-C,.pera-H{
-      width: 100%;
-      font-size: 16px;
-      line-height: 1.6;
-    }
-    .footer-container{
-      width: 100%;
-    } 
-    .contact{
-      font-size: 15px;
-      display: flex;
-      width: 100%;
-      justify-content: center;
-      line-height: 1.7;
-    }
-    .Second-contact{
-      font-size: 13px;
-      line-height: 1.7;
-  
-    }
-    .footerMainCopntainer{
-      column-gap: 10%;
-      margin-left: 45px;
-    }
-   
-    .sukriti-Logo-Container{
-      width: 89%;
-      margin-left: 10%;
-    }
-    .input-point{
-      width: 120px;
-      height: 30px;
-    }
-    .input-point2{
-     
-      width: 100px;
-      height: 30px;
-      margin-top: -50px;
-      margin-left: 130px;
-    }
-    .input-point3{
-      width: 230px;
-     height: 40px;
-    }
-    .textarea{
-      width: 230px;
-      height: 80px;
-    }
-    .btn-submit_butn{
-      width: 150px;
-      height: 50px;
-    } 
+  /* section two */
+  .p-Of-Vision {
+    width: 70%;
+    display: flex;
+    margin-left: 20%;
+    font-size: 17px;
   }
- @media (max-width: 768px) {
-    /* section one */
-    .TextofBanner{
-        font-size: 28px;
-    }
-    /* section two */
-    .p-Of-Vision{
-      font-size: 15px;
-      margin-left: 13%;
-
+  /* sectrion three */
+  .right-side {
+    width: 300px;
+  }
+  .pera-C,
+  .pera-H {
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+}
+@media (max-width: 768px) {
+  /* section one */
+  .TextofBanner {
+    font-size: 28px;
+  }
+  /* section two */
+  .p-Of-Vision {
+    font-size: 15px;
+    margin-left: 13%;
   }
   /* section three */
-  .story-container{
+  .story-container {
     margin-left: 7%;
   }
-    .story{
-      flex-direction: column-reverse;
-      text-align: center;
-    }
-    .pera-C,.pera-C2,.pera-C3{
-      width: 100%;
-      font-size: 15px;
-      line-height: 1.7;
-    }
-    .pera-H{
-      font-size: 20px;
-      font-weight: 650;
-    }
-    /* section four */
-    .row-first,.row-second{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    .row-second{
-      margin-left: -20%;
-
-    }
-    .footerMainCopntainer{
-      /* grid-template-columns: 30% 30% 30%; */
-      column-gap: 0%;
-      margin-left: 11%;
-    }
-        .section-seven-container{
-          width: 100%;
-          
-        }
-        .linkedinIcon,.facebookIcon,.youtubeIcon{
-          width:60%;
-        }
-        .contact{
-          font-size: 14px;
-          display: flex;
-          /* justify-content: center; */
-        }
-        .third-contaUs-column,.Second-contact{
-            font-size: 13px;
-            display: flex;
-            line-height: 1.8;
-    
-        }
-        .sukriti-Logo-Container{
-          width: 92%;
-          margin-left: 10px;
-        }
-       
-    }
-    
- @media(max-width:650px){
-      .address,.prevAddress{
-        margin-top: 9%;
-        line-height: 1.8;
-        font-size: 15px;
-      }
-      .backOfEightContainer{
-        width:100%;
-        height: 1270px;
-      }
-      .logoicon{
-        margin-top: -1100px;
-      }
-      .sukriti-Logo{
-        width:40%;
-      }
-    }
-    
- @media(max-width:550px){
-      .address,.prevAddress{
-        margin-top: 8%;
-        line-height: 1.8;
-        font-size: 14px;
-      }
-      .backOfEightContainer{
-        width:100%;
-        height: 1150px;
-      }
-      .logoicon{
-        margin-top: -1000px;
-      }
-      .sukriti-Logo{
-        width:40%;
-      }
-    }
-  @media (max-width: 480px) {
-    /* section one */
-    .TextofBanner{
-        font-size: 20px;
-    }
-    /* section two */
-    .p-Of-Vision{
-      font-size: 12px;
-      line-height: 1.5;
-  
-    }
-    /* section three */
-    .story-container{
-      margin-left: 8%;
-    }
-    .pera-C{
-      width: 100%;
-      font-size: 12px;
-      line-height: 1.5;
-    }
-    .pera-C,.pera-C2,.pera-C3{
-      font-size: 13px;
-    }
-    .right-side{
-      margin-left: -20px;
-    }
-    /* section seven */
-
-      /* section  eight */
-      .address,.prevAddress{
-        margin-top: 6%;
-        line-height: 1.7;
-        font-size: 16px;
-      }
-      .backOfEightContainer{
-        width:100%;
-        height: 1100px;
-      }
-      .logoicon{
-        margin-top: -980px;
-      }
-      .sukriti-Logo{
-        width:37%;
-      }
-    
-    
+  .story {
+    flex-direction: column-reverse;
+    text-align: center;
   }
-   @media(max-width:400px) {
-    .address,.prevAddress{
-    margin-top: 7%;
+  .pera-C,
+  .pera-C2,
+  .pera-C3 {
+    width: 100%;
+    font-size: 15px;
     line-height: 1.7;
-    font-size: 13px;
   }
-  .backOfEightContainer{
-    width:100%;
-    height: 1000px;
+  .pera-H {
+    font-size: 20px;
+    font-weight: 650;
   }
-  .logoicon{
-    margin-top: -870px;
+  /* section four */
+  .row-first,
+  .row-second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-  .sukriti-Logo{
-    margin-top: 2%;
-    width:37%;
+  .row-second {
+    margin-left: -20%;
   }
 }
-  @media (max-width: 320px) {
-    /* section one */
-    .TextofBanner{
-        font-size: 12px;
-    }
-    
+
+@media (max-width: 480px) {
+  /* section one */
+  .TextofBanner {
+    font-size: 20px;
   }
+  /* section two */
+  .p-Of-Vision {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+  /* section three */
+  .story-container {
+    margin-left: 8%;
+  }
+  .pera-C {
+    width: 100%;
+    font-size: 12px;
+    line-height: 1.5;
+  }
+  .pera-C,
+  .pera-C2,
+  .pera-C3 {
+    font-size: 13px;
+  }
+  .right-side {
+    margin-left: -20px;
+  }
+  
+}
+
+@media (max-width: 320px) {
+  /* section one */
+  .TextofBanner {
+    font-size: 12px;
+  }
+}

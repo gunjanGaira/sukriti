@@ -185,6 +185,9 @@
 .bhowaliImg,.radhakundImg{
   width:20%;
 }
+.tiliyarImage{
+  width: 80%;
+}
 
 
 
@@ -253,9 +256,12 @@
   margin-left: 2%;
   flex-direction: column-reverse;
 }
+
 .tiliyarImage{
-  margin-left: 30%;
+  width: 45%;
+  margin-left: 25%;
 }
+
 .bhowaliImg,.radhakundImg{
   width:40%;
  margin-left: 30%;
@@ -281,6 +287,13 @@
   /* section seven */
   .head-water-bodies{
     font-size: 18px;
+  }
+  /* section eight and nine */
+  .h-Bhowali-town,.h-Tiliyar-lake,.h-radha-kund{
+    font-size: 14px;
+  }
+  .p-Bhowali-town,.p-Tiliyar-lake,.p-radha-kund{
+    font-size: 12px;
   }
 }
 @media (max-width: 320px) {

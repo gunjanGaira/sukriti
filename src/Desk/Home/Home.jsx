@@ -11,6 +11,24 @@ import smallDropIcon from "../Home/second-drop-icon.png";
 import dollerIcon from "../Home/doller-icon.png";
 import demoImage from "../Home/re-img.png";
 import McIcon from "../Home/mc-icon.png";
+import awardIcon from '../Home/awards11.jpg';
+import indianOilIcon from '../Home/indian-oil-icon.png';
+import award2Icon from '../Home/awards2.jpg';
+import emblemIcon from '../Home/emblem-icon.png';
+import award3Icon from '../Home/awards3.png';
+import sbiIcon from "../Home/sbi4.PNG";
+import award1Icon from '../Home/awards1.jpg';
+import sulabhIcon from "../Home/sulabh-logo.png";
+import sulabhPhotograph from "../Home/Sulabh_Photograph.JPG";
+import cicLogo from "../Home/cic-logo.png";
+import Imgs from "../Home/IMG_1033.jpg";
+import McIcCopy from "../Home/mc-copy@2x.png";
+import Imags73 from "../Home/IMG_7354.JPG";
+import Smart_city from "../Home/sdf2.jpg";
+import awards_44 from "../Home/awards44.JPG";
+import group_5 from "../Home/group-5.svg";
+import group_21 from "../Home/group-21.svg";
+import ndtvLogo from "../Home/ndtv-seeklogo-com.svg";
 import iitLogo from "../Home/iit-roorkee-logo.png";
 import surreyIcon from "../Home/university-of-surrey.png";
 import IconOfIndianOil from "../Home/Icon-of-indianoil.png";
@@ -21,6 +39,7 @@ import IconOfFacebook from "../Home/facebook-icon.png";
 import IconOfYouTube from "../Home/youtube-icon.png";
 import LogoOfSukriti from "../Home/Sukriti-Logo.svg";
 import newImg from "../Home/new-img.png";
+import Footer from "../Footer/Footer";
 
 const Home = () => {
   const [outerbox, setOuterbox] = useState(0);
@@ -205,10 +224,10 @@ const Home = () => {
 
       {/* section five */}
       <div className="outer-achievement-container " style={{ width: "100%" }}>
-        <div class="achievement-container ">
-          <div class="achivment-text-center">
-            <p className="heading-content-text-uppercase">Achievements</p>
-            <p class="heading-content-text-lowercase">
+        <div className="achievement-container ">
+          <div className="achivment-text-center">
+            <p className="heading-uppercase">Achievements</p>
+            <p className="heading-lowercase">
               Our innovative & sustainable engineering, and its impactful
               execution
               <br />
@@ -216,64 +235,136 @@ const Home = () => {
             </p>
           </div>
           <div className="carousel-wrap">
-            {/* <div>
-            <button onClick={prevOutlet} OnClick={nextOutlet} className='prev-outlet-container' />
-                      <div className='back-inner-container' >
-                         <p className='inner-prev-icon'>&#8249;</p>
-                         <p className='inner-next-icon'> &#8250;</p> 
-                
-                        </div> 
-            </div> */}
             <div className="owl-carousel-owl-theme">
+
               <div className="item-carousel-card">
-                <div className="centered-top">
                   <img src={McIcon} className="image-of-mc-icon" />
-                  <p className="heading-text">Winner</p>
-                  <p className="pera-text-of-mc-icon">
+                  <p className="p-carousel">
+                  <span className="h-carousel">Winner</span><br/>
                     Mass Challenge, <br /> Israel
                   </p>
-                </div>
+                
               </div>
 
-              {/* <div className="item-carousel-card">
-                <div className="centered-top">
-                  <img className="achievement-img" src={awardIcon} />
+               {/* <div className="item-carousel-card">
+                <img className="achievement-img" src={awardIcon} />
+              </div>
+
+                <div className="item-carousel-card">
+                  <img src={indianOilIcon} className="inner-idian-oil-image-container"/>
+                  <p className="p-carousel" >
+                    <span className="h-carousel">Winner</span><br/>
+                  Indian Oil, <br /> Startup Fund Grant
+                  </p>
                 </div>
+
+
+                <div className="item-carousel-card">
+                  <img src={award2Icon} className="achievement-img" />
               </div>
 
               <div className="item-carousel-card">
-                <div className="centered-top">
-                  <div className="outer-idian-oil-image-container">
-                    <img
-                      src={indianOilIcon}
-                      className="inner-idian-oil-image-container"
-                    />
-                  </div>
-                  <div className=" text-center">
-                    <p className="heading-text">Winner</p>
-                    <p className="pera-text-of-mc-icon">Indian Oil,</p>
-                    <p className="pera-text-of-mc-icon">Startup Fund Grant</p>
-                  </div>
-                </div> */}
-
-              {/* <div className="item-carousel-card">
-                <div className="centered-top">
-                  <img src={award2Icon} className="achievement-img" />
+                  <img src={emblemIcon} className="inner-idian-oil-image-container"/>
+                  <p className="p-carousel">
+                    <span className="h-carousel">Most Impactful Startup of India</span><br/>
+                    Ministry of Science and Technology,<br/>
+                    Government of India
+                  </p>
                 </div>
+
+                <div className="item-carousel-card">
+                  <img src={award3Icon} className="achievement-img" />
+              </div> 
+              
+              <div className="item-carousel-card">
+                  <img src={sbiIcon} className="inner-idian-oil-image-container"/>
+                  <p className="p-carousel">
+                    <span className="h-carousel">Winner</span><br/>
+                    Best CSR practices,<br/>
+                   State Bank of India
+                   </p>
+                 
+                </div>
+                <div className="item-carousel-card">
+                  <img src={award1Icon} className="achievement-img" />
+              </div> 
+
+              <div className="item-carousel-card">
+                  <img src={sulabhIcon} className="inner-idian-oil-image-container"/>
+                  <p className="p-carousel">
+                    <span className="h-carousel">Felicitation for exemplary work in WASH sector</span><br/>
+                    Sulabh International
+                   </p>
+              </div>
+              <div className="item-carousel-card">
+                  <img src={sulabhPhotograph} className="achievement-img" />
+              </div>  
+
+
+
+              <div className="item-carousel-card">
+                  <img src={cicLogo} className="inner-idian-oil-image-container"/>
+                  <p className="p-carousel">
+                    <span className="h-carousel"> Best Startup Pitch </span><br/>
+                    Cambridge Innovation Centre,<br/>  Cambridge Massachusetts
+                   </p>
+              </div>
+              <div className="item-carousel-card">
+                  <img src={Imgs} className="achievement-img" />
+              </div> 
+              
+
+              <div className="item-carousel-card">
+                  <img src={McIcCopy} className="inner-idian-oil-image-container"/>
+                  <p className="p-carousel">
+                    <span className="h-carousel">  Winner </span><br/>
+                    Students Appreciation Award,<br/>
+                    Brandeis Business School, Massachusetts
+                   </p>
+              </div>
+              <div className="item-carousel-card">
+                  <img src={Imags73} className="achievement-img" />
               </div> */}
+
+
+              
+              <div className="item-carousel-card">
+                  <img src={Smart_city} className="inner-idian-oil-image-container"/>
+                  <p className="p-carousel">
+                    <span className="h-carousel"> Winner</span><br/>
+                    Aim Smart City Accelerator,<br/>
+                    powered by Microsoft</p>
+              </div>
+              <div className="item-carousel-card">
+                  <img src={awards_44} className="achievement-img" />
+              </div> 
+
+              
             </div>
             {/* </button> */}
           </div>
-        </div>
-        <div class="container-fluid text-center resMedia">
-          <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-              <p class="text-center media">
-                <span>IN THE MEDIA&nbsp;:</span>
+          </div>
+
+       
+         <div className="media_section">
+             <div className="">
+              <p className="text-center-media">
+                IN THE MEDIA&nbsp;:
               </p>
             </div>
-          </div>
-        </div>
+            <div className="groups_img">
+              <img src={group_5} />
+            </div>
+            <div className="groups_img">
+              <img src={group_21} />
+            </div>
+            <div className="groups_img">
+              <img src={ndtvLogo} />
+            </div>
+        </div> 
+
+          
+        
       </div>
 
       {/* section six */}
@@ -325,248 +416,9 @@ const Home = () => {
       </div>
 
       {/*section seven */}
-      <footer className="footer-container">
-        <img src={BackgroundContactUs} className="section-seven-container" />
-
-        <div className="Footer-content-container">
-          <div className="first-contaUs-column"style={{justifySelf:"center"}}>
-            <div className="footerMainCopntainer">
-              <img src={IconOfLinkedin} className="linkedinIcon" />
-              <img src={IconOfFacebook} className="facebookIcon" />
-              <img src={IconOfYouTube} className="youtubeIcon" />
-            </div>
-
-            <div className="old-ofice-address-container">
-              <p className="contact">
-                011-40196604
-                <br />
-                contact@sukriti.ngo
-                <br />
-                <br />
-                Registered Office :<br />
-                190, DDA Office Complex,
-                <br />
-                Jhandewalan Phase 1 ,
-                <br />
-                Delhi 110055, India
-                <br />
-              </p>
-            </div>
-            <div className="sukriti-Logo-Container ">
-              <img
-                src={LogoOfSukriti}
-                alt="logo"
-                className="sukriti-Logo-Container "
-              />
-            </div>
-          </div>
-          <div className="second-contaUs-column"style={{justifySelf:"center"}}>
-            <div>
-              <form action="Home.js" method="post" className="form">
-                <div className="form-group">
-                  <div className="form-inline">
-                    <div className="input-point">
-                      <input
-                        className="input-point"
-                        type="text"
-                        id="fname"
-                        name="fname"
-                        placeholder="First Name"
-                        required
-                        data-error="Please enter your name"
-                      />
-                    </div>
-                    <br />
-
-                    <div>
-                      <input
-                        className="input-point2"
-                        type="text"
-                        id="lname"
-                        name="lname"
-                        placeholder="Last Name"
-                        required
-                        data-error="Please enter your Last name"
-                      />
-                    </div>
-                  </div>
-                </div>
-
-                <div>
-                  <input
-                    className="input-point3"
-                    type="email"
-                    id="email"
-                    name="email"
-                    placeholder="Email address"
-                    required
-                    data-error="Please enter your email"
-                  />
-                </div>
-                <br />
-
-                <div className="form-group">
-                  <textarea
-                    className="textarea"
-                    rows="5"
-                    placeholder="Message..."
-                    name="msg"
-                    required
-                  ></textarea>
-                </div>
-                <br />
-                <button type="submit" id="submit" className="btn-submit_butn">
-                  CONTACT US
-                </button>
-              </form>
-            </div>
-          </div>
-
-          <div className="third-contaUs-column" style={{justifySelf:"center"}}>
-            <p className="Second-contact" style={{ fontSize: "15px",opacity:"0.7",lineHeight:"1.7",
-          marginTop:"-10px" }}>
-              Corporate Office :<br />
-              1567, Sector 15, Part II
-              <br />
-              Gurugram, Haryana - 122022
-              <br /> <br />
-              Production Centre :<br />
-              Sukriti Social Foundation
-              <br />
-              Opposite Vinay High School
-              <br />
-              Chandu Sultanpur Road
-              <br />
-              Near Sultanpur National Park
-              <br />
-              Gurugram, Haryana - 122022
-              <br />
-            </p>
-          </div>
-        </div>
-      </footer>
-
-      {/* section eight */}
-      <footer className="EightContainer">
-        <div style={{width:"100%"}}>
-          <img src={secBackOfConUs} className="backOfEightContainer" />
-        </div>
-
-        <div className="logoicon">
-          <div className="icons">
-            <img
-              src={IconOfLinkedin}
-              className="linkedinIcon"
-              style={{ width: "10%" }}
-            />
-            <img
-              src={IconOfFacebook}
-              className="facebookIcon"
-              style={{ marginLeft: " 8%", width: "10%" }}
-            />
-            <img
-              src={IconOfYouTube}
-              className="youtubeIcon"
-              style={{ marginLeft: "8%", width: "10%" }}
-            />
-          </div>
-          <form action="Home.js" method="post" className="form">
-            <div className="Form">
-              <div className="form-inline">
-                <div className="inputs">
-                  <input
-                    className="inputOne"
-                    type="text"
-                    id="fname"
-                    name="fname"
-                    placeholder="First Name"
-                    required
-                    data-error="Please enter your name"
-                  />
-                </div>
-                <br />
-
-                <div>
-                  <input
-                    className="inputTwo"
-                    type="text"
-                    id="lname"
-                    name="lname"
-                    placeholder="Last Name"
-                    required
-                    data-error="Please enter your Last name"
-                  />
-                </div>
-              </div>
-            </div>
-
-            <div>
-              <input
-                className="inputThree"
-                type="email"
-                id="email"
-                name="email"
-                placeholder="Email address"
-                required
-                data-error="Please enter your email"
-              />
-            </div>
-            <br />
-
-            <div className="form">
-              <textarea
-                className="text-area"
-                rows="5"
-                placeholder="Message..."
-                name="msg"
-                required
-              ></textarea>
-            </div>
-            <br />
-            <button type="submit" id="submit" className="submit-button">
-              CONTACT US
-            </button>
-          </form>
-            <p className="address" >
-              Corporate Office :<br />
-              1567, Sector 15, Part II
-              <br />
-              Gurugram, Haryana - 122022
-              <br /> <br />
-              Production Centre :<br />
-              Sukriti Social Foundation
-              <br />
-              Opposite Vinay High School
-              <br />
-              Chandu Sultanpur Road
-              <br />
-              Near Sultanpur National Park
-              <br />
-              Gurugram, Haryana - 122022
-              <br />
-            </p>
-            <p className="prevAddress">
-                011-40196604
-                <br />
-                contact@sukriti.ngo
-                <br />
-                Registered Office :<br />
-                190, DDA Office Complex,
-                <br />
-                Jhandewalan Phase 1 ,
-                <br />
-                Delhi 110055, India
-                <br />
-              </p>
-          </div>
-          
-              <img
-                src={LogoOfSukriti}
-                alt="logo"
-                className="sukriti-Logo "
-              />
-
-      </footer>
+      <div>
+      <Footer/>
+      </div>
 
 
     </div>
