@@ -1,42 +1,155 @@
-.career-container{
+/* section one */
+.career-container {
+  width: 100%;
+}
+.img-career-container {
+  width: 100%;
+}
+#bannerTextcareer {
+  width: 100%;
+  position: absolute;
+  top: 75%;
+  transform: translateY(-50%);
+  line-height: 1.19;
+  justify-content: center;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: black 2px 5px 16px;
+  color: #fff;
+  font-weight: 650;
+  font-size: 53px;
+}
+/* section two */
+.description-of-careers {
+  width: 100%;
+  margin-top: 8%;
+}
+.des_pera{
+   text-align: center;
+   margin-left: 12%;
+   margin-right: 12%;
+   font-size: 16px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* section three */
+.crau_heading{
     width: 100%;
- }
-.img-career-container{
+    margin-top: 6%;
+}
+.crau_p{
+   text-align: center;
+   font-size: 25px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: 650;
+   opacity: 0.8;
+
+}
+/* section four */
+.designators{
     width: 100%;
- }
-#bannerTextcareer{
-     width: 100%;
-     position: absolute;
-     top: 75%;
-     transform: translateY(-50%);
-     line-height: 1.19;
-     justify-content: center;
-     text-align: center;
-     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-     text-shadow: black 2px 5px 16px;
-     color: #fff;
-     font-weight: 650;
-     font-size: 53px; 
-   }
-   @media (max-width: 1024px) {
-    #bannerTextcareer{
-    font-size: 42px;
-    }
-   }
-   @media (max-width: 768px){
-    #bannerTextcareer{
-        font-size: 28px;
-        }
+}
+.ul_of_designators{
+    display: flex;
+    background-color: #C5CAE9;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 50px;
+    height: 60px;
+    text-align: center;
+    justify-content: space-between;
+    width: 80%;
+}
+.p_of_designators{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-   }
-   @media (max-width: 480px) {
-    #bannerTextcareer{
-        font-size: 20px;
-        }
 
-   }
-   @media (max-width: 320px) {
-    #bannerTextcareer{
-        font-size: 15px;
-   }
-   }
+}
+.li_of_designators{
+    list-style: none;
+}
+/* part one */
+.engineers{
+    margin-top: 5%;
+    margin-left: 12%;
+}
+.resp_duties_h{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 650;
+    opacity: 0.9;
+}
+.resp_duties_pera{
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: -2%;
+    font-weight: 400;
+    line-height: 1.7;
+}
+.resp_duties_add{
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    line-height: 1.7;
+
+}
+/* part two */
+.resp_duties_summ{
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query */
+@media (max-width: 1024px) {
+    /* section one */
+  #bannerTextcareer {
+    font-size: 35px;
+  }
+}
+@media (max-width: 768px) {
+    /* section one */
+  #bannerTextcareer {
+    font-size: 24px;
+  }
+  /* sectiopj three */
+  .crau_p{
+    font-size: 18px;
+  }
+}
+@media (max-width: 480px) {
+    /* section one */
+  #bannerTextcareer {
+    font-size: 18px;
+  }
+  /* section two */
+  .des_pera{
+    font-size: 12px;
+  }
+  /* sectiopj three */
+  .crau_p{
+    font-size: 16px;
+  }
+}
+@media (max-width: 320px) {
+  #bannerTextcareer {
+    font-size: 14px;
+  }
+}
