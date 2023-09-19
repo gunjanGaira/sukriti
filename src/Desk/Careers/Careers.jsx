@@ -1,9 +1,17 @@
 import React from "react";
+import { useState } from "react";
 import "./Careers.css";
 import CareerBanner from "../Careers/career-banner.jpg";
-import Footer from "../Footer/Footer"
+import Footer from "../Footer/Footer";
 
 const Careers = () => {
+  const [open, setOpen] = React.useState(false);
+  const openPage = () => {
+    setOpen(true);
+  };
+  const closePage = () => {
+    setOpen(false);
+  };
   return (
     <div>
       {/* section one */}
@@ -53,7 +61,6 @@ const Careers = () => {
         <p className="crau_p">We’re looking for &nbsp; :</p>
       </div>
 
-
       {/* section four */}
 
       <div className="designators">
@@ -94,7 +101,9 @@ const Careers = () => {
           <div className="engineers">
             <p className="resp_duties_h">Job Summary</p>
             <p className="resp_duties_h">Responsibilities and Duties</p>
-            <p className="resp_duties_h">Person would be responsible for one or more of the following:</p>
+            <p className="resp_duties_h">
+              Person would be responsible for one or more of the following:
+            </p>
             <ol type="number" className="resp_duties_pera">
               <li>Schematic capture in the tool</li>
               <li>CAD layout</li>
@@ -933,8 +942,74 @@ const Careers = () => {
             </p>
           </div> */}
         </div>
-     </div>
-     <Footer/>
+      </div>
+      {/* section five  */}
+      <div >
+        <button onClick={openPage} type="button" className="apply_button" style={{ display: "block", padding: 30 }}>
+          {" "}
+          APPLY NOW
+        </button>
+        <modal onClose={closePage} open={open}>
+          <div style={{ width: "50%"}}>
+            <div>
+              <h3>DETAILS</h3>
+              <button
+                type="button"
+                className="close_icon"
+                data-dismiss="modal"
+              >
+                &times;
+              </button>
+            </div>
+
+            <form action="Career.jsx" id="application-form" method="post" >
+              <div className="form-start">
+
+                <div style={{display:"flex" ,marginLeft:"10%",marginTop:"10%"}}  >
+                  <div >
+                    <label className="na_me" style={{marginTop:"10%"}} >First name</label>
+                    <input type="text" name="fname" placeholder="name" className="input_p" />
+                  </div>
+                  <div >
+                    <label className="na_me" >Last name</label>
+                    <input type="text" name="lname" placeholder="last_name" className="input_p" />
+                  </div>
+                </div>
+
+                <div style={{display:"flex" ,marginLeft:"10%", marginTop:"10%"}} >
+                  <div>
+                  <div >
+                    <label className="na_me" >Email</label>
+                    <input type="text" name="email" placeholder="email" className="input_p"  />
+                  </div>
+                  </div>
+                  <div>
+                    <label className="na_me" >Mobile No.</label>
+                    <input type="text" name="mobile" className="input_p" placeholder="number"/>
+                  </div>
+                </div>
+                  <div style={{marginTop:"10%"}}>
+                    <label className="na_me">Upload Resume</label>
+                    <input type="file" name="fileToUpload" />
+                  </div>
+               
+
+                <input type="hidden" name="postappliedfor"></input>
+              </div>
+
+              <div>
+                <button type="submit" className="submit_button">SUBMIT</button>
+              </div>
+
+            </form>
+          </div>
+        </modal>
+      </div>
+
+      {/* section six */}
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 };

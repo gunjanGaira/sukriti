@@ -41,7 +41,7 @@ import rewaterInsures25 from "../Rewater/rewater_insures25.svg";
 import rewaterInsures26 from "../Rewater/rewater_insures26.svg";
 import bhowaliTownImage from "../Rewater/image_1.png";
 import TiliyarLakeImage from "../Rewater/image _2.png";
-import RadhakundImage from "../Rewater/image_3.png";
+import RadhakundImage from "../Rewater/image (2).png";
 import Footer from "../Footer/Footer";
 const Rewater = () => {
   const my_func = () => {
@@ -362,7 +362,7 @@ const Rewater = () => {
                </div>
         </div>
       {/* section eight */}
-
+     <div className="ei-con">
       <div className="Bhowali-town">
         <div >
           <p className="h-Bhowali-town">Cleaning the waste stream in Bhowali town, Nainital:</p>
@@ -371,9 +371,10 @@ const Rewater = () => {
             infrastructure. The result being, sewage is <br/>discharged directly into
             the nearby Shipra river which ultimately ends up in River Ganga.
           </p>
-          <p className="p-Bhowali-town">
+          <p className="p2-Bhowali-town">
             We are designing a small, innovative waste treatment setup on the
-            junction where the waste stream enters<br/> Shipra. Low on maintenance
+            junction where the waste stream enters<br/>
+            Shipra. Low on maintenance
             and low on energy consumption, this treatment plant would reduce the
             <br/> oxygen demand of waste water to less then 10 mg/L,
             reducing nitrogen and phosphorus concentrations and <br/>eliminating
@@ -395,7 +396,7 @@ const Rewater = () => {
             on its surface. The algal growth has reduced <br/> the aquatic flora and
             fauna and has also affected tourism.
           </p>
-          <p className="p-Tiliyar-lake">
+          <p className="p2-Tiliyar-lake">
             Working with Directorate of Coldwater Fisheries Research, Bhimtal we
             are working on the revival of Tilyar lake. <br/> Aerators would be
             installed throughout the lake to increase the dissolved oxygen
@@ -414,7 +415,7 @@ const Rewater = () => {
             supreme of all the religious places for <br/> Vaishnav Hindus. Millions of
             devotees travel to Radha Kund and nearby Shyam Kund for holy baths.
           </p>
-          <p className="p-radha-kund">
+          <p className="p2-radha-kund">
             The stagnant water of the kund is highly contaminated with an
             enormous BOD, COD and Total Nitrogen levels.<br/> We are working on
             cleaning of the kund through a low cost, low energy waste treatment
@@ -424,7 +425,10 @@ const Rewater = () => {
           </p>
         </div>
         
-        <img src={RadhakundImage} className="radhakundImg" />
+        <img
+         src={RadhakundImage} 
+         className="radhakundImg" />
+      </div>
       </div>
       {/* section eleven */}
       <div >

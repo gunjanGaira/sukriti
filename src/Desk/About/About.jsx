@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
 import image from "../About/about-banner.png";
+import B_img from "../About/about_story.png";
 import background from "../About/fi.img.png";
 import advisor1 from "../About/Dr.pramodAgarwal.png";
 import advisor2 from "../About/Dr.PradeepKumar.jpg";
@@ -87,6 +88,7 @@ const About = () => {
             from environmental degradation. And the key to solving this
             challenge lies in smart engineering solutions.
           </p>
+          <img src={B_img} className="story_im"/>
           <p className="pera-C2">
             When we graduated from IIT Roorkee, we realized that
             post-graduation, a lot of students ended up working in
@@ -115,13 +117,13 @@ const About = () => {
             style={{
               fontSize: "20px",
               fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
-              fontWeight:"700"
+              fontWeight: "700",
             }}
           >
             OUR ADVISORS
           </p>
           {/* <hr /> */}
-          <p>
+          <p className="ad_pera_">
             For a startup to become a Unicorn, it needs lot of right
             ingredients. More than anything else, it needs group of experts,
             carrying multitude
@@ -132,9 +134,12 @@ const About = () => {
 
         <div className="adv-description">
           <div className="row-first">
-            <div >
+            <div>
               <div className="Advisor1">
-                <img src={advisor1} className="Advisor1" style={{marginLeft:"50%"}} />
+                <img
+                  src={advisor1}
+                  className="Advisor1"
+                />
               </div>
 
               <div>
@@ -149,7 +154,10 @@ const About = () => {
 
             <div>
               <div className="Advisor2">
-                <img src={advisor2} className="Advisor1" style={{marginLeft:"20%"}}/>
+                <img
+                  src={advisor2}
+                  className="Advisor1"
+                />
               </div>
 
               <div>
@@ -179,7 +187,10 @@ const About = () => {
           <div className="row-second">
             <div>
               <div className="Advisor4">
-                <img src={advisor4} className="Advisor1" style={{marginLeft:"20%"}}/>
+                <img
+                  src={advisor4}
+                  className="Advisor1"
+                />
               </div>
 
               <div>
@@ -192,11 +203,14 @@ const About = () => {
 
             <div>
               <div className="Advisor5">
-                <img src={advisor5} className="Advisor1"  style={{marginLeft:"30%"}}/>
+                <img
+                  src={advisor5}
+                  className="Advisor1"
+                />
               </div>
               <div>
                 <p className="profile-pera">Mr. Nadav Avidan</p>
-                <p className="content-pera" >
+                <p className="content-pera">
                   Most prominent Branding, Story Telling
                   <br />
                   and PR voices in Israel
@@ -206,11 +220,14 @@ const About = () => {
 
             <div>
               <div className="Advisor6">
-                <img src={advisor6} className="Advisor1" style={{marginLeft:"25%"}}/>
+                <img
+                  src={advisor6}
+                  className="Advisor1"
+                />
               </div>
 
               <div>
-                <p className="profile-pera" >Mr. Nishith Acharya</p>
+                <p className="profile-pera">Mr. Nishith Acharya</p>
                 <p className="content-pera">
                   Ex Director Innovation and Entrepreneurship,
                   <br />
@@ -221,13 +238,11 @@ const About = () => {
           </div>
         </div>
       </div>
+
       {/* section five */}
-       <div>
-        <Footer/>
-       </div>
-    
-
-
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 };

@@ -153,7 +153,7 @@
   font-size: 16px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.rewater-hr{
+.rewater-hr {
   width: 15%;
   justify-content: right;
   height: 3px;
@@ -165,32 +165,49 @@
   border-top-left-radius: 5px;
 }
 /* section eight /nine/ten*/
-.Bhowali-town,.tiliyarLake,.Radha-kund{
-  width:100%;
-  display: flex;
-  justify-content: space-evenly;
+.ei-con{
+  margin-left: 5%;
 }
-.h-Bhowali-town,.h-Tiliyar-lake,.h-radha-kund{
+.Bhowali-town,
+.tiliyarLake,
+.Radha-kund {
+  width: 100%;
+ display: flex;
+ justify-content: space-around;
+ 
+}
+.h-Bhowali-town,
+.h-Tiliyar-lake,
+.h-radha-kund {
   font-size: 21px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 650;
 }
-.p-Bhowali-town,.p-Tiliyar-lake,.p-radha-kund{
+.p-Bhowali-town,
+.p-Tiliyar-lake,
+.p-radha-kund{
   margin-top: 3%;
   font-size: 16px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   line-height: 1.8;
-
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.8;
+  width: 100%;
 }
-.bhowaliImg,.radhakundImg{
-  width:20%;
+.p2-Bhowali-town,
+.p2-Tiliyar-lake,
+.p2-radha-kund {
+  margin-top: 3%;
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.8;
+  width: 100%;
+}
+.bhowaliImg,
+.radhakundImg {
+  width: 300px;
 }
 .tiliyarImage{
-  width: 80%;
+  width: 73%;
 }
-
-
-
 
 /* media query */
 @media (min-width: 0px) and (max-width: 1024px) {
@@ -198,11 +215,10 @@
     display: none;
   }
 }
-@media (min-width: 786px) and (max-width: 2560px){
-  .rewater-hr{
+@media (min-width: 786px) and (max-width: 2560px) {
+  .rewater-hr {
     display: none;
   }
-
 }
 @media (min-width: 1025px) and (max-width: 2560px) {
   .vid-Image {
@@ -228,6 +244,17 @@
     margin-left: -59%;
     margin-top: 16%;
   }
+
+  .Bhowali-town,
+  .tiliyarLake,
+  .Radha-kund {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+  }
+  .ei-con{
+    margin-left: 5%;
+  }
 }
 @media (max-width: 786px) {
   /* section one */
@@ -248,24 +275,37 @@
     text-align: center;
   }
   /* section eight /nine/ten*/
-.Bhowali-town,.tiliyarLake,.Radha-kund{
-  margin-left: 2%;
-  flex-direction: column;
+  .ei-con{
+    margin-left: 5%;
+  }
+  .bhowaliImg,
+ .radhakundImg {
+  position: absolute;
+    width: 28%;
+    margin-left: 57%;
+    margin-top: 2%;
+}
+
+.p-Bhowali-town,
+.p-radha-kund{
+  width:100%;
+}
+.p2-Bhowali-town,
+.p2-radha-kund{
+  width:180%;
+}
+
+.p2-Tiliyar-lake{
+  width: 231%;
+  margin-left: -88%;
+}
+.p-Tiliyar-lake{
+  width:137%;
 }
 .tiliyarLake{
-  margin-left: 2%;
-  flex-direction: column-reverse;
-}
+  width: 78%;
 
-.tiliyarImage{
-  width: 45%;
-  margin-left: 25%;
-}
-
-.bhowaliImg,.radhakundImg{
-  width:40%;
- margin-left: 30%;
-}
+} 
 }
 @media (max-width: 480px) {
   /* section one */
@@ -285,15 +325,26 @@
     margin-left: 3%;
   }
   /* section seven */
-  .head-water-bodies{
+  .head-water-bodies {
     font-size: 18px;
   }
   /* section eight and nine */
-  .h-Bhowali-town,.h-Tiliyar-lake,.h-radha-kund{
+  .h-Bhowali-town,
+  .h-Tiliyar-lake,
+  .h-radha-kund {
     font-size: 14px;
   }
-  .p-Bhowali-town,.p-Tiliyar-lake,.p-radha-kund{
+  .p-Bhowali-town,
+  .p-Tiliyar-lake,
+  .p-radha-kund,
+  .p2-Bhowali-town,
+  .p2-Tiliyar-lake,
+  .p2-radha-kund {
     font-size: 12px;
+  }
+  .tiliyarImage,.bhowaliImg,
+  .radhakundImg{
+    margin-top: 10%;
   }
 }
 @media (max-width: 320px) {

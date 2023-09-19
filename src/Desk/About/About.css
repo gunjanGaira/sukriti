@@ -84,33 +84,54 @@
 }
 
 .row-first {
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
 }
 .row-second {
-  display: flex;
-  justify-content: space-around;
-  padding: 0 0 3% 10%;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  margin-top: 5%;
+ 
+}
+.adv-description{
+  padding-left: 10%;
+}
+.ad_pera_{
+  font-size: 17px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .Advisor1 {
   width: 150px;
   height: 150px;
-  align-items: center;
+  /* align-items: center; */
 }
 .content-pera {
   font-size: 16px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  text-align: center;
+
 }
 .profile-pera {
   font-size: 17px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  text-align: center;
   font-weight: 600;
-  /* justify-content:space-around; */
+  
 }
+ 
+ @media (min-width:786px) and (max-width:2500px){
+  .story_im{
+    display: none;
+  }
 
+ }
+ @media (min-width:0px) and (max-width:786px){
+  .right-side{
+    display:none;
+  }
+ }
 @media (max-width: 1024px) {
   /* section one */
   .TextofBanner {
@@ -124,9 +145,6 @@
     font-size: 17px;
   }
   /* sectrion three */
-  .right-side {
-    width: 300px;
-  }
   .pera-C,
   .pera-H {
     width: 100%;
@@ -152,29 +170,41 @@
     flex-direction: column-reverse;
     text-align: center;
   }
-  .pera-C,
-  .pera-C2,
+  .pera-
+ {
+    width: 100%;
+    font-size: 15px;
+    line-height: 1.7;
+  }
+  .pera-C2{
+    width: 100%;
+    font-size: 15px;
+
+  }
   .pera-C3 {
     width: 100%;
     font-size: 15px;
     line-height: 1.7;
   }
-  .pera-H {
-    font-size: 20px;
-    font-weight: 650;
+  .story_im{
+    width: 60%;
+    height: 32%;
   }
+  
   /* section four */
   .row-first,
   .row-second {
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
-  .row-second {
-    margin-left: -20%;
+  .adv-description{
+    margin-left: 30%;
   }
+  .ad_pera_{
+   font-size: 14px;
+  }
+ 
 }
-
 @media (max-width: 480px) {
   /* section one */
   .TextofBanner {
@@ -197,10 +227,10 @@
   .pera-C,
   .pera-C2,
   .pera-C3 {
-    font-size: 13px;
+  font-size: 13px;
   }
-  .right-side {
-    margin-left: -20px;
+  .adv-description{
+    margin-left: 20%;
   }
   
 }
@@ -209,5 +239,11 @@
   /* section one */
   .TextofBanner {
     font-size: 12px;
+  }
+  .right-side {
+    margin-left: -51px;
+    margin-top: -223%;
+    position: absolute;
+    width: 20%;
   }
 }
