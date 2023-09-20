@@ -11,13 +11,13 @@ import smallDropIcon from "../Home/second-drop-icon.png";
 import dollerIcon from "../Home/doller-icon.png";
 import demoImage from "../Home/re-img.png";
 import McIcon from "../Home/mc-icon.png";
-import awardIcon from '../Home/awards11.jpg';
-import indianOilIcon from '../Home/indian-oil-icon.png';
-import award2Icon from '../Home/awards2.jpg';
-import emblemIcon from '../Home/emblem-icon.png';
-import award3Icon from '../Home/awards3.png';
+import awardIcon from "../Home/awards11.jpg";
+import indianOilIcon from "../Home/indian-oil-icon.png";
+import award2Icon from "../Home/awards2.jpg";
+import emblemIcon from "../Home/emblem-icon.png";
+import award3Icon from "../Home/awards3.png";
 import sbiIcon from "../Home/sbi4.PNG";
-import award1Icon from '../Home/awards1.jpg';
+import award1Icon from "../Home/awards1.jpg";
 import sulabhIcon from "../Home/sulabh-logo.png";
 import sulabhPhotograph from "../Home/Sulabh_Photograph.JPG";
 import cicLogo from "../Home/cic-logo.png";
@@ -40,6 +40,7 @@ import IconOfYouTube from "../Home/youtube-icon.png";
 import LogoOfSukriti from "../Home/Sukriti-Logo.svg";
 import newImg from "../Home/new-img.png";
 import Footer from "../Footer/Footer";
+import MultiItemCarousel from "../Carousel/Carousel";
 
 const Home = () => {
   const [outerbox, setOuterbox] = useState(0);
@@ -65,7 +66,7 @@ const Home = () => {
           backgroundPosition: "center",
           paddingTop: "43%",
           position: "relative",
-          width:"100%"
+          width: "100%",
         }}
       >
         <p className="Banner-text">
@@ -223,7 +224,7 @@ const Home = () => {
       </div>
 
       {/* section five */}
-      <div className="outer-achievement-container " style={{ width: "100%" }}>
+      {/* <div className="outer-achievement-container " style={{ width: "100%" }}>
         <div className="achievement-container ">
           <div className="achivment-text-center">
             <p className="heading-uppercase">Achievements</p>
@@ -234,138 +235,24 @@ const Home = () => {
               has helped us achieve many feats in a short span.
             </p>
           </div>
-          <div className="carousel-wrap">
-            <div className="owl-carousel-owl-theme">
+          <MultiItemCarousel />
+        </div>
 
-              <div className="item-carousel-card">
-                  <img src={McIcon} className="image-of-mc-icon" />
-                  <p className="p-carousel">
-                  <span className="h-carousel">Winner</span><br/>
-                    Mass Challenge, <br /> Israel
-                  </p>
-                
-              </div>
-
-               {/* <div className="item-carousel-card">
-                <img className="achievement-img" src={awardIcon} />
-              </div>
-
-                <div className="item-carousel-card">
-                  <img src={indianOilIcon} className="inner-idian-oil-image-container"/>
-                  <p className="p-carousel" >
-                    <span className="h-carousel">Winner</span><br/>
-                  Indian Oil, <br /> Startup Fund Grant
-                  </p>
-                </div>
-
-
-                <div className="item-carousel-card">
-                  <img src={award2Icon} className="achievement-img" />
-              </div>
-
-              <div className="item-carousel-card">
-                  <img src={emblemIcon} className="inner-idian-oil-image-container"/>
-                  <p className="p-carousel">
-                    <span className="h-carousel">Most Impactful Startup of India</span><br/>
-                    Ministry of Science and Technology,<br/>
-                    Government of India
-                  </p>
-                </div>
-
-                <div className="item-carousel-card">
-                  <img src={award3Icon} className="achievement-img" />
-              </div> 
-              
-              <div className="item-carousel-card">
-                  <img src={sbiIcon} className="inner-idian-oil-image-container"/>
-                  <p className="p-carousel">
-                    <span className="h-carousel">Winner</span><br/>
-                    Best CSR practices,<br/>
-                   State Bank of India
-                   </p>
-                 
-                </div>
-                <div className="item-carousel-card">
-                  <img src={award1Icon} className="achievement-img" />
-              </div> 
-
-              <div className="item-carousel-card">
-                  <img src={sulabhIcon} className="inner-idian-oil-image-container"/>
-                  <p className="p-carousel">
-                    <span className="h-carousel">Felicitation for exemplary work in WASH sector</span><br/>
-                    Sulabh International
-                   </p>
-              </div>
-              <div className="item-carousel-card">
-                  <img src={sulabhPhotograph} className="achievement-img" />
-              </div>  
-
-
-
-              <div className="item-carousel-card">
-                  <img src={cicLogo} className="inner-idian-oil-image-container"/>
-                  <p className="p-carousel">
-                    <span className="h-carousel"> Best Startup Pitch </span><br/>
-                    Cambridge Innovation Centre,<br/>  Cambridge Massachusetts
-                   </p>
-              </div>
-              <div className="item-carousel-card">
-                  <img src={Imgs} className="achievement-img" />
-              </div> 
-              
-
-              <div className="item-carousel-card">
-                  <img src={McIcCopy} className="inner-idian-oil-image-container"/>
-                  <p className="p-carousel">
-                    <span className="h-carousel">  Winner </span><br/>
-                    Students Appreciation Award,<br/>
-                    Brandeis Business School, Massachusetts
-                   </p>
-              </div>
-              <div className="item-carousel-card">
-                  <img src={Imags73} className="achievement-img" />
-              </div> */}
-
-
-              
-              <div className="item-carousel-card">
-                  <img src={Smart_city} className="inner-idian-oil-image-container"/>
-                  <p className="p-carousel">
-                    <span className="h-carousel"> Winner</span><br/>
-                    Aim Smart City Accelerator,<br/>
-                    powered by Microsoft</p>
-              </div>
-              <div className="item-carousel-card">
-                  <img src={awards_44} className="achievement-img" />
-              </div> 
-
-              
-            </div>
-            {/* </button> */}
+        <div className="media_section">
+          <div className="">
+            <p className="text-center-media">IN THE MEDIA&nbsp;:</p>
           </div>
+          <div className="groups_img">
+            <img src={group_5} />
           </div>
-
-       
-         <div className="media_section">
-             <div className="">
-              <p className="text-center-media">
-                IN THE MEDIA&nbsp;:
-              </p>
-            </div>
-            <div className="groups_img">
-              <img src={group_5} />
-            </div>
-            <div className="groups_img">
-              <img src={group_21} />
-            </div>
-            <div className="groups_img">
-              <img src={ndtvLogo} />
-            </div>
-        </div> 
-
-          
-        
-      </div>
+          <div className="groups_img">
+            <img src={group_21} />
+          </div>
+          <div className="groups_img">
+            <img src={ndtvLogo} />
+          </div>
+        </div>
+      </div> */}
 
       {/* section six */}
       <div className="partner-container">
@@ -417,10 +304,8 @@ const Home = () => {
 
       {/*section seven */}
       <div>
-      <Footer/>
+        <Footer />
       </div>
-
-
     </div>
   );
 };

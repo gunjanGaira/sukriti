@@ -3,7 +3,6 @@ import { useState } from "react";
 import "./Careers.css";
 import CareerBanner from "../Careers/career-banner.jpg";
 import Footer from "../Footer/Footer";
-
 const Careers = () => {
   const [open, setOpen] = React.useState(false);
   const openPage = () => {
@@ -1005,6 +1004,21 @@ const Careers = () => {
           </div>
         </modal>
       </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
       {/* section six */}
       <div>

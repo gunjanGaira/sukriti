@@ -172,7 +172,7 @@ p input[name="learn"]:hover,p input[name="rewater"]:hover {
 }
 
 .responsive-image,.demo_img {
-  max-width: 100%; /* Set maximum width to prevent overflow */
+  max-width: 75%; /* Set maximum width to prevent overflow */
   height: auto; /* Maintain aspect ratio */
 }
 
@@ -402,7 +402,24 @@ border-top-left-radius:3px ;
 
 
 /* Media query for smaller screens */
-
+@media (max-width: 600px){
+.col-main-content{
+  flex-direction: column;
+  margin-left: 5%;
+}
+.main-content{
+  flex-direction: column-reverse;
+  margin-left: 5%;
+}
+.responsive-image{
+   width: 75%;
+   margin-left: 8%;
+}
+.demo_img{
+  width: 75%;
+  margin-left: 10%;
+}
+}
 @media (max-width: 1024px) {
   .Banner-text {
     font-size: 30px; /* Adjust font size for smaller screens */
@@ -431,10 +448,113 @@ border-top-left-radius:3px ;
   .recycle-water-heading-content{
     font-size: 30px;
   }
-  .pt,.pt2{
+   
+}
+@media (max-width: 768px){
+   /* section one */
+   .Banner-text {
+    font-size: 30px; /* Adjust font size for even smaller screens */
+  }
+  .common-text {
+    font-size: 16px; /* Adjust font size for smaller screens */
+    font-weight: 400;
+    line-height: 1.5;
+  }
+  
+   .belw-ban-inr-con,.belw-ban-inr-con,.commanText{
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+
+   }
+  .common-img {
+    width: 27px;
+  }
+  /* section three and four */
+  .col-ecolats,.col-ecolats-left{
+    margin-left:4%;
+  }
+  .responsive-image{
+    margin-left:-10px;
+
+  }
+  /* .demo_img{
+    margin-left:-10px;
+
+  } */
+  .elats_right,.elats_left,.PERA_text,.PERA_text_form{
     font-size: 16px;
   }
-   
+  
+  .ECO,.rewater-content {
+    font-size:25px;
+  }
+  .heading-content,.recycle-water-heading-content{
+    font-size:18px ;
+  }
+  .rewater-content{
+    font-size: 30px;
+
+  }
+  .p-text,.p-text2{
+    margin-left: 8px;
+    font-size: 17px;
+  }
+  .icons-of-home{
+    width: 20px;
+    height: 25px;
+  }
+  /* section five */
+ .partner-container{
+  text-align: center;
+
+  }
+  /* section six */
+      .pt{
+        position: absolute;
+        margin-top: 10%;
+        font-size: 70%;
+        line-height: 1.5;
+      }
+      .pt2{
+      
+        position: absolute;
+        margin-top: 20%;
+        font-size: 70%;
+        line-height: 1.5;
+      }
+      .pt3{
+       
+        position: absolute;
+        margin-top: 20%;
+        font-size: 70%;
+        line-height: 1.5;
+      }
+
+      .vertical-line-container,.vertical-surrrey-line-container{
+        display: none;
+  
+      }
+      .iit-logo-container{
+        width: 60%;
+        height: 34%;
+       
+        }
+      
+      .surrey-logo-container{
+        width: 30%;
+        height:25% ;
+        margin-top: 8%;
+      }
+      .indian-oil-icon{
+        width: 12%;
+        height: 8%;
+        margin-top: 7%;
+        text-align: center;
+        /* margin-left: 10%; */
+  
+      }
+
 }
 @media (max-width: 480px) {
   /* section one */
@@ -495,21 +615,21 @@ border-top-left-radius:3px ;
       .pt{
         position: absolute;
         margin-top: 10%;
-        font-size: 70%;
+        font-size: 12px;
         line-height: 1.5;
       }
       .pt2{
       
         position: absolute;
         margin-top: 20%;
-        font-size: 70%;
+        font-size: 12px;
         line-height: 1.5;
       }
       .pt3{
        
         position: absolute;
         margin-top: 20%;
-        font-size: 70%;
+        font-size: 12px;
         line-height: 1.5;
       }
 
