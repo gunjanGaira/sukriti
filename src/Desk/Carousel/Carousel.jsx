@@ -27,7 +27,7 @@ const MultiItemCarousel = () => {
       infinite={true}
     >
 
-      <div style={{}}>
+      
         <img
           style={{ width: "250px", margin: "0px 20px" }}
           src="https://images.unsplash.com/photo-1549396535-c11d5c55b9df?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
@@ -63,9 +63,9 @@ const MultiItemCarousel = () => {
           src="https://images.unsplash.com/photo-1549396535-c11d5c55b9df?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
           alt=""
         />
-      </div>
     </Carousel>
   );
 };
 
 export default MultiItemCarousel;
+

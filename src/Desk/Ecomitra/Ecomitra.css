@@ -113,6 +113,10 @@
     width: 100%;
     background-color: #00bfa5;
 }
+.water-degradation{
+    width:300px;
+    height: 250px;
+}
 /* section six */
 .impect_container{
     margin-top: 8%;

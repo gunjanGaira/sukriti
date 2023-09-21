@@ -1,11 +1,6 @@
 import React from "react";
 import "./Ecomitra.css";
 import EcoBanner from "../Ecomitra/eco-banner.png";
-import SpinIcon from "../Ecomitra/spin.svg";
-import Group1 from "../Ecomitra/group1.jpg";
-import Group2 from "../Ecomitra/group2.jpg";
-import Group3 from "../Ecomitra/group3.jpg";
-import Group4 from "../Ecomitra/group4.jpg";
 import Factor1 from "../Ecomitra/keyOne.png";
 import Factor2 from "../Ecomitra/keyTwo.png";
 import Factor3 from "../Ecomitra/keyThree.png";
@@ -18,38 +13,10 @@ import robustStructure from "../Ecomitra/Robust-Structure.svg";
 import EcoVideo from "../Ecomitra/eco-video.mp4";
 import playIcon from "../Ecomitra/play.png";
 import VideoImage from "../Ecomitra/video-img(2).png";
-import Img1 from "../Ecomitra/15.png";
-import Img2 from "../Ecomitra/IMG_7486.png";
-import Img3 from "../Ecomitra/IMG_8108.png";
-import Img4 from "../Ecomitra/DSC_0098.png";
-import Img5 from "../Ecomitra/DSC_0284.png";
-import Img6 from "../Ecomitra/IMG_8088.png";
-import Img7 from "../Ecomitra/DSC_0324.png";
-import Img8 from "../Ecomitra/DSC_02572.png";
-import Img9 from "../Ecomitra/IMG_0754.png";
-import Img10 from "../Ecomitra/IMG_8109.png";
-import Img11 from "../Ecomitra/IMG_0818.png";
-import Img12 from "../Ecomitra/IMG_0859.png";
-import Img13 from "../Ecomitra/IMG_1091.png";
-import Img14 from "../Ecomitra/IMG_1160.png";
-import Img15 from "../Ecomitra/IMG_8125.png";
-import Img16 from "../Ecomitra/IMG_8171.png";
-import Img17 from "../Ecomitra/DSC_0305.png";
-import Img18 from "../Ecomitra/IMG_8195.png";
-import Img19 from "../Ecomitra/IMG_8219.png";
-import Img20 from "../Ecomitra/IMG_08751.png";
-import Img21 from "../Ecomitra/IMG_8249.png";
-import Img22 from "../Ecomitra/IMG_08831.png";
-import Img23 from "../Ecomitra/IMG_8233.png";
-import Img24 from "../Ecomitra/oval-4-copy-4.svg";
-import Img25 from "../Ecomitra/oval-4.svg";
-import BackgroundContactUs from "../Home/contact-us-background.JPG";
-import secBackOfConUs from "../Home/back.png";
-import IconOfLinkedin from "../Home/linkedin-icon.png";
-import IconOfFacebook from "../Home/facebook-icon.png";
-import IconOfYouTube from "../Home/youtube-icon.png";
-import LogoOfSukriti from "../Home/Sukriti-Logo.svg";
 import Footer from "../Footer/Footer";
+import Ecomitra_carousel from "../Carousel/Ecomitra_carousel";
+import Eco_sec_carousel from "../Carousel/Eco_sec_carousel";
+// import Ecomitra_carousel from '../Ecomitra_carousel/Ecomitra_carousel';
 
 
 const Ecomitra = () => {
@@ -83,7 +50,6 @@ const Ecomitra = () => {
           </p>
         </div>
       </div>
-
       {/* section two */}
       <div
         className="container-fluid-slide1"
@@ -93,74 +59,9 @@ const Ecomitra = () => {
           <p className="heading-content-elat_h">WHY SANITATION ?</p>
         </div>
         <div>
+          <Ecomitra_carousel/>
           {/* Loading Screen */}
-          <div className="jssorl-009-spin">
-            <img
-            // style={{marginTop:"-19px",position:"relative",top:"50%",width:"38px",height:"38px"}}
-            // src={SpinIcon}
-            />
-          </div>
-          <div className="image-Con" data-u="slides">
-            <div>
-              <img
-                data-u="image"
-                // src={Group3}
-                style={{ paddingRight: "20px" }}
-              />
-            </div>
-            <div>
-              <img
-                data-u="image"
-                // src={Group4}
-                style={{ paddingRight: "20px" }}
-              />
-            </div>
-            <div>
-              <img
-                data-u="image"
-                // src={Group2}
-                style={{ paddingRight: "20px" }}
-              />
-            </div>
-            <div>
-              <img
-                data-u="image"
-                // src={Group1}
-                style={{ paddingRight: "20px" }}
-              />
-            </div>
-          </div>
-          {/*  Bullet Navigator  */}
-          <div
-            data-u="navigator"
-            style={{
-              position: "absolute",
-              bottom: "-25px",
-              right: "12px",
-              dataAutocenter: "1",
-              dataScale: "0.5",
-              dataScaleBottom: "0.75",
-            }}
-          >
-            <div
-              data-u="prototype"
-              className="i"
-              style={{ width: "16px", height: "16px" }}
-            >
-              <svg
-                viewbox="0 0 16000 16000"
-                style={{
-                  position: "absolute",
-                  top: "0",
-                  left: "0",
-                  width: "100%",
-                  height: "100%",
-                }}
-              >
-                <circle cx="8000" cy="8000" r="5000"></circle>
-              </svg>
-            </div>
-          </div>
+          
         </div>
       </div>
 
@@ -308,36 +209,9 @@ const Ecomitra = () => {
       {/* section five */}
       <div>
         <div>
-          <div>{/* <img src={SpinIcon} /> */}</div>
-          <div>
-            <div>{/* <img  src={Img1} /> */}</div>
-            <div>{/* <img src={Img2}/> */}</div>
-            <div>{/* <img src={Img3} /> */}</div>
-            <div>{/* <img src={Img4}/> */}</div>
-            <div>{/* <img src={Img5} /> */}</div>
-            <div>{/* <img  src={Img6} /> */}</div>
-            <div>{/* <img  src={Img7} /> */}</div>
-            <div>{/* <img  src={Img8} /> */}</div>
-            <div>{/* <img src={Img9} /> */}</div>
-            <div>{/* <img  src={Img10} /> */}</div>
-            <div>{/* <img  src={Img11} /> */}</div>
-            <div>{/* <img src={Img12}/> */}</div>
-            <div>{/* <img  src={Img13} /> */}</div>
-            <div>{/* <img  src={Img14} /> */}</div>
-            <div>{/* <img  src={Img15} /> */}</div>
-            <div>{/* <img src={Img16} /> */}</div>
-            <div>{/* <img src={Img17}/> */}</div>
-            <div>{/* <img  src={Img18} /> */}</div>
-            <div>{/* <img src={Img19}/> */}</div>
-            <div>{/* <img src={Img20} /> */}</div>
-            <div>{/* <img  src={Img21} /> */}</div>
-            {/* <img  src={Img22} /> */}
-          </div>
-          <div>{/* <img  src={Img23}  /> */}</div>
+          <Eco_sec_carousel/>
         </div>
-
-        <div>{/* <img src={Img24} alt="" /> */}</div>
-        <div>{/* <img src={Img25} alt=""/> */}</div>
+       
         <div className="memories-content">
           <div>
             <p>

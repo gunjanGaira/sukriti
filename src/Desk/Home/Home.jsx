@@ -10,37 +10,16 @@ import renewableEnergy from "../Home/renewable-energy-icon.png";
 import smallDropIcon from "../Home/second-drop-icon.png";
 import dollerIcon from "../Home/doller-icon.png";
 import demoImage from "../Home/re-img.png";
-import McIcon from "../Home/mc-icon.png";
-import awardIcon from "../Home/awards11.jpg";
-import indianOilIcon from "../Home/indian-oil-icon.png";
-import award2Icon from "../Home/awards2.jpg";
-import emblemIcon from "../Home/emblem-icon.png";
-import award3Icon from "../Home/awards3.png";
-import sbiIcon from "../Home/sbi4.PNG";
-import award1Icon from "../Home/awards1.jpg";
-import sulabhIcon from "../Home/sulabh-logo.png";
-import sulabhPhotograph from "../Home/Sulabh_Photograph.JPG";
-import cicLogo from "../Home/cic-logo.png";
-import Imgs from "../Home/IMG_1033.jpg";
-import McIcCopy from "../Home/mc-copy@2x.png";
-import Imags73 from "../Home/IMG_7354.JPG";
-import Smart_city from "../Home/sdf2.jpg";
-import awards_44 from "../Home/awards44.JPG";
 import group_5 from "../Home/group-5.svg";
 import group_21 from "../Home/group-21.svg";
 import ndtvLogo from "../Home/ndtv-seeklogo-com.svg";
 import iitLogo from "../Home/iit-roorkee-logo.png";
 import surreyIcon from "../Home/university-of-surrey.png";
 import IconOfIndianOil from "../Home/Icon-of-indianoil.png";
-import BackgroundContactUs from "../Home/contact-us-background.JPG";
-import secBackOfConUs from "../Home/back.png";
-import IconOfLinkedin from "../Home/linkedin-icon.png";
-import IconOfFacebook from "../Home/facebook-icon.png";
-import IconOfYouTube from "../Home/youtube-icon.png";
-import LogoOfSukriti from "../Home/Sukriti-Logo.svg";
 import newImg from "../Home/new-img.png";
 import Footer from "../Footer/Footer";
-import MultiItemCarousel from "../Carousel/Carousel";
+import Home_carousel from "../Carousel/Home_carousel";
+// import Home_carousel from "../"
 
 const Home = () => {
   const [outerbox, setOuterbox] = useState(0);
@@ -224,7 +203,7 @@ const Home = () => {
       </div>
 
       {/* section five */}
-      {/* <div className="outer-achievement-container " style={{ width: "100%" }}>
+      <div className="outer-achievement-container " style={{ width: "100%" }}>
         <div className="achievement-container ">
           <div className="achivment-text-center">
             <p className="heading-uppercase">Achievements</p>
@@ -235,24 +214,28 @@ const Home = () => {
               has helped us achieve many feats in a short span.
             </p>
           </div>
-          <MultiItemCarousel />
+          <div>
+            <Home_carousel />
+          </div>
         </div>
-
         <div className="media_section">
-          <div className="">
-            <p className="text-center-media">IN THE MEDIA&nbsp;:</p>
-          </div>
-          <div className="groups_img">
-            <img src={group_5} />
-          </div>
-          <div className="groups_img">
-            <img src={group_21} />
-          </div>
-          <div className="groups_img">
-            <img src={ndtvLogo} />
-          </div>
+          <div className="media_class">
+            <p className="text-center-media">IN THE MEDIA&nbsp;:&nbsp;</p>
+          </div>{" "}
+          &nbsp;&nbsp;
+            <div className="groups_img">
+              <img src={group_5}  className="d_j_image"/>
+            </div>
+            &nbsp;&nbsp;
+            <div className="groups_img">
+              <img src={group_21} className="hindustan_times"/>
+            </div>
+            &nbsp;&nbsp;
+            <div className="groups_img">
+              <img src={ndtvLogo} className="ndtv"/>
+            </div>
         </div>
-      </div> */}
+      </div>
 
       {/* section six */}
       <div className="partner-container">
