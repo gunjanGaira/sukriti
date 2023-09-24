@@ -207,27 +207,27 @@ const Ecomitra = () => {
       </div>
 
       {/* section five */}
-      <div>
+      <div  className="eco-section-five">
         <div>
           <Eco_sec_carousel/>
         </div>
        
         <div className="memories-content">
-          <div>
-            <p>
+          <div style={{marginTop:"8%"}}>
+            <p className="eco-car-pera">
               EcoMitra saves 0.5 million
               <br /> litres of water per toilet every <br />
               year
             </p>
           </div>
-          <div>
-            <p>
+          <div style={{marginTop:"8%"}}>
+            <p className="eco-car-pera">
               Prevents soil and water degradation
               <br /> caused by dumping of untreated waste
             </p>
           </div>
-          <div>
-            <p>
+          <div style={{marginTop:"8%"}}>
+            <p className="eco-car-pera">
               Solar panels save 1,000 units of
               <br /> electricity per Ecomitra every year
             </p>

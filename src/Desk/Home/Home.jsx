@@ -19,19 +19,21 @@ import IconOfIndianOil from "../Home/Icon-of-indianoil.png";
 import newImg from "../Home/new-img.png";
 import Footer from "../Footer/Footer";
 import Home_carousel from "../Carousel/Home_carousel";
-// import Home_carousel from "../"
 
 const Home = () => {
   const [outerbox, setOuterbox] = useState(0);
-  const prevOutlet = () => {
-    setOuterbox((prevIndex) =>
-      prevIndex === 0 ? image.length - 1 : prevIndex - 1
-    );
-  };
+  // const prevOutlet = () => {
+  //   setOuterbox((prevIndex) =>
+  //     prevIndex === 0 ? image.length - 1 : prevIndex - 1
+  //   );
+  // };
 
-  const nextOutlet = () => {
-    setOuterbox((prevIndex) => (prevIndex + 1) % image.length);
-  };
+  // const nextOutlet = () => {
+  //   setOuterbox((prevIndex) => (prevIndex + 1) % image.length);
+  // };
+
+  
+
 
   return (
     <div>
@@ -286,7 +288,7 @@ const Home = () => {
       </div>
 
       {/*section seven */}
-      <div>
+      <div className="home_footer" >
         <Footer />
       </div>
     </div>

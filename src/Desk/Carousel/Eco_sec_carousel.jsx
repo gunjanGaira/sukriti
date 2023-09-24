@@ -4,8 +4,8 @@ import "react-multi-carousel/lib/styles.css";
 import Img1 from "../Ecomitra/15.png";
 import Img2 from "../Ecomitra/IMG_7486.png";
 import Img3 from "../Ecomitra/IMG_8108.png";
-import Img4 from "../Ecomitra/DSC_0098.png";
-import Img5 from "../Ecomitra/DSC_0284.png";
+import Img4 from "../Ecomitra/DSC_1.png";
+import Img5 from "../Ecomitra/DSC_2.png";
 import Img6 from "../Ecomitra/IMG_8088.png";
 import Img7 from "../Ecomitra/DSC_0324.png";
 import Img8 from "../Ecomitra/DSC_02572.png";
@@ -29,20 +29,28 @@ import Img25 from "../Ecomitra/oval-4.svg";
 
 const Eco_sec_carousel = () => {
     const responsive = {
-        mobile: {
-          breakpoint: { max: 464, min: 0 },
-          items: 1,
-        },
-        tablet: {
-          breakpoint: { max: 1024, min: 464 },
-          items: 2,
-        },
-        desktop: {
-          breakpoint: { max: 3000, min: 1024 },
-          items: 4.5,
-        },
-      };
-      const autoPlaySpeed = 3000; // 3 seconds per slide
+      mobile: {
+        breakpoint: { max: 380, min: 0 },
+        items: 2,
+      },
+      Large_mobile: {
+        breakpoint: { max: 480, min: 380 },
+        items: 2,
+      },
+      small_tablet: {
+        breakpoint: { max: 786, min: 480 },
+        items: 2.2,
+      },
+      tablet: {
+        breakpoint: { max: 1024, min: 786 },
+        items: 3,
+      },
+      desktop: {
+        breakpoint: { max: 2560, min: 1024 },
+        items: 4,
+      },
+    }  
+      const autoPlaySpeed = 3500; // 3 seconds per slide
   return (
     <Carousel
       responsive={responsive}
@@ -54,8 +62,8 @@ const Eco_sec_carousel = () => {
     <img  src={Img1} className="water-degradation"/>
     <img src={Img2} className="water-degradation"/>
     <img src={Img3} className="water-degradation"/>
-    <img src={Img4} className="water-degradation"/>
-    <img src={Img5} className="water-degradation"/>
+    <img src={Img4} className="waterDegradation"/>
+    <img src={Img5} className="waterDegradation"/>
     <img src={Img6} className="water-degradation"/>
     <img src={Img7} className="water-degradation"/>
     <img src={Img8}  className="water-degradation"/>

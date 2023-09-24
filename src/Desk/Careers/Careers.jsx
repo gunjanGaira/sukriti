@@ -4,6 +4,30 @@ import "./Careers.css";
 import CareerBanner from "../Careers/career-banner.jpg";
 import Footer from "../Footer/Footer";
 const Careers = () => {
+  // const [open, setOpen] = React.useState(false);
+  // const openPage = () => {
+  //   setOpen(true);
+  // };
+  // const closePage = () => {
+  //   setOpen(false);
+  // };
+  const [showModal, setShowModal] = useState(false);
+
+  const toggleModal = () => {
+    setShowModal(!showModal);
+  };
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    console.log("Form submitted!");
+  };
+
+  const [activeTab, setActiveTab] = useState(0);
+
+  const handleTabClick = (index) => {
+    setActiveTab(index);
+  };
+
   const [open, setOpen] = React.useState(false);
   const openPage = () => {
     setOpen(true);
@@ -11,6 +35,7 @@ const Careers = () => {
   const closePage = () => {
     setOpen(false);
   };
+
   return (
     <div>
       {/* section one */}
@@ -63,7 +88,7 @@ const Careers = () => {
       {/* section four */}
 
       <div className="designators">
-        <ul className="ul_of_designators">
+        {/* <ul className="ul_of_designators">
           <li className="li_of_designators">
             <p className="p_of_designators">Electronics CAD Engineer</p>
           </li>
@@ -93,10 +118,77 @@ const Careers = () => {
           <li className="li_of_designators">
             <p className="p_of_designators">Formwork Engineer</p>
           </li>
-        </ul>
+        </ul> */}
+           <div className="tab-container">
+          <ul className="tab-list">
+            <li
+              className={`tab-item ${activeTab === 0 ? "active" : ""}`}
+              onClick={() => handleTabClick(0)}
+            >
+              <p className="p_of_designators">Electronics CAD Engineer</p>
+            </li>
+            <li
+              className={`tab-item ${activeTab === 1 ? "active" : ""}`}
+              onClick={() => handleTabClick(1)}
+            >
+              <p className="p_of_designators">Chief Architect</p>
+            </li>
+            <li
+              className={`tab-item ${activeTab === 2 ? "active" : ""}`}
+              onClick={() => handleTabClick(2)}
+            >
+              <p className="p_of_designators">
+                Embedded Hardware Design Engineer
+              </p>
+            </li>
+            <li
+              className={`tab-item ${activeTab === 3 ? "active" : ""}`}
+              onClick={() => handleTabClick(3)}
+            >
+              <p className="p_of_designators">Embedded Firmware Engineer</p>
+            </li>
+            <li
+              className={`tab-item ${activeTab === 4 ? "active" : ""}`}
+              onClick={() => handleTabClick(4)}
+            >
+              <p className="p_of_designators">Embedded Design engineer</p>
+            </li>
+
+            <li
+              className={`tab-item ${activeTab === 5 ? "active" : ""}`}
+              onClick={() => handleTabClick(5)}
+            >
+              <p className="p_of_designators">After-Sales Engineer</p>
+            </li>
+            <li
+              className={`tab-item ${activeTab === 6 ? "active" : ""}`}
+              onClick={() => handleTabClick(6)}
+            >
+              <p className="p_of_designators">Project Manager</p>
+            </li>
+            <li
+              className={`tab-item ${activeTab === 7 ? "active" : ""}`}
+              onClick={() => handleTabClick(7)}
+            >
+              <p className="p_of_designators">Site Supervisor/Engineer</p>
+            </li>
+            <li
+              className={`tab-item ${activeTab === 8 ? "active" : ""}`}
+              onClick={() => handleTabClick(8)}
+            >
+              <p className="p_of_designators">Formwork Engineer</p>
+            </li>
+          </ul>
+
+          <button className="scroll-button scroll-left"></button>
+          <button className="scroll-button scroll-right"></button>
+           </div>
 
         <div>
+        <div className="tab-content">
           {/* part one */}
+          <div className={`tab-panel ${activeTab === 0 ? "active" : ""}`}> 
+
           <div className="engineers">
             <p className="resp_duties_h">Job Summary</p>
             <p className="resp_duties_h">Responsibilities and Duties</p>
@@ -172,8 +264,11 @@ const Careers = () => {
               queries.
             </p>
           </div>
+         
+          </div>
           {/* part two */}
-          {/* <div className="engineers">
+          <div className={`tab-panel ${activeTab === 1 ? "active" : ""}`}>
+          <div className="engineers">
             <p className="resp_duties_h">
               Job Summary
             </p>
@@ -238,9 +333,11 @@ const Careers = () => {
               Please feel free to reach out in case of more information/any
               queries.
             </p>
-          </div> */}
+          </div> 
+          </div>
           {/* part three */}
-          {/* <div className="engineers">
+          <div className={`tab-panel ${activeTab === 2 ? "active" : ""}`}>
+          <div className="engineers">
             <p className="resp_duties_h">
               Job Summary
             </p>
@@ -329,9 +426,11 @@ const Careers = () => {
               Please feel free to reach out in case of more information/any
               queries.
             </p>
-          </div> */}
+          </div>
+          </div>
           {/* part four */}
-          {/* <div className="engineers">
+          <div className={`tab-panel ${activeTab === 3 ? "active" : ""}`}>
+          <div className="engineers">
             <p className="resp_duties_h">
               Job Summary
             </p>
@@ -460,9 +559,11 @@ const Careers = () => {
               Please feel free to reach out in case of more information/any
               queries.
             </p>
-          </div> */}
+          </div>
+          </div>
           {/* part five */}
-          {/* <div className="engineers">
+          <div className={`tab-panel ${activeTab === 4 ? "active" : ""}`}>
+          <div className="engineers">
             <p className="resp_duties_h">
              Job Summary
             </p>
@@ -592,9 +693,11 @@ const Careers = () => {
               Please feel free to reach out in case of more information/any
               queries.
             </p>
-          </div> */}
+          </div>
+          </div>
           {/* part six */}
-          {/* <div className="engineers">
+          <div className={`tab-panel ${activeTab === 5 ? "active" : ""}`}>
+          <div className="engineers">
             <p className="resp_duties_h">
               Job Summary
             </p>
@@ -702,9 +805,11 @@ const Careers = () => {
               Please feel free to reach out in case of more information/any
               queries.
             </p>
-          </div> */}
+          </div>
+          </div>
           {/* part seven */}
-          {/* <div className="engineers">
+          <div className={`tab-panel ${activeTab === 6 ? "active" : ""}`}>
+          <div className="engineers">
             <p className="resp_duties_h">
              Job Summary
             </p>
@@ -787,9 +892,11 @@ const Careers = () => {
               Please feel free to reach out in case of more information/any
               queries.
             </p>
-          </div> */}
+          </div>
+          </div>
           {/* part eight */}
-          {/* <div className="engineers">
+          <div className={`tab-panel ${activeTab === 7 ? "active" : ""}`}>
+          <div className="engineers">
            <p className="resp_duties_h">
               Job Summary
             </p>
@@ -868,9 +975,11 @@ const Careers = () => {
               Please feel free to reach out in case of more information/any
               queries.
             </p>
-          </div> */}
-          {/* part ten */}
-          {/* <div className="engineers">
+          </div>
+          </div>
+          {/* part nine */}
+          <div className={`tab-panel ${activeTab === 8 ? "active" : ""}`}>
+          <div className="engineers">
             <p className="resp_duties_h">
               Job Summary
             </p>
@@ -939,86 +1048,127 @@ const Careers = () => {
               Please feel free to reach out in case of more information/any
               queries.
             </p>
-          </div> */}
+          </div>
+          </div>
+        </div>
         </div>
       </div>
       {/* section five  */}
-      <div >
-        <button onClick={openPage} type="button" className="apply_button" style={{ display: "block", padding: 30 }}>
+      <div className="btn-of-careers">
+        <button
+          onClick={openPage}
+          type="button"
+          className="apply_button"
+          style={{ display: "block", padding: 30, marginLeft: "10%" }}
+        >
           {" "}
           APPLY NOW
         </button>
-        <modal onClose={closePage} open={open}>
-          <div style={{ width: "50%"}}>
+
+        {open && (
+          <div
+            // style={{
+            //   width: "50%",
+            //   position: "absolute",
+            //   marginLeft: "29%",
+            //   marginTop: "-52%",
+            //   backgroundColor: "white",
+            // }}
+            className="modal_content"
+          >
             <div>
-              <h3>DETAILS</h3>
+              <div className="modal_header">
+              <h4>DETAILS</h4>
+              </div>
               <button
                 type="button"
                 className="close_icon"
+                onClick={closePage}
                 data-dismiss="modal"
               >
                 &times;
               </button>
             </div>
-
-            <form action="Career.jsx" id="application-form" method="post" >
+            <form action="Career.jsx" id="application-form" method="post">
               <div className="form-start">
-
-                <div style={{display:"flex" ,marginLeft:"10%",marginTop:"10%"}}  >
-                  <div >
-                    <label className="na_me" style={{marginTop:"10%"}} >First name</label>
-                    <input type="text" name="fname" placeholder="name" className="input_p" />
+                <div className="first_row_modal"
+                  // style={{
+                  //   display: "flex",
+                  //   marginLeft: "10%",
+                  //   marginTop: "10%",
+                  // }}
+                >
+                  <div>
+                    <label className="na_me" style={{ marginTop: "10%" }}>
+                      First name
+                    </label>
+                    <input
+                      type="text"
+                      name="fname"
+                      placeholder="name"
+                      className="input_p"
+                    />
                   </div>
-                  <div >
-                    <label className="na_me" >Last name</label>
-                    <input type="text" name="lname" placeholder="last_name" className="input_p" />
+                  <div>
+                    <label className="na_me">Last name</label>
+                    <input
+                      type="text"
+                      name="lname"
+                      placeholder="last_name"
+                      className="input_p"
+                    />
                   </div>
                 </div>
 
-                <div style={{display:"flex" ,marginLeft:"10%", marginTop:"10%"}} >
+                <div className="first_row_modal"
+                  // style={{
+                  //   display: "flex",
+                  //   marginLeft: "10%",
+                  //   marginTop: "10%",
+                  // }}
+                >
                   <div>
-                  <div >
-                    <label className="na_me" >Email</label>
-                    <input type="text" name="email" placeholder="email" className="input_p"  />
-                  </div>
+                    
+                      <label className="na_me">Email</label>
+                      <input
+                        type="text"
+                        name="email"
+                        placeholder="email"
+                        className="input_p"
+                      />
+                   
                   </div>
                   <div>
-                    <label className="na_me" >Mobile No.</label>
-                    <input type="text" name="mobile" className="input_p" placeholder="number"/>
+                    <label className="na_me">Mobile No.</label>
+                    <input
+                      type="text"
+                      name="mobile"
+                      className="input_p"
+                      placeholder="number"
+                    />
                   </div>
                 </div>
-                  <div style={{marginTop:"10%"}}>
-                    <label className="na_me">Upload Resume</label>
-                    <input type="file" name="fileToUpload" />
-                  </div>
-               
+                <div className="form_check"
+                style={{ marginTop: "10%" }} 
+                >
+                  <label className="na_me">Upload Resume</label>
+                  <input type="file" name="fileToUpload" />
+                
 
                 <input type="hidden" name="postappliedfor"></input>
+                </div>
+
               </div>
 
               <div>
-                <button type="submit" className="submit_button">SUBMIT</button>
+                <button type="submit" className="submit_button">
+                  SUBMIT
+                </button>
               </div>
-
             </form>
           </div>
-        </modal>
+        )}
       </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
       {/* section six */}
       <div>

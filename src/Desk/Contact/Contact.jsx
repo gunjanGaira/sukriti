@@ -1,10 +1,11 @@
 import React from 'react';
-import MultiItemCarousel from "../Carousel/Carousel";
+import Footer from '../Footer/Footer';
 
 const Contact = () => {
-  return (
-    <div>
-       <MultiItemCarousel />
+  return(
+  <div>
+    <Footer/>
+       
     </div>
   )
 }

@@ -162,12 +162,12 @@ p input[name="learn"]:hover,p input[name="rewater"]:hover {
 
 .col-ecolats-left,.col-ecolats-right {
   flex: 1;
-  margin-left: 50px;
+  margin-left: 10%;
 }
 
 .col-ecolats{
   flex: 1;
-  margin-left: 50px;
+  margin-left: 10%;
 
 }
 
@@ -399,9 +399,11 @@ border-top-left-radius:3px ;
 @media (max-width: 600px){
 .col-main-content{
   flex-direction: column;
-  margin-left: 5%;
+ padding-left: 2%;
+ padding-right: 8%;
 }
 .main-content{
+ padding-right: 12%;
   flex-direction: column-reverse;
   margin-left: 5%;
 }
@@ -471,12 +473,16 @@ border-top-left-radius:3px ;
   }
   .col-main-content {
     flex-direction: column; /* Stack items vertically */
+    padding-left: 2%;
+    padding-right: 13%;
   }
   .main-content{
    flex-direction: column-reverse;
+   padding-left: 2%;
+    padding-right: 13%;
   }
   .demo_img{
-    margin-left: -10pxb ;
+    margin-left: 12%;
   }
 /* third and fourth section */
   .col-ecolats-left,
@@ -541,11 +547,15 @@ border-top-left-radius:3px ;
     width: 25px;
   }
   /* section three and four */
-  .col-ecolats,.col-ecolats-left{
+  /* .col-ecolats{
     margin-left:20px;
+  } */
+  .col-ecolats-left{
+    padding-right: 1%;
+    margin-left: 4%;
   }
   .responsive-image,.demo_img{
-    margin-left:-10px;
+    margin-left:12%;
 
   }
   .elats_right,.elats_left,.PERA_text,.PERA_text_form{
@@ -570,10 +580,16 @@ border-top-left-radius:3px ;
     width: 20px;
     height: 25px;
   }
+  p input[name="learn"], p input[name="rewater"]
+  {
+    width: 150px;
+    height:50px;
+  }
   /* section five */
  .partner-container{
-  text-align: center;
-
+   text-align: center;
+   padding-top: 20%;
+   padding-bottom: 25%;
   }
   .text-center-media{
     font-size: 11px;

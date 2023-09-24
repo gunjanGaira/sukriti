@@ -1,10 +1,6 @@
 import React from "react";
 import "./Rewater.css";
 import RewaterImage from "../Rewater/rewater-banner.png";
-import ImageOne from "../Rewater/group-26@3x.jpg";
-import ImageTwo from "../Rewater/group-26-copy-3@2x.jpg";
-import ImageThree from "../Rewater/group-29@3x.jpg";
-import Imagefour from "../Rewater/group-26-copy-2@3x.jpg";
 import prefabricated from "../Rewater/Prefabricated-waste-icon.svg";
 import automated from "../Rewater/Fully-automated-icon.svg";
 import HybridTechnology from "../Rewater/hybrid-technology-icon.svg";
@@ -13,36 +9,12 @@ import SolarEnergy from "../Rewater/solar-energy.svg";
 import Shipra_River from "../Rewater/10.JPG";
 import Rewater_video from "../Rewater/rewater_vid.mp4";
 import PLAY_icon from "../Rewater/play.png";
-import rewaterInsures1 from "../Rewater/rewater_insures1.svg";
-import rewaterInsures2 from "../Rewater/rewater_insures2.png";
-import rewaterInsures3 from "../Rewater/rewater_insures3.png";
-import rewaterInsures4 from "../Rewater/rewater_insures4.png";
-import rewaterInsures5 from "../Rewater/rewater_insures5.png";
-import rewaterInsures6 from "../Rewater/rewater_insures6.png";
-import rewaterInsures7 from "../Rewater/rewater_insures7.png";
-import rewaterInsures8 from "../Rewater/rewater_insures8.png";
-import rewaterInsures9 from "../Rewater/rewater_insures9.png";
-import rewaterInsures10 from "../Rewater/rewater_insures10.png";
-import rewaterInsures11 from "../Rewater/rewater_insures11.png";
-import rewaterInsures12 from "../Rewater/rewater_insures12.png";
-import rewaterInsures13 from "../Rewater/rewater_insures13.png";
-import rewaterInsures14 from "../Rewater/rewater_insures14.png";
-import rewaterInsures15 from "../Rewater/rewater_insures15.png";
-import rewaterInsures16 from "../Rewater/rewater_insures16.png";
-import rewaterInsures17 from "../Rewater/rewater_insures17.png";
-import rewaterInsures18 from "../Rewater/rewater_insures18.png";
-import rewaterInsures19 from "../Rewater/rewater_insures19.png";
-import rewaterInsures20 from "../Rewater/rewater_insures20.png";
-import rewaterInsures21 from "../Rewater/rewater_insures21.png";
-import rewaterInsures22 from "../Rewater/rewater_insures22.png";
-import rewaterInsures23 from "../Rewater/rewater_insures23.png";
-import rewaterInsures24 from "../Rewater/rewater_insures24.png";
-import rewaterInsures25 from "../Rewater/rewater_insures25.svg";
-import rewaterInsures26 from "../Rewater/rewater_insures26.svg";
 import bhowaliTownImage from "../Rewater/image_1.png";
 import TiliyarLakeImage from "../Rewater/image _2.png";
 import RadhakundImage from "../Rewater/image (2).png";
 import Footer from "../Footer/Footer";
+import Rewater_carousel from "../Carousel/Rewater_carousel";
+import Rewater_sec_carousel from "../Carousel/Rewater_sec_carousel";
 const Rewater = () => {
   const my_func = () => {
     if (document.getElementById("player").paused) {
@@ -85,22 +57,8 @@ const Rewater = () => {
         <div style={{ textAlign: "center" }}>
           <p className="pera-of-rcyl">WHY RECYCLE WATER ?</p>
         </div>
-        <div className="carousel_images">
-          <div>
-            <img src="assets/ngo/spin.svg" />
-          </div>
-
-          <div>{/* <img src={ImageOne} /> */}</div>
-          <div>{/* <img src={ImageTwo} /> */}</div>
-          <div>{/* <img src={ImageThree} /> */}</div>
-
-          <div>{/* <img src={Imagefour} /> */}</div>
-
-          <div>
-            {/* <svg viewbox="0 0 16000 16000">
-            <circle class="b" cx="8000" cy="8000" r="5000"></circle>
-          </svg> */}
-          </div>
+        <div >
+         <Rewater_carousel/>
         </div>
       </div>
       {/* section three */}
@@ -213,90 +171,13 @@ const Rewater = () => {
       {/* section five */}
       <div style={{ marginTop: "10%", width: "100%" }}>
         {/* <div><img src={ rewaterInsures1} /></div> */}
-        <div className="insures">
-          <div>
-            <img src={rewaterInsures2} className="insures-img" />
-          </div>
-          <div>
-            <img src={rewaterInsures3} className="insures-img" />
-          </div>
-          <div>
-            <img src={rewaterInsures4} className="insures-img" />
-          </div>
-          <div>
-            <img src={rewaterInsures5} className="insures-img" />
-          </div>
-          <div>
-            <img src={rewaterInsures6} className="insures-img" />
-          </div>
-          <div>
-            <img src={rewaterInsures7} className="insures-img" />
-          </div>
-          <div>
-            <img src={rewaterInsures8} className="insures-img" />
-          </div>
-          <div>
-            <img src={rewaterInsures9} className="insures-img" />
-          </div>
-          <div>
-            <img src={rewaterInsures10} className="insures-img" />
-          </div>
-          <div>
-            <img src={rewaterInsures11} className="insures-img" />
-          </div>
-          <div>
-            <img src={rewaterInsures12} className="insures-img" />
-          </div>
-          <div>
-            <img src={rewaterInsures13} className="insures-img" />
-          </div>
-          <div>
-            <img src={rewaterInsures14} className="insures-img" />
-          </div>
-          <div>
-            <img src={rewaterInsures15} className="insures-img" />
-          </div>
-          <div>
-            <img src={rewaterInsures16} className="insures-img" />
-          </div>
-          <div>
-            <img src={rewaterInsures17} className="insures-img" />
-          </div>
-          <div>
-            <img src={rewaterInsures18} className="insures-img" />
-          </div>
-          <div>
-            <img src={rewaterInsures19} className="insures-img" />
-          </div>
-          <div>
-            <img src={rewaterInsures20} className="insures-img" />
-          </div>
-          <div>
-            <img src={rewaterInsures21} className="insures-img" />
-          </div>
-          <div>
-            <img src={rewaterInsures22} className="insures-img" />
-          </div>
-          <div>
-            <img src={rewaterInsures23} className="insures-img" />
-          </div>
-          <div>
-            <img src={rewaterInsures24} className="insures-img" />
-          </div>
-
-          <div>
-            <img src={rewaterInsures25} className="insures-arrow" />
-          </div>
-          <div>
-            <img src={rewaterInsures26} className="insures-arrow" />
-          </div>
+        <div >
+       <Rewater_sec_carousel/>
         </div>
       </div>
       {/* section six */}
-      <div>
-        <div
-          style={{ width: "100%", height: "100%", backgroundColor: "#00bfa5" }}
-        >
+      <div className="re-ensure">
+       
           <div className="h-Of_re">
             <p className="h-of-insures">REWATER ENSURES:</p>
           </div>
@@ -317,7 +198,7 @@ const Rewater = () => {
             </div>
           </div>
         </div>
-      </div>
+     
       {/* section seven */}
       {/* <div> */}
         <div className="rejuvenation">
