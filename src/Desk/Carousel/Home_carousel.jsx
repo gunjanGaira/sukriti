@@ -37,117 +37,111 @@ const Home_carousel = () => {
 
   return (
     <Carousel
+
       responsive={responsive}
       autoPlay={true}
       autoPlaySpeed={autoPlaySpeed}
       infinite={true}
+      
     >
-      <div className="item-carousel-card">
-        <img src={McIcon} className="inner-idian-oil-image-container" />
-        <p className="p-carousel">
-          <span className="h-carousel">Winner</span>
-          <br />
-          Mass Challenge, <br /> Israel
-        </p>
-      </div>
+      
+       <div className="item-carousel-card" >
+                  <img src={McIcon} className="inner-idian-oil-image-container" />
+                  <p className="p-carousel">
+                  <span className="h-carousel">Winner</span><br/>
+                    Mass Challenge, <br /> Israel
+                  </p>
 
-      <div className="item-carousel-card">
-        <img className="achievement-img" src={awardIcon} />
-      </div>
-      <div className="item-carousel-card">
-        <img src={indianOilIcon} className="inner-idian-oil-image-container" />
-        <p className="p-carousel">
-          <span className="h-carousel">Winner</span>
-          <br />
-          Indian Oil, <br /> Startup Fund Grant
-        </p>
-      </div>
-      <div className="item-carousel-card">
-        <img src={award2Icon} className="achievement-img" />
-      </div>
-      <div className="item-carousel-card">
-        <img src={emblemIcon} className="inner-idian-oil-image-container" />
-        <p className="p-carousel">
-          <span className="h-carousel">Most Impactful Startup of India</span>
-          <br />
-          Ministry of Science and Technology,
-          <br />
-          Government of India
-        </p>
-      </div>
-      <div className="item-carousel-card">
-        <img src={award3Icon} className="achievement-img" />
-      </div>
+              </div>
 
-      <div className="item-carousel-card">
-        <img src={sbiIcon} className="inner-idian-oil-image-container" />
-        <p className="p-carousel">
-          <span className="h-carousel">Winner</span>
-          <br />
-          Best CSR practices,
-          <br />
-          State Bank of India
-        </p>
-      </div>
-      <div className="item-carousel-card">
-        <img src={award1Icon} className="achievement-img" />
-      </div>
-      <div className="item-carousel-card">
-        <img src={sulabhIcon} className="inner-idian-oil-image-container" />
-        <p className="p-carousel">
-          <span className="h-carousel">
-            Felicitation for exemplary work in WASH sector
-          </span>
-          <br />
-          Sulabh International
-        </p>
-      </div>
-      <div className="item-carousel-card">
-        <img src={sulabhPhotograph} className="achievement-img" />
-      </div>
-      <div className="item-carousel-card">
-        <img src={cicLogo} className="inner-idian-oil-image-container" />
-        <p className="p-carousel">
-          <span className="h-carousel"> Best Startup Pitch </span>
-          <br />
-          Cambridge Innovation Centre,
-          <br /> Cambridge Massachusetts
-        </p>
-      </div>
-      <div className="item-carousel-card">
-        <img src={Imgs} className="achievement-img" />
-      </div>
+               <div className="item-carousel-card">
+                <img className="achievement-img" src={awardIcon} />
+              </div>
+                <div className="item-carousel-card">
+                  <img src={indianOilIcon} className="inner-idian-oil-image-container"/>
+                  <p className="p-carousel" >
+                    <span className="h-carousel">Winner</span><br/>
+                  Indian Oil, <br /> Startup Fund Grant
+                  </p>
+                </div>
+                <div className="item-carousel-card">
+                  <img src={award2Icon} className="achievement-img" />
+              </div>
+              <div className="item-carousel-card">
+                  <img src={emblemIcon} className="inner-idian-oil-image-container"/>
+                  <p className="p-carousel">
+                    <span className="h-carousel">Most Impactful Startup of India</span><br/>
+                    Ministry of Science and Technology,<br/>
+                    Government of India
+                  </p>
+                </div>
+                <div className="item-carousel-card">
+                  <img src={award3Icon} className="achievement-img" />
+              </div> 
+              
+              <div className="item-carousel-card">
+                  <img src={sbiIcon} className="inner-idian-oil-image-container"/>
+                  <p className="p-carousel">
+                    <span className="h-carousel">Winner</span><br/>
+                    Best CSR practices,<br/>
+                   State Bank of India
+                   </p>
+                 
+                </div>
+                <div className="item-carousel-card">
+                  <img src={award1Icon} className="achievement-img" />
+              </div> 
+              <div className="item-carousel-card">
+                  <img src={sulabhIcon} className="inner-idian-oil-image-container"/>
+                  <p className="p-carousel">
+                    <span className="h-carousel">Felicitation for exemplary work in WASH sector</span><br/>
+                    Sulabh International
+                   </p>
+              </div>
+              <div className="item-carousel-card">
+                  <img src={sulabhPhotograph} className="achievement-img" />
+              </div>  
+              <div className="item-carousel-card">
+                  <img src={cicLogo} className="inner-idian-oil-image-container"/>
+                  <p className="p-carousel">
+                    <span className="h-carousel"> Best Startup Pitch </span><br/>
+                    Cambridge Innovation Centre,<br/>  Cambridge Massachusetts
+                   </p>
+              </div>
+              <div className="item-carousel-card">
+                  <img src={Imgs} className="achievement-img" />
+              </div> 
+              
+              <div className="item-carousel-card">
+                  <img src={McIcCopy} className="inner-idian-oil-image-container"/>
+                  <p className="p-carousel">
+                    <span className="h-carousel">  Winner </span><br/>
+                    Students Appreciation Award,<br/>
+                    Brandeis Business School, Massachusetts
+                   </p>
+              </div>
+              <div className="item-carousel-card">
+                  <img src={Imags73} className="achievement-img" />
+              </div>
+         {/* </div> */}
+        
 
-      <div className="item-carousel-card">
-        <img src={McIcCopy} className="inner-idian-oil-image-container" />
-        <p className="p-carousel">
-          <span className="h-carousel"> Winner </span>
-          <br />
-          Students Appreciation Award,
-          <br />
-          Brandeis Business School, Massachusetts
-        </p>
-      </div>
-      <div className="item-carousel-card">
-        <img src={Imags73} className="achievement-img" />
-      </div>
-      {/* </div> */}
 
-      <div className="item-carousel-card">
-        <img src={Smart_city} className="inner-idian-oil-image-container" />
-        <p className="p-carousel">
-          <span className="h-carousel"> Winner</span>
-          <br />
-          Aim Smart City Accelerator,
-          <br />
-          powered by Microsoft
-        </p>
-      </div>
-      <div className="item-carousel-card">
-        <img src={awards_44} className="achievement-img" />
-      </div>
+              <div className="item-carousel-card">
+                  <img src={Smart_city} className="inner-idian-oil-image-container"/>
+                  <p className="p-carousel">
+                    <span className="h-carousel"> Winner</span><br/>
+                    Aim Smart City Accelerator,<br/>
+                    powered by Microsoft</p>
+              </div>
+              <div className="item-carousel-card">
+                  <img src={awards_44} className="achievement-img" />
+              </div> 
+              
+        
     </Carousel>
   );
 };
 
 export default Home_carousel;
+

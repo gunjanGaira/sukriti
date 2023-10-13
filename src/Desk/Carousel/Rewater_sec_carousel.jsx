@@ -51,7 +51,8 @@ const Rewater_sec_carousel = () => {
       breakpoint: { max: 2560, min: 1024 },
       items: 4,
     },
-  };
+    
+  }
   const autoPlaySpeed = 3000; // 3 seconds per slide
   return (
     <Carousel

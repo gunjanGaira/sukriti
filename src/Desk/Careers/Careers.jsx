@@ -3,6 +3,9 @@ import { useState } from "react";
 import "./Careers.css";
 import CareerBanner from "../Careers/career-banner.jpg";
 import Footer from "../Footer/Footer";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+// import './carousel.css'
 const Careers = () => {
   // const [open, setOpen] = React.useState(false);
   // const openPage = () => {
@@ -35,6 +38,25 @@ const Careers = () => {
   const closePage = () => {
     setOpen(false);
   };
+  const responsive = {
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+    },
+    small_tablet: {
+      breakpoint: { max: 786, min: 464 },
+      items: 2,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 786 },
+      items: 3,
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 4,
+    },
+  };
+  const autoPlaySpeed = 3000;
 
   return (
     <div>
@@ -88,38 +110,13 @@ const Careers = () => {
       {/* section four */}
 
       <div className="designators">
-        {/* <ul className="ul_of_designators">
-          <li className="li_of_designators">
-            <p className="p_of_designators">Electronics CAD Engineer</p>
-          </li>
-          <li className="li_of_designators">
-            <p className="p_of_designators">Chief Architect</p>
-          </li>
-          <li className="li_of_designators">
-            <p className="p_of_designators">
-              Embedded Hardware Design Engineer
-            </p>
-          </li>
-          <li className="li_of_designators">
-            <p className="p_of_designators">Embedded Firmware Engineer</p>
-          </li>
-          <li className="li_of_designators">
-            <p className="p_of_designators">Embedded Design engineer</p>
-          </li>
-          <li className="li_of_designators">
-            <p className="p_of_designators">After-Sales Engineer</p>
-          </li>
-          <li className="li_of_designators">
-            <p className="p_of_designators">Project Manager</p>
-          </li>
-          <li className="li_of_designators">
-            <p className="p_of_designators">Site Supervisor/Engineer</p>
-          </li>
-          <li className="li_of_designators">
-            <p className="p_of_designators">Formwork Engineer</p>
-          </li>
-        </ul> */}
-        <div className="tab-container">
+        <Carousel
+          responsive={responsive}
+          autoPlay={true}
+          autoPlaySpeed={autoPlaySpeed}
+          infinite={true}
+        >
+          {/* <div className="tab-container">
           <ul className="tab-list">
             <li
               className={`tab-item ${activeTab === 0 ? "active" : ""}`}
@@ -166,11 +163,12 @@ const Careers = () => {
             >
               <p className="p_of_designators">Project Manager</p>
             </li>
+
             <li
               className={`tab-item ${activeTab === 7 ? "active" : ""}`}
-              onClick={() => handleTabClick(7)}
-            >
-              <p className="p_of_designators">Site Supervisor/Engineer</p>
+              onClick={() => handleTabClick(7)}>
+                <p className="p_of_designators">Site Supervisor/Engineer</p>
+              
             </li>
             <li
               className={`tab-item ${activeTab === 8 ? "active" : ""}`}
@@ -182,8 +180,63 @@ const Careers = () => {
 
           <button className="scroll-button scroll-left"></button>
           <button className="scroll-button scroll-right"></button>
-        </div>
-
+           </div> */}
+          <p
+            className={`tab-item ${activeTab === 0 ? "active" : ""}`}
+            onClick={() => handleTabClick(0)}
+          >
+            Electronics CAD Engineer
+          </p>
+          <p
+            className={`tab-item ${activeTab === 0 ? "active" : ""}`}
+            onClick={() => handleTabClick(1)}
+          >
+            Chief Architect
+          </p>
+          <p
+            className={`tab-item ${activeTab === 0 ? "active" : ""}`}
+            onClick={() => handleTabClick(2)}
+          >
+            {" "}
+            Embedded Hardware Design Engineer
+          </p>
+          <p
+            className={`tab-item ${activeTab === 0 ? "active" : ""}`}
+            onClick={() => handleTabClick(3)}
+          >
+            Embedded Firmware Engineer
+          </p>
+          <p
+            className={`tab-item ${activeTab === 0 ? "active" : ""}`}
+            onClick={() => handleTabClick(4)}
+          >
+            Embedded Design engineer
+          </p>
+          <p
+            className={`tab-item ${activeTab === 0 ? "active" : ""}`}
+            onClick={() => handleTabClick(5)}
+          >
+            After-Sales Engineer
+          </p>
+          <p
+            className={`tab-item ${activeTab === 0 ? "active" : ""}`}
+            onClick={() => handleTabClick(6)}
+          >
+            Project Manager
+          </p>
+          <p
+            className={`tab-item ${activeTab === 0 ? "active" : ""}`}
+            onClick={() => handleTabClick(7)}
+          >
+            Site Supervisor/Engineer
+          </p>
+          <p
+            className={`tab-item ${activeTab === 0 ? "active" : ""}`}
+            onClick={() => handleTabClick(8)}
+          >
+            Formwork Engineer
+          </p>
+        </Carousel>
         <div>
           <div className="tab-content">
             {/* part one */}
@@ -1045,6 +1098,7 @@ const Careers = () => {
           </div>
         </div>
       </div>
+
       {/* section five  */}
       <div className="btn-of-careers">
         <button
@@ -1058,16 +1112,7 @@ const Careers = () => {
         </button>
 
         {open && (
-          <div
-            // style={{
-            //   width: "50%",
-            //   position: "absolute",
-            //   marginLeft: "29%",
-            //   marginTop: "-52%",
-            //   backgroundColor: "white",
-            // }}
-            className="modal_content"
-          >
+          <div className="modal_content">
             <div>
               <div className="modal_header">
                 <h4>DETAILS</h4>
@@ -1083,14 +1128,7 @@ const Careers = () => {
             </div>
             <form action="Career.jsx" id="application-form" method="post">
               <div className="form-start">
-                <div
-                  className="first_row_modal"
-                  // style={{
-                  //   display: "flex",
-                  //   marginLeft: "10%",
-                  //   marginTop: "10%",
-                  // }}
-                >
+                <div className="first_row_modal">
                   <div>
                     <label className="na_me" style={{ marginTop: "10%" }}>
                       First name
@@ -1114,7 +1152,7 @@ const Careers = () => {
                 </div>
 
                 <div
-                  className="first_row_modal"
+                  className="second_row_modal"
                   // style={{
                   //   display: "flex",
                   //   marginLeft: "10%",

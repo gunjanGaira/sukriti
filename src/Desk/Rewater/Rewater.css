@@ -251,8 +251,9 @@
   }
   .play_ic {
     position: absolute;
-    margin-left: -59%;
-    margin-top: 16%;
+    margin-left: -55%;
+    margin-top: 20%;
+
   }
 
   .Bhowali-town,
@@ -394,6 +395,11 @@
     height: 140px;
     margin-left: 2%;
     margin-right: 2%;
+  }
+  .play_ic {
+    margin-left: -57%;
+    margin-top: 17%;
+    width: 15%;
   }
   /* section seven */
   .head-water-bodies {

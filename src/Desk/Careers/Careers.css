@@ -67,11 +67,17 @@
     display: inline-block;
     padding: 10px;
     cursor: pointer;
+    margin-left: 20%;
+    margin-right: 30%;
+   
+
   }
-  
-  .tab-item.active{
+ .tab-item:hover{
+  background-color: #00bfa5;
+ } 
+  /* .tab-item.active{
     background-color: #ccc;
-  }
+  } */
   .tab-content{
     position: relative;
     height: 1000px;
@@ -213,7 +219,7 @@
     border-radius: 0.3rem;
     outline: 0;
     margin-left: 30%;
-    margin-top: -60%;
+    margin-top: -47%;
 }
 .modal_header{
 text-align: center;
@@ -230,13 +236,14 @@ h4{
     width: 100%;
 }
 .first_row_modal{
-   display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: -5px;
-    margin-left: -5px;
+    margin-left: 8%;
+}
+.second_row_modal{
+  display: flex;
+ 
+  margin-left: 8%;
+  
 }
 .form_check{
   position: relative;
@@ -293,18 +300,40 @@ h4{
   margin-top: 10%;
 }
 .input_p{
-   width: 200px;
+   width: 86%;
     height: 30px;
     border-radius: 5%;
     
 
 }
+
+/* .react-multi-carousel-list {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  width: 75%;
+  height: 57px;
+  margin-left: 16%;
+  background-color: #C5CAE9;
+} */
+
+
+ .react-multiple-carousel__arrow--left{
+  left:calc(0% + 1px);
+  } 
+
 /* media query */
 @media (max-width: 1024px) {
   /* section one */
   #bannerTextcareer {
     font-size: 35px;
   }
+  .tab-content {
+    position: relative;
+    height: 1050px;
+    width: 100%;
+}
 }
 @media (max-width: 768px) {
   /* section one */
@@ -315,6 +344,48 @@ h4{
   .crau_p {
     font-size: 18px;
   }
+  .tab-content {
+    position: relative;
+    height: 1250px;
+    width: 100%;
+}
+.submit_button {
+  width: 173px;
+  height: 47px;
+  margin-left: 26%;
+  margin-top: 7%;
+}
+.close_icon {
+  position: absolute;
+  margin-top: -28%;
+  margin-left: 81%;
+  width: 11%;
+  height: 7%;
+}
+.modal_content {
+  width: 64%;
+  margin-left: 22%;
+  margin-top: -65%;
+}
+}
+@media (max-width: 600px){
+  .tab-content {
+    position: relative;
+    height: 1400px;
+    width: 100%;
+}
+.modal_content {
+  width: 70%;
+  margin-left: 21%;
+  margin-top: -97%;
+}
+.close_icon {
+  margin-top: -20%;
+}
+.second_row_modal, .first_row_modal{
+  flex-direction: column;
+  margin-left: 8%;
+}
 }
 @media (max-width: 480px) {
   /* section one */
@@ -329,6 +400,39 @@ h4{
   .crau_p {
     font-size: 16px;
   }
+  .tab-content {
+    position: relative;
+    height: 1620px;
+    width: 100%;
+}
+.engineers {
+  margin-top: 5%;
+  margin-left: 4%;
+}
+.modal_content {
+  width: 73%;
+  margin-left: 13%;
+  margin-top: -128%;
+}
+.close_icon {
+  margin-top: -32%;
+}
+}
+@media (max-width: 380px) {
+  .tab-content {
+    position: relative;
+    height: 1850px;
+    width: 100%;
+}
+.submit_button {
+  width: 130px;
+    height: 47px;
+    margin-left: 23%;
+    margin-top: 9%;
+}
+.close_icon {
+  margin-top: -36%;
+}
 }
 @media (max-width: 320px) {
   #bannerTextcareer {

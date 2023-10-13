@@ -1,5 +1,6 @@
 import React from "react";
 import "./Rewater.css";
+import { useState } from "react";
 import RewaterImage from "../Rewater/rewater-banner.png";
 import prefabricated from "../Rewater/Prefabricated-waste-icon.svg";
 import automated from "../Rewater/Fully-automated-icon.svg";
@@ -16,12 +17,12 @@ import Footer from "../Footer/Footer";
 import Rewater_carousel from "../Carousel/Rewater_carousel";
 import Rewater_sec_carousel from "../Carousel/Rewater_sec_carousel";
 const Rewater = () => {
+  const [ dis,setDis] = React.useState(false);
   const my_func = () => {
-    if (document.getElementById("player").paused) {
-      document.getElementById("player").play()("#play_btn").hide();
-    } else {
-      document.getElementById("player").pause()("#play_btn").show();
-    }
+    setDis(true);
+  };
+  const func = () => {
+    setDis(false);
   };
   return (
     <div>
@@ -155,18 +156,19 @@ const Rewater = () => {
             <img id="play_btn" src={PLAY_icon} className="play_ic" />
           </div>
           {/* part two */}
-          <div className="vid-Image" onClick={my_func}>
+         <div className="vid-Image" onClick={func}>
             <video
               controls
               id="player"
               poster={Shipra_River}
               className="rivar_Image"
             >
-              <source src={Rewater_video} type="video/mp4" />
+             {dis && ( <source src={Rewater_video} type="video/mp4" /> )}
             </video>
             <img id="play_btn" src={PLAY_icon} className="play_ic" />
           </div>
         </div>
+        
       </div>
       {/* section five */}
       <div style={{ marginTop: "10%", width: "100%" }}>
