@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import './carousel.css'
+import "./carousel.css";
 
 const MultiItemCarousel = () => {
   const responsive = {
@@ -27,46 +27,43 @@ const MultiItemCarousel = () => {
       autoPlaySpeed={autoPlaySpeed}
       infinite={true}
     >
-
-      
-        <img
-          style={{ width: "250px", margin: "0px 20px" }}
-          src="https://images.unsplash.com/photo-1549396535-c11d5c55b9df?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
-          alt=""
-        />
-        <img
-          style={{ width: "250px", margin: "0px 20px" }}
-          src="https://images.unsplash.com/photo-1549396535-c11d5c55b9df?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
-          alt=""
-        />
-        <img
-          style={{ width: "250px", margin: "0px 20px" }}
-          src="https://images.unsplash.com/photo-1549396535-c11d5c55b9df?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
-          alt=""
-        />
-        <img
-          style={{ width: "250px", margin: "0px 20px" }}
-          src="https://images.unsplash.com/photo-1549396535-c11d5c55b9df?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
-          alt=""
-        />
-        <img
-          style={{ width: "250px", margin: "0px 20px" }}
-          src="https://images.unsplash.com/photo-1549396535-c11d5c55b9df?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
-          alt=""
-        />
-        <img
-          style={{ width: "250px", margin: "0px 20px" }}
-          src="https://images.unsplash.com/photo-1549396535-c11d5c55b9df?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
-          alt=""
-        />
-        <img
-          style={{ width: "250px", margin: "0px 20px" }}
-          src="https://images.unsplash.com/photo-1549396535-c11d5c55b9df?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
-          alt=""
-        />
+      <img
+        style={{ width: "250px", margin: "0px 20px" }}
+        src="https://images.unsplash.com/photo-1549396535-c11d5c55b9df?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+        alt=""
+      />
+      <img
+        style={{ width: "250px", margin: "0px 20px" }}
+        src="https://images.unsplash.com/photo-1549396535-c11d5c55b9df?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+        alt=""
+      />
+      <img
+        style={{ width: "250px", margin: "0px 20px" }}
+        src="https://images.unsplash.com/photo-1549396535-c11d5c55b9df?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+        alt=""
+      />
+      <img
+        style={{ width: "250px", margin: "0px 20px" }}
+        src="https://images.unsplash.com/photo-1549396535-c11d5c55b9df?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+        alt=""
+      />
+      <img
+        style={{ width: "250px", margin: "0px 20px" }}
+        src="https://images.unsplash.com/photo-1549396535-c11d5c55b9df?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+        alt=""
+      />
+      <img
+        style={{ width: "250px", margin: "0px 20px" }}
+        src="https://images.unsplash.com/photo-1549396535-c11d5c55b9df?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+        alt=""
+      />
+      <img
+        style={{ width: "250px", margin: "0px 20px" }}
+        src="https://images.unsplash.com/photo-1549396535-c11d5c55b9df?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+        alt=""
+      />
     </Carousel>
   );
 };
 
 export default MultiItemCarousel;
-

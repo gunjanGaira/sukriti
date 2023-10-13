@@ -28,29 +28,29 @@ import Img24 from "../Ecomitra/oval-4-copy-4.svg";
 import Img25 from "../Ecomitra/oval-4.svg";
 
 const Eco_sec_carousel = () => {
-    const responsive = {
-      mobile: {
-        breakpoint: { max: 380, min: 0 },
-        items: 2,
-      },
-      Large_mobile: {
-        breakpoint: { max: 480, min: 380 },
-        items: 2,
-      },
-      small_tablet: {
-        breakpoint: { max: 786, min: 480 },
-        items: 2.2,
-      },
-      tablet: {
-        breakpoint: { max: 1024, min: 786 },
-        items: 3,
-      },
-      desktop: {
-        breakpoint: { max: 2560, min: 1024 },
-        items: 4,
-      },
-    }  
-      const autoPlaySpeed = 3500; // 3 seconds per slide
+  const responsive = {
+    mobile: {
+      breakpoint: { max: 380, min: 0 },
+      items: 2,
+    },
+    Large_mobile: {
+      breakpoint: { max: 480, min: 380 },
+      items: 2,
+    },
+    small_tablet: {
+      breakpoint: { max: 786, min: 480 },
+      items: 2.2,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 786 },
+      items: 3,
+    },
+    desktop: {
+      breakpoint: { max: 2560, min: 1024 },
+      items: 4,
+    },
+  };
+  const autoPlaySpeed = 3500; // 3 seconds per slide
   return (
     <Carousel
       responsive={responsive}
@@ -58,36 +58,34 @@ const Eco_sec_carousel = () => {
       autoPlaySpeed={autoPlaySpeed}
       infinite={true}
     >
-    {/* <img src={SpinIcon} className="water-degradation"/> */}
-    <img  src={Img1} className="water-degradation"/>
-    <img src={Img2} className="water-degradation"/>
-    <img src={Img3} className="water-degradation"/>
-    <img src={Img4} className="waterDegradation"/>
-    <img src={Img5} className="waterDegradation"/>
-    <img src={Img6} className="water-degradation"/>
-    <img src={Img7} className="water-degradation"/>
-    <img src={Img8}  className="water-degradation"/>
-    <img src={Img9} className="water-degradation"/>
-    <img src={Img10} className="water-degradation"/>
-    <img src={Img11} className="water-degradation"/>
-    <img src={Img12} className="water-degradation"/>
-    <img src={Img13} className="water-degradation"/>
-    <img src={Img14} className="water-degradation"/>
-    <img src={Img15} className="water-degradation"/>
-    <img src={Img16} className="water-degradation"/>
-    <img src={Img17} className="water-degradation"/>
-    <img src={Img18} className="water-degradation"/>
-    <img src={Img19} className="water-degradation"/>
-    <img src={Img20} className="water-degradation"/>
-    <img src={Img21} className="water-degradation"/>
-    <img src={Img22} className="water-degradation"/>
-    <img src={Img23} className="water-degradation"/>
-    {/* <img src={Img24} className="water-degradation"/>
+      {/* <img src={SpinIcon} className="water-degradation"/> */}
+      <img src={Img1} className="water-degradation" />
+      <img src={Img2} className="water-degradation" />
+      <img src={Img3} className="water-degradation" />
+      <img src={Img4} className="waterDegradation" />
+      <img src={Img5} className="waterDegradation" />
+      <img src={Img6} className="water-degradation" />
+      <img src={Img7} className="water-degradation" />
+      <img src={Img8} className="water-degradation" />
+      <img src={Img9} className="water-degradation" />
+      <img src={Img10} className="water-degradation" />
+      <img src={Img11} className="water-degradation" />
+      <img src={Img12} className="water-degradation" />
+      <img src={Img13} className="water-degradation" />
+      <img src={Img14} className="water-degradation" />
+      <img src={Img15} className="water-degradation" />
+      <img src={Img16} className="water-degradation" />
+      <img src={Img17} className="water-degradation" />
+      <img src={Img18} className="water-degradation" />
+      <img src={Img19} className="water-degradation" />
+      <img src={Img20} className="water-degradation" />
+      <img src={Img21} className="water-degradation" />
+      <img src={Img22} className="water-degradation" />
+      <img src={Img23} className="water-degradation" />
+      {/* <img src={Img24} className="water-degradation"/>
     <img src={Img25} className="water-degradation"/> */}
-
     </Carousel>
+  );
+};
 
-  )
-}
-
-export default Eco_sec_carousel
+export default Eco_sec_carousel;
